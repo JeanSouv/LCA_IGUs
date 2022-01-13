@@ -4118,7 +4118,7 @@ OS:People:Definition,
   Area/Person,                            !- Number of People Calculation Method
   ,                                       !- Number of People {people}
   ,                                       !- People per Space Floor Area {person/m2}
-  8,                                      !- Space Floor Area per Person {m2/person}
+  10,                                     !- Space Floor Area per Person {m2/person}
   0.3,                                    !- Fraction Radiant
   ,                                       !- Sensible Heat Fraction
   ,                                       !- Carbon Dioxide Generation Rate {m3/s-W}
@@ -13961,7 +13961,7 @@ OS:DesignSpecification:OutdoorAir,
 
 OS:WindowMaterial:Shade,
   {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Handle
-  Ext_EnviroScreen_lightgrey_silver,      !- Name
+  EnviroScreen_lightgrey_silver,          !- Name
   0.05,                                   !- Solar Transmittance {dimensionless}
   0.74,                                   !- Solar Reflectance {dimensionless}
   0.04,                                   !- Visible Transmittance {dimensionless}
@@ -13983,7 +13983,7 @@ OS:StandardsInformation:Material,
 
 OS:WindowMaterial:Shade,
   {04531b1f-2ca2-4f1d-8fa6-24b627e489a9}, !- Handle
-  Int_Isotiss_Thermal Curtain_Only,       !- Name
+  Isotiss_Thermal Curtain_Only,           !- Name
   0.12,                                   !- Solar Transmittance {dimensionless}
   0.71,                                   !- Solar Reflectance {dimensionless}
   0.12,                                   !- Visible Transmittance {dimensionless}
@@ -14724,7 +14724,7 @@ OS:StandardsInformation:Material,
 
 OS:WindowMaterial:Shade,
   {e5d5ab4f-bf24-4db5-b879-a5bd47f865e9}, !- Handle
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Name
   0.12,                                   !- Solar Transmittance {dimensionless}
   0.71,                                   !- Solar Reflectance {dimensionless}
   0.12,                                   !- Visible Transmittance {dimensionless}
@@ -14931,7 +14931,7 @@ OS:StandardsInformation:Construction,
 
 OS:Schedule:Ruleset,
   {ee896a86-ca46-4ed7-b9d8-e9d7c40687df}, !- Handle
-  EXT_Shading_ON,                         !- Name
+  Shading_ON,                             !- Name
   {223af6f7-1481-4b8a-8da1-5704caeeeff5}, !- Schedule Type Limits Name
   {cda7ee73-8ef2-4ae0-9ef0-0aacb3034878}; !- Default Day Schedule Name
 
@@ -15048,7 +15048,7 @@ OS:Schedule:Day,
 
 OS:Schedule:Ruleset,
   {76b0bf7f-547d-4a75-a3d3-c69f75f01757}, !- Handle
-  EXT_Shading_OFF,                        !- Name
+  Shading_OFF,                            !- Name
   {223af6f7-1481-4b8a-8da1-5704caeeeff5}, !- Schedule Type Limits Name
   {4d763ef2-9904-41d5-9e70-ee87d956498d}; !- Default Day Schedule Name
 
