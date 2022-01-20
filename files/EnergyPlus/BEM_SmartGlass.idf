@@ -610,7 +610,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   GroundFloor_Core_TZ Reheat Coil,        !- Name
@@ -623,10 +623,10 @@ Coil:Heating:Water,
   GroundFloor_Core_TZ VAV Terminal Outlet Air Node, !- Air Outlet Node Name
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
-  50,                                     !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
-  38,                                     !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  48.8888888888889,                       !- Rated Inlet Water Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
+  37.7777777777778,                       !- Rated Outlet Water Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 Schedule:Constant,
@@ -647,10 +647,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   GroundFloor_Core_TZ,                    !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -664,7 +664,7 @@ Sizing:Zone,
   0,                                      !- Cooling Minimum Air Flow Fraction
   DesignDay,                              !- Heating Design Air Flow Method
   0,                                      !- Heating Design Air Flow Rate {m3/s}
-  0.002032,                               !- Heating Maximum Air Flow per Zone Floor Area {m3/s-m2}
+  0.002,                                  !- Heating Maximum Air Flow per Zone Floor Area {m3/s-m2}
   0.142,                                  !- Heating Maximum Air Flow {m3/s}
   0.3,                                    !- Heating Maximum Air Flow Fraction
   GroundFloor_Core_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
@@ -1107,7 +1107,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   GroundFloor_DataCenter_TZ Reheat Coil,  !- Name
@@ -1121,9 +1121,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -1139,10 +1139,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   GroundFloor_DataCenter_TZ,              !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -1331,7 +1331,7 @@ FenestrationSurface:Detailed,
 FenestrationSurface:Detailed,
   GroundFloor_S_Window 1,                 !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   GroundFloor_S_Facade,                   !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -1346,7 +1346,7 @@ FenestrationSurface:Detailed,
 FenestrationSurface:Detailed,
   GroundFloor_S_Window 2,                 !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   GroundFloor_S_Facade,                   !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -1480,7 +1480,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   GroundFloor_Hall_S_TZ Reheat Coil,      !- Name
@@ -1494,9 +1494,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -1512,10 +1512,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   GroundFloor_Hall_S_TZ,                  !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -1636,7 +1636,7 @@ BuildingSurface:Detailed,
 FenestrationSurface:Detailed,
   GroundFloor_E_Window,                   !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   GroundFloor_E_Facade,                   !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -1770,7 +1770,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   GroundFloor_Offices_E_TZ Reheat Coil,   !- Name
@@ -1784,9 +1784,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -1802,10 +1802,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   GroundFloor_Offices_E_TZ,               !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -1941,7 +1941,7 @@ FenestrationSurface:Detailed,
 FenestrationSurface:Detailed,
   GroundFloor_N_Window 1,                 !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   GroundFloor_N_Facade,                   !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -1956,7 +1956,7 @@ FenestrationSurface:Detailed,
 FenestrationSurface:Detailed,
   GroundFloor_N_Window 2,                 !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   GroundFloor_N_Facade,                   !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -2074,7 +2074,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   GroundFloor_Offices_N_TZ Reheat Coil,   !- Name
@@ -2088,9 +2088,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -2106,10 +2106,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   GroundFloor_Offices_N_TZ,               !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -2222,7 +2222,7 @@ BuildingSurface:Detailed,
 FenestrationSurface:Detailed,
   GroundFloor_W_Window,                   !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   GroundFloor_W_Facade,                   !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -2340,7 +2340,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   GroundFloor_Offices_W_TZ Reheat Coil,   !- Name
@@ -2354,9 +2354,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -2372,10 +2372,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   GroundFloor_Offices_W_TZ,               !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -2820,7 +2820,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   mid_Core_TZ Reheat Coil,                !- Name
@@ -2834,9 +2834,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -2852,10 +2852,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   mid_Core_TZ,                            !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -3071,7 +3071,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   mid_DataCenter_TZ Reheat Coil,          !- Name
@@ -3085,9 +3085,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -3103,10 +3103,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   mid_DataCenter_TZ,                      !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -3211,7 +3211,7 @@ BuildingSurface:Detailed,
 FenestrationSurface:Detailed,
   mid_E_Window,                           !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   mid_E_Facade,                           !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -3345,7 +3345,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   mid_Offices_E_TZ Reheat Coil,           !- Name
@@ -3359,9 +3359,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -3377,10 +3377,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   mid_Offices_E_TZ,                       !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -3493,7 +3493,7 @@ BuildingSurface:Detailed,
 FenestrationSurface:Detailed,
   mid_N_Window,                           !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   mid_N_Facade,                           !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -3611,7 +3611,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   mid_Offices_N_TZ Reheat Coil,           !- Name
@@ -3625,9 +3625,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -3643,10 +3643,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   mid_Offices_N_TZ,                       !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -3759,7 +3759,7 @@ BuildingSurface:Detailed,
 FenestrationSurface:Detailed,
   mid_S_Window,                           !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   mid_S_Facade,                           !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -3893,7 +3893,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   mid_Offices_S_TZ Reheat Coil,           !- Name
@@ -3907,9 +3907,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -3925,10 +3925,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   mid_Offices_S_TZ,                       !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -4041,7 +4041,7 @@ BuildingSurface:Detailed,
 FenestrationSurface:Detailed,
   mid_W_Window,                           !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   mid_W_Facade,                           !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -4159,7 +4159,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   mid_Offices_W_TZ Reheat Coil,           !- Name
@@ -4173,9 +4173,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -4191,10 +4191,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   mid_Offices_W_TZ,                       !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -4639,7 +4639,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   top_Core_TZ Reheat Coil,                !- Name
@@ -4653,9 +4653,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -4671,10 +4671,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   top_Core_TZ,                            !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -4890,7 +4890,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   top_DataCenter_TZ Reheat Coil,          !- Name
@@ -4904,9 +4904,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -4922,10 +4922,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   top_DataCenter_TZ,                      !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -5030,7 +5030,7 @@ BuildingSurface:Detailed,
 FenestrationSurface:Detailed,
   top_E_Window,                           !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   top_E_Facade,                           !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -5164,7 +5164,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   top_Offices_E_TZ Reheat Coil,           !- Name
@@ -5178,9 +5178,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -5196,10 +5196,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   top_Offices_E_TZ,                       !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -5312,7 +5312,7 @@ BuildingSurface:Detailed,
 FenestrationSurface:Detailed,
   top_N_Window,                           !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   top_N_Facade,                           !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -5430,7 +5430,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   top_Offices_N_TZ Reheat Coil,           !- Name
@@ -5444,9 +5444,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -5462,10 +5462,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   top_Offices_N_TZ,                       !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -5578,7 +5578,7 @@ BuildingSurface:Detailed,
 FenestrationSurface:Detailed,
   top_S_Window,                           !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   top_S_Facade,                           !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -5712,7 +5712,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   top_Offices_S_TZ Reheat Coil,           !- Name
@@ -5726,9 +5726,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -5744,10 +5744,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   top_Offices_S_TZ,                       !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -5860,7 +5860,7 @@ BuildingSurface:Detailed,
 FenestrationSurface:Detailed,
   top_W_Window,                           !- Name
   Window,                                 !- Surface Type
-  sg_2_coated,                            !- Construction Name
+  dg_init_bronze,                         !- Construction Name
   top_W_Facade,                           !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -5978,7 +5978,7 @@ AirTerminal:SingleDuct:VAV:Reheat,
   ReverseWithLimits,                      !- Damper Heating Action
   Autocalculate,                          !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
   0.5,                                    !- Maximum Flow Fraction During Reheat
-  40;                                     !- Maximum Reheat Air Temperature {C}
+  40.0000000000001;                       !- Maximum Reheat Air Temperature {C}
 
 Coil:Heating:Water,
   top_Offices_W_TZ Reheat Coil,           !- Name
@@ -5992,9 +5992,9 @@ Coil:Heating:Water,
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
-  13,                                     !- Rated Inlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  40,                                     !- Rated Outlet Air Temperature {C}
+  40.0000000000001,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 ZoneHVAC:EquipmentList,
@@ -6010,10 +6010,10 @@ ZoneHVAC:EquipmentList,
 Sizing:Zone,
   top_Offices_W_TZ,                       !- Zone or ZoneList Name
   SupplyAirTemperature,                   !- Zone Cooling Design Supply Air Temperature Input Method
-  13,                                     !- Zone Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Zone Cooling Design Supply Air Temperature {C}
   10,                                     !- Zone Cooling Design Supply Air Temperature Difference {deltaC}
   SupplyAirTemperature,                   !- Zone Heating Design Supply Air Temperature Input Method
-  40,                                     !- Zone Heating Design Supply Air Temperature {C}
+  40.0000000000001,                       !- Zone Heating Design Supply Air Temperature {C}
   10,                                     !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
@@ -6453,7 +6453,7 @@ Material:NoMass,
   0.7;                                    !- Visible Absorptance
 
 WindowMaterial:Shade,
-  Ext_EnviroScreen_lightgrey_silver,      !- Name
+  EnviroScreen_lightgrey_silver,          !- Name
   0.05,                                   !- Solar Transmittance {dimensionless}
   0.74,                                   !- Solar Reflectance {dimensionless}
   0.04,                                   !- Visible Transmittance {dimensionless}
@@ -6470,7 +6470,7 @@ WindowMaterial:Shade,
   0.1;                                    !- Airflow Permeability {dimensionless}
 
 WindowMaterial:Shade,
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Name
   0.12,                                   !- Solar Transmittance {dimensionless}
   0.71,                                   !- Solar Reflectance {dimensionless}
   0.12,                                   !- Visible Transmittance {dimensionless}
@@ -6487,7 +6487,7 @@ WindowMaterial:Shade,
   0;                                      !- Airflow Permeability {dimensionless}
 
 WindowMaterial:Shade,
-  Int_Isotiss_Thermal Curtain_Only,       !- Name
+  Isotiss_Thermal Curtain_Only,           !- Name
   0.12,                                   !- Solar Transmittance {dimensionless}
   0.71,                                   !- Solar Reflectance {dimensionless}
   0.12,                                   !- Visible Transmittance {dimensionless}
@@ -6667,7 +6667,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6687,7 +6687,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6706,7 +6706,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6725,7 +6725,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6744,7 +6744,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6763,7 +6763,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6782,7 +6782,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6801,7 +6801,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6820,7 +6820,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -11171,14 +11171,14 @@ Schedule:Day:Interval,
   Temperature,                            !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   24:00,                                  !- Time 1 {hh:mm}
-  13;                                     !- Value Until Time 1
+  12.7777777777778;                       !- Value Until Time 1
 
 Schedule:Day:Interval,
   Supply Air Temp - 55.0F Default 1,      !- Name
   Temperature,                            !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   24:00,                                  !- Time 1 {hh:mm}
-  13;                                     !- Value Until Time 1
+  12.7777777777778;                       !- Value Until Time 1
 
 Schedule:Day:Interval,
   Work Efficiency Schedule,               !- Name
@@ -11380,134 +11380,6 @@ Schedule:Year,
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  EXT_Shading_OFF Week Rule - Jan1-Dec31, !- Name
-  Schedule Day 50,                        !- Sunday Schedule:Day Name
-  Schedule Day 50,                        !- Monday Schedule:Day Name
-  Schedule Day 50,                        !- Tuesday Schedule:Day Name
-  Schedule Day 50,                        !- Wednesday Schedule:Day Name
-  Schedule Day 50,                        !- Thursday Schedule:Day Name
-  Schedule Day 50,                        !- Friday Schedule:Day Name
-  Schedule Day 50,                        !- Saturday Schedule:Day Name
-  Schedule Day 50,                        !- Holiday Schedule:Day Name
-  Schedule Day 50,                        !- SummerDesignDay Schedule:Day Name
-  Schedule Day 50,                        !- WinterDesignDay Schedule:Day Name
-  Schedule Day 50,                        !- CustomDay1 Schedule:Day Name
-  Schedule Day 50;                        !- CustomDay2 Schedule:Day Name
-
-Schedule:Year,
-  EXT_Shading_OFF,                        !- Name
-  OnOff 1,                                !- Schedule Type Limits Name
-  EXT_Shading_OFF Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
-  1,                                      !- Start Month 1
-  1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
-
-Schedule:Week:Daily,
-  EXT_Shading_ON Week Rule - Jan1-Mar25,  !- Name
-  Schedule Day 47,                        !- Sunday Schedule:Day Name
-  Schedule Day 47,                        !- Monday Schedule:Day Name
-  Schedule Day 47,                        !- Tuesday Schedule:Day Name
-  Schedule Day 47,                        !- Wednesday Schedule:Day Name
-  Schedule Day 47,                        !- Thursday Schedule:Day Name
-  Schedule Day 47,                        !- Friday Schedule:Day Name
-  Schedule Day 47,                        !- Saturday Schedule:Day Name
-  Schedule Day 9,                         !- Holiday Schedule:Day Name
-  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
-  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  EXT_Shading_ON Week Rule - Mar26-Apr1,  !- Name
-  Schedule Day 47,                        !- Sunday Schedule:Day Name
-  Schedule Day 47,                        !- Monday Schedule:Day Name
-  Schedule Day 47,                        !- Tuesday Schedule:Day Name
-  Schedule Day 47,                        !- Wednesday Schedule:Day Name
-  Schedule Day 47,                        !- Thursday Schedule:Day Name
-  Schedule Day 47,                        !- Friday Schedule:Day Name
-  Schedule Day 9,                         !- Saturday Schedule:Day Name
-  Schedule Day 9,                         !- Holiday Schedule:Day Name
-  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
-  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  EXT_Shading_ON Week Rule - Apr2-Oct28,  !- Name
-  Schedule Day 9,                         !- Sunday Schedule:Day Name
-  Schedule Day 9,                         !- Monday Schedule:Day Name
-  Schedule Day 9,                         !- Tuesday Schedule:Day Name
-  Schedule Day 9,                         !- Wednesday Schedule:Day Name
-  Schedule Day 9,                         !- Thursday Schedule:Day Name
-  Schedule Day 9,                         !- Friday Schedule:Day Name
-  Schedule Day 9,                         !- Saturday Schedule:Day Name
-  Schedule Day 9,                         !- Holiday Schedule:Day Name
-  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
-  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  EXT_Shading_ON Week Rule - Oct29-Nov4,  !- Name
-  Schedule Day 9,                         !- Sunday Schedule:Day Name
-  Schedule Day 9,                         !- Monday Schedule:Day Name
-  Schedule Day 9,                         !- Tuesday Schedule:Day Name
-  Schedule Day 10,                        !- Wednesday Schedule:Day Name
-  Schedule Day 10,                        !- Thursday Schedule:Day Name
-  Schedule Day 10,                        !- Friday Schedule:Day Name
-  Schedule Day 10,                        !- Saturday Schedule:Day Name
-  Schedule Day 9,                         !- Holiday Schedule:Day Name
-  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
-  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  EXT_Shading_ON Week Rule - Nov5-Dec31,  !- Name
-  Schedule Day 10,                        !- Sunday Schedule:Day Name
-  Schedule Day 10,                        !- Monday Schedule:Day Name
-  Schedule Day 10,                        !- Tuesday Schedule:Day Name
-  Schedule Day 10,                        !- Wednesday Schedule:Day Name
-  Schedule Day 10,                        !- Thursday Schedule:Day Name
-  Schedule Day 10,                        !- Friday Schedule:Day Name
-  Schedule Day 10,                        !- Saturday Schedule:Day Name
-  Schedule Day 9,                         !- Holiday Schedule:Day Name
-  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
-  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
-
-Schedule:Year,
-  EXT_Shading_ON,                         !- Name
-  OnOff 1,                                !- Schedule Type Limits Name
-  EXT_Shading_ON Week Rule - Jan1-Mar25,  !- Schedule:Week Name 1
-  1,                                      !- Start Month 1
-  1,                                      !- Start Day 1
-  3,                                      !- End Month 1
-  25,                                     !- End Day 1
-  EXT_Shading_ON Week Rule - Mar26-Apr1,  !- Schedule:Week Name 2
-  3,                                      !- Start Month 2
-  26,                                     !- Start Day 2
-  4,                                      !- End Month 2
-  1,                                      !- End Day 2
-  EXT_Shading_ON Week Rule - Apr2-Oct28,  !- Schedule:Week Name 3
-  4,                                      !- Start Month 3
-  2,                                      !- Start Day 3
-  10,                                     !- End Month 3
-  28,                                     !- End Day 3
-  EXT_Shading_ON Week Rule - Oct29-Nov4,  !- Schedule:Week Name 4
-  10,                                     !- Start Month 4
-  29,                                     !- Start Day 4
-  11,                                     !- End Month 4
-  4,                                      !- End Day 4
-  EXT_Shading_ON Week Rule - Nov5-Dec31,  !- Schedule:Week Name 5
-  11,                                     !- Start Month 5
-  5,                                      !- Start Day 5
-  12,                                     !- End Month 5
-  31;                                     !- End Day 5
-
-Schedule:Week:Daily,
   Hot Water Loop Temp - 120F Week Rule - Jan1-Dec31, !- Name
   Hot Water Loop Temp - 120F Default,     !- Sunday Schedule:Day Name
   Hot Water Loop Temp - 120F Default,     !- Monday Schedule:Day Name
@@ -11626,6 +11498,134 @@ Schedule:Year,
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
+
+Schedule:Week:Daily,
+  Shading_OFF Week Rule - Jan1-Dec31,     !- Name
+  Schedule Day 50,                        !- Sunday Schedule:Day Name
+  Schedule Day 50,                        !- Monday Schedule:Day Name
+  Schedule Day 50,                        !- Tuesday Schedule:Day Name
+  Schedule Day 50,                        !- Wednesday Schedule:Day Name
+  Schedule Day 50,                        !- Thursday Schedule:Day Name
+  Schedule Day 50,                        !- Friday Schedule:Day Name
+  Schedule Day 50,                        !- Saturday Schedule:Day Name
+  Schedule Day 50,                        !- Holiday Schedule:Day Name
+  Schedule Day 50,                        !- SummerDesignDay Schedule:Day Name
+  Schedule Day 50,                        !- WinterDesignDay Schedule:Day Name
+  Schedule Day 50,                        !- CustomDay1 Schedule:Day Name
+  Schedule Day 50;                        !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  Shading_OFF,                            !- Name
+  OnOff 1,                                !- Schedule Type Limits Name
+  Shading_OFF Week Rule - Jan1-Dec31,     !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
+
+Schedule:Week:Daily,
+  Shading_ON Week Rule - Jan1-Mar25,      !- Name
+  Schedule Day 47,                        !- Sunday Schedule:Day Name
+  Schedule Day 47,                        !- Monday Schedule:Day Name
+  Schedule Day 47,                        !- Tuesday Schedule:Day Name
+  Schedule Day 47,                        !- Wednesday Schedule:Day Name
+  Schedule Day 47,                        !- Thursday Schedule:Day Name
+  Schedule Day 47,                        !- Friday Schedule:Day Name
+  Schedule Day 47,                        !- Saturday Schedule:Day Name
+  Schedule Day 9,                         !- Holiday Schedule:Day Name
+  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Shading_ON Week Rule - Mar26-Apr1,      !- Name
+  Schedule Day 47,                        !- Sunday Schedule:Day Name
+  Schedule Day 47,                        !- Monday Schedule:Day Name
+  Schedule Day 47,                        !- Tuesday Schedule:Day Name
+  Schedule Day 47,                        !- Wednesday Schedule:Day Name
+  Schedule Day 47,                        !- Thursday Schedule:Day Name
+  Schedule Day 47,                        !- Friday Schedule:Day Name
+  Schedule Day 9,                         !- Saturday Schedule:Day Name
+  Schedule Day 9,                         !- Holiday Schedule:Day Name
+  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Shading_ON Week Rule - Apr2-Oct28,      !- Name
+  Schedule Day 9,                         !- Sunday Schedule:Day Name
+  Schedule Day 9,                         !- Monday Schedule:Day Name
+  Schedule Day 9,                         !- Tuesday Schedule:Day Name
+  Schedule Day 9,                         !- Wednesday Schedule:Day Name
+  Schedule Day 9,                         !- Thursday Schedule:Day Name
+  Schedule Day 9,                         !- Friday Schedule:Day Name
+  Schedule Day 9,                         !- Saturday Schedule:Day Name
+  Schedule Day 9,                         !- Holiday Schedule:Day Name
+  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Shading_ON Week Rule - Oct29-Nov4,      !- Name
+  Schedule Day 9,                         !- Sunday Schedule:Day Name
+  Schedule Day 9,                         !- Monday Schedule:Day Name
+  Schedule Day 9,                         !- Tuesday Schedule:Day Name
+  Schedule Day 10,                        !- Wednesday Schedule:Day Name
+  Schedule Day 10,                        !- Thursday Schedule:Day Name
+  Schedule Day 10,                        !- Friday Schedule:Day Name
+  Schedule Day 10,                        !- Saturday Schedule:Day Name
+  Schedule Day 9,                         !- Holiday Schedule:Day Name
+  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Shading_ON Week Rule - Nov5-Dec31,      !- Name
+  Schedule Day 10,                        !- Sunday Schedule:Day Name
+  Schedule Day 10,                        !- Monday Schedule:Day Name
+  Schedule Day 10,                        !- Tuesday Schedule:Day Name
+  Schedule Day 10,                        !- Wednesday Schedule:Day Name
+  Schedule Day 10,                        !- Thursday Schedule:Day Name
+  Schedule Day 10,                        !- Friday Schedule:Day Name
+  Schedule Day 10,                        !- Saturday Schedule:Day Name
+  Schedule Day 9,                         !- Holiday Schedule:Day Name
+  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  Shading_ON,                             !- Name
+  OnOff 1,                                !- Schedule Type Limits Name
+  Shading_ON Week Rule - Jan1-Mar25,      !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  3,                                      !- End Month 1
+  25,                                     !- End Day 1
+  Shading_ON Week Rule - Mar26-Apr1,      !- Schedule:Week Name 2
+  3,                                      !- Start Month 2
+  26,                                     !- Start Day 2
+  4,                                      !- End Month 2
+  1,                                      !- End Day 2
+  Shading_ON Week Rule - Apr2-Oct28,      !- Schedule:Week Name 3
+  4,                                      !- Start Month 3
+  2,                                      !- Start Day 3
+  10,                                     !- End Month 3
+  28,                                     !- End Day 3
+  Shading_ON Week Rule - Oct29-Nov4,      !- Schedule:Week Name 4
+  10,                                     !- Start Month 4
+  29,                                     !- Start Day 4
+  11,                                     !- End Month 4
+  4,                                      !- End Day 4
+  Shading_ON Week Rule - Nov5-Dec31,      !- Schedule:Week Name 5
+  11,                                     !- Start Month 5
+  5,                                      !- Start Day 5
+  12,                                     !- End Month 5
+  31;                                     !- End Day 5
 
 Schedule:Week:Daily,
   Supply Air Temp - 55.0F Week Rule - Jan1-Dec31, !- Name
@@ -12242,12 +12242,12 @@ Sizing:System,
   Sensible,                               !- Type of Load to Size On
   Autosize,                               !- Design Outdoor Air Flow Rate {m3/s}
   0.3,                                    !- Central Heating Maximum System Air Flow Ratio
-  7,                                      !- Preheat Design Temperature {C}
+  7.22222222222229,                       !- Preheat Design Temperature {C}
   0.008,                                  !- Preheat Design Humidity Ratio {kgWater/kgDryAir}
-  12.8,                                   !- Precool Design Temperature {C}
+  12.7777777777778,                       !- Precool Design Temperature {C}
   0.008,                                  !- Precool Design Humidity Ratio {kgWater/kgDryAir}
-  12.8,                                   !- Central Cooling Design Supply Air Temperature {C}
-  12.8,                                   !- Central Heating Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Central Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Central Heating Design Supply Air Temperature {C}
   Coincident,                             !- Type of Zone Sum to Use
   No,                                     !- 100% Outdoor Air in Cooling
   No,                                     !- 100% Outdoor Air in Heating
@@ -12255,15 +12255,15 @@ Sizing:System,
   0.008,                                  !- Central Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   DesignDay,                              !- Cooling Supply Air Flow Rate Method
   0,                                      !- Cooling Supply Air Flow Rate {m3/s}
-  0.01,                                   !- Cooling Supply Air Flow Rate Per Floor Area {m3/s-m2}
+  0.0099676501,                           !- Cooling Supply Air Flow Rate Per Floor Area {m3/s-m2}
   1,                                      !- Cooling Fraction of Autosized Cooling Supply Air Flow Rate
-  4e-05,                                  !- Cooling Supply Air Flow Rate Per Unit Cooling Capacity {m3/s-W}
+  3.9475456e-05,                          !- Cooling Supply Air Flow Rate Per Unit Cooling Capacity {m3/s-W}
   DesignDay,                              !- Heating Supply Air Flow Rate Method
   0,                                      !- Heating Supply Air Flow Rate {m3/s}
-  0.01,                                   !- Heating Supply Air Flow Rate Per Floor Area {m3/s-m2}
+  0.0099676501,                           !- Heating Supply Air Flow Rate Per Floor Area {m3/s-m2}
   1,                                      !- Heating Fraction of Autosized Heating Supply Air Flow Rate
   1,                                      !- Heating Fraction of Autosized Cooling Supply Air Flow Rate
-  3e-05,                                  !- Heating Supply Air Flow Rate Per Unit Heating Capacity {m3/s-W}
+  3.1588213e-05,                          !- Heating Supply Air Flow Rate Per Unit Heating Capacity {m3/s-W}
   ZoneSum,                                !- System Outdoor Air Method
   1,                                      !- Zone Maximum Outdoor Air Fraction {dimensionless}
   CoolingDesignCapacity,                  !- Cooling Design Capacity Method
@@ -12450,10 +12450,10 @@ Coil:Heating:Water,
   15 Zone VAV Main Htg Coil Outlet Air Node, !- Air Outlet Node Name
   UFactorTimesAreaAndDesignWaterFlowRate, !- Performance Input Method
   Autosize,                               !- Rated Capacity {W}
-  49,                                     !- Rated Inlet Water Temperature {C}
-  7.2,                                    !- Rated Inlet Air Temperature {C}
-  38,                                     !- Rated Outlet Water Temperature {C}
-  13,                                     !- Rated Outlet Air Temperature {C}
+  48.8888888888889,                       !- Rated Inlet Water Temperature {C}
+  7.22222222222229,                       !- Rated Inlet Air Temperature {C}
+  37.7777777777778,                       !- Rated Outlet Water Temperature {C}
+  12.7777777777778,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 SetpointManager:MixedAir,
@@ -12468,7 +12468,7 @@ Fan:VariableVolume,
   15 Zone VAV Fan,                        !- Name
   15 Zone VAV Occ Sch,                    !- Availability Schedule Name
   0.6572,                                 !- Fan Total Efficiency
-  995,                                    !- Pressure Rise {Pa}
+  996.35564,                              !- Pressure Rise {Pa}
   AutoSize,                               !- Maximum Flow Rate {m3/s}
   Fraction,                               !- Fan Power Minimum Flow Rate Input Method
   0.25,                                   !- Fan Power Minimum Flow Fraction
@@ -12487,7 +12487,7 @@ Fan:VariableVolume,
 SetpointManager:Scheduled,
   15 Zone VAV Supply Air Setpoint Manager, !- Name
   Temperature,                            !- Control Variable
-  Deck_Temperature,                       !- Schedule Name
+  Supply Air Temp - 55.0F,                !- Schedule Name
   15 Zone VAV Supply Outlet Node;         !- Setpoint Node or NodeList Name
 
 AirLoopHVAC:SupplyPath,
@@ -12568,10 +12568,10 @@ Sizing:System,
   0.3,                                    !- Central Heating Maximum System Air Flow Ratio
   7.22222222222229,                       !- Preheat Design Temperature {C}
   0.008,                                  !- Preheat Design Humidity Ratio {kgWater/kgDryAir}
-  13,                                     !- Precool Design Temperature {C}
+  12.7777777777778,                       !- Precool Design Temperature {C}
   0.008,                                  !- Precool Design Humidity Ratio {kgWater/kgDryAir}
-  13,                                     !- Central Cooling Design Supply Air Temperature {C}
-  13,                                     !- Central Heating Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Central Cooling Design Supply Air Temperature {C}
+  12.7777777777778,                       !- Central Heating Design Supply Air Temperature {C}
   Coincident,                             !- Type of Zone Sum to Use
   No,                                     !- 100% Outdoor Air in Cooling
   No,                                     !- 100% Outdoor Air in Heating
@@ -12777,7 +12777,7 @@ Coil:Heating:Water,
   48.8888888888889,                       !- Rated Inlet Water Temperature {C}
   7.22222222222229,                       !- Rated Inlet Air Temperature {C}
   37.7777777777778,                       !- Rated Outlet Water Temperature {C}
-  13,                                     !- Rated Outlet Air Temperature {C}
+  12.7777777777778,                       !- Rated Outlet Air Temperature {C}
   0.5;                                    !- Rated Ratio for Air and Water Convection
 
 SetpointManager:MixedAir,
@@ -12867,8 +12867,8 @@ PlantLoop,
 Sizing:Plant,
   Chilled Water Loop,                     !- Plant or Condenser Loop Name
   Cooling,                                !- Loop Type
-  6.67,                                   !- Design Loop Exit Temperature {C}
-  5.6,                                    !- Loop Design Temperature Difference {deltaC}
+  6.66666666666669,                       !- Design Loop Exit Temperature {C}
+  5.61111111111111,                       !- Loop Design Temperature Difference {deltaC}
   NonCoincident,                          !- Sizing Option
   1,                                      !- Zone Timesteps in Averaging Window
   None;                                   !- Coincident Sizing Factor Mode
@@ -12996,16 +12996,16 @@ Branch,
   Chilled Water Loop Supply Branch 1,     !- Name
   ,                                       !- Pressure Drop Curve Name
   Chiller:Electric:EIR,                   !- Component Object Type 1
-  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 385tons 0.7kW/ton, !- Component Name 1
+  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton, !- Component Name 1
   NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Supply Inlet Water Node, !- Component Inlet Node Name 1
   NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Supply Outlet Water Node; !- Component Outlet Node Name 1
 
 Chiller:Electric:EIR,
-  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 385tons 0.7kW/ton, !- Name
+  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton, !- Name
   Autosize,                               !- Reference Capacity {W}
-  5.33,                                   !- Reference COP {W/W}
-  6.7,                                    !- Reference Leaving Chilled Water Temperature {C}
-  35,                                     !- Reference Entering Condenser Fluid Temperature {C}
+  5.32878787878788,                       !- Reference COP {W/W}
+  6.66666666666669,                       !- Reference Leaving Chilled Water Temperature {C}
+  35.0000000000001,                       !- Reference Entering Condenser Fluid Temperature {C}
   Autosize,                               !- Reference Chilled Water Flow Rate {m3/s}
   Autosize,                               !- Reference Condenser Fluid Flow Rate {m3/s}
   ChlrWtrPosDispPathAAllQRatio_fTchwsTcwsSI, !- Cooling Capacity Function of Temperature Curve Name
@@ -13022,7 +13022,7 @@ Chiller:Electric:EIR,
   WaterCooled,                            !- Condenser Type
   0,                                      !- Condenser Fan Power Ratio {W/W}
   1,                                      !- Fraction of Compressor Electric Consumption Rejected by Condenser
-  2.3,                                    !- Leaving Chilled Water Lower Temperature Limit {C}
+  2.22222222222229,                       !- Leaving Chilled Water Lower Temperature Limit {C}
   ConstantFlow,                           !- Chiller Flow Mode
   ,                                       !- Design Heat Recovery Water Flow Rate {m3/s}
   ,                                       !- Heat Recovery Inlet Node Name
@@ -13271,7 +13271,7 @@ PlantEquipmentList,
   HeatExchanger:FluidToFluid,             !- Equipment Object Type 2
   Integrated Waterside Economizer Heat Exchanger, !- Equipment Name 2
   Chiller:Electric:EIR,                   !- Equipment Object Type 3
-  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 385tons 0.7kW/ton; !- Equipment Name 3
+  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton; !- Equipment Name 3
 
 PlantEquipmentOperation:ComponentSetpoint,
   Chilled Water Loop Setpoint Operation Scheme, !- Name
@@ -13288,7 +13288,7 @@ PlantEquipmentOperation:ComponentSetpoint,
   Autosize,                               !- Component Flow Rate 2 {m3/s}
   Cooling,                                !- Operation Type 2
   Chiller:Electric:EIR,                   !- Equipment Object Type 3
-  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 385tons 0.7kW/ton, !- Equipment Name 3
+  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton, !- Equipment Name 3
   NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Supply Inlet Water Node, !- Demand Calculation Node Name 3
   NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Supply Outlet Water Node, !- Setpoint Node Name 3
   Autosize,                               !- Component Flow Rate 3 {m3/s}
@@ -13321,8 +13321,8 @@ PlantLoop,
 Sizing:Plant,
   Condenser Water Loop,                   !- Plant or Condenser Loop Name
   Condenser,                              !- Loop Type
-  29.5,                                   !- Design Loop Exit Temperature {C}
-  5.5,                                    !- Loop Design Temperature Difference {deltaC}
+  29.4444444444445,                       !- Design Loop Exit Temperature {C}
+  5.55555555555556,                       !- Loop Design Temperature Difference {deltaC}
   Coincident,                             !- Sizing Option
   6,                                      !- Zone Timesteps in Averaging Window
   GlobalCoolingSizingFactor;              !- Coincident Sizing Factor Mode
@@ -13396,12 +13396,12 @@ CoolingTower:VariableSpeed,
   Propeller or Axial Variable Speed Fan Open Cooling Tower Outlet Water Node, !- Water Outlet Node Name
   CoolToolsCrossFlow,                     !- Model Type
   ,                                       !- Model Coefficient Name
-  25.5,                                   !- Design Inlet Air Wet-Bulb Temperature {C}
-  4,                                      !- Design Approach Temperature {deltaC}
-  5.5,                                    !- Design Range Temperature {deltaC}
+  25.5555555555556,                       !- Design Inlet Air Wet-Bulb Temperature {C}
+  3.88888888888888,                       !- Design Approach Temperature {deltaC}
+  5.55555555555556,                       !- Design Range Temperature {deltaC}
   Autosize,                               !- Design Water Flow Rate {m3/s}
   Autosize,                               !- Design Air Flow Rate {m3/s}
-  63782,                                  !- Design Fan Power {W}
+  56082.4839335926,                       !- Design Fan Power {W}
   VSD-TWR-FAN-FPLR,                       !- Fan Power Ratio Function of Air Flow Rate Ratio Curve Name
   0.2,                                    !- Minimum Air Flow Rate Ratio
   0.125,                                  !- Fraction of Tower Capacity in Free Convection Regime
@@ -13532,7 +13532,7 @@ Branch,
   Condenser Water Loop Demand Branch 2,   !- Name
   ,                                       !- Pressure Drop Curve Name
   Chiller:Electric:EIR,                   !- Component Object Type 1
-  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 385tons 0.7kW/ton, !- Component Name 1
+  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton, !- Component Name 1
   NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Demand Inlet Water Node, !- Component Inlet Node Name 1
   NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Demand Outlet Water Node; !- Component Outlet Node Name 1
 
@@ -13622,8 +13622,8 @@ PlantLoop,
 Sizing:Plant,
   Hot Water Loop,                         !- Plant or Condenser Loop Name
   Heating,                                !- Loop Type
-  50,                                     !- Design Loop Exit Temperature {C}
-  11,                                     !- Loop Design Temperature Difference {deltaC}
+  48.8888888888889,                       !- Design Loop Exit Temperature {C}
+  11.1111111111111,                       !- Loop Design Temperature Difference {deltaC}
   NonCoincident,                          !- Sizing Option
   1,                                      !- Zone Timesteps in Averaging Window
   None;                                   !- Coincident Sizing Factor Mode
@@ -13698,12 +13698,12 @@ Branch,
   Hot Water Loop Supply Branch 1,         !- Name
   ,                                       !- Pressure Drop Curve Name
   Boiler:HotWater,                        !- Component Object Type 1
-  Boiler 1913kBtu/hr 0.94 Combustion Eff, !- Component Name 1
+  Boiler 1943kBtu/hr 0.94 Combustion Eff, !- Component Name 1
   Boiler Inlet Water Node,                !- Component Inlet Node Name 1
   Boiler Outlet Water Node;               !- Component Outlet Node Name 1
 
 Boiler:HotWater,
-  Boiler 1913kBtu/hr 0.94 Combustion Eff, !- Name
+  Boiler 1943kBtu/hr 0.94 Combustion Eff, !- Name
   NaturalGas,                             !- Fuel Type
   Autosize,                               !- Nominal Capacity {W}
   0.933,                                  !- Nominal Thermal Efficiency
@@ -13715,7 +13715,7 @@ Boiler:HotWater,
   1,                                      !- Optimum Part Load Ratio
   Boiler Inlet Water Node,                !- Boiler Water Inlet Node Name
   Boiler Outlet Water Node,               !- Boiler Water Outlet Node Name
-  95,                                     !- Water Outlet Upper Temperature Limit {C}
+  95.0000000000001,                       !- Water Outlet Upper Temperature Limit {C}
   LeavingSetpointModulated,               !- Boiler Flow Mode
   0,                                      !- Parasitic Electric Load {W}
   1,                                      !- Sizing Factor
@@ -14075,7 +14075,7 @@ PlantEquipmentOperation:HeatingLoad,
 PlantEquipmentList,
   Hot Water Loop Heating Equipment List,  !- Name
   Boiler:HotWater,                        !- Equipment Object Type 1
-  Boiler 1913kBtu/hr 0.94 Combustion Eff; !- Equipment Name 1
+  Boiler 1943kBtu/hr 0.94 Combustion Eff; !- Equipment Name 1
 
 RunPeriodControl:DaylightSavingTime,
   Last Sunday in March,                   !- Start Date
@@ -14350,55 +14350,55 @@ InternalMass,
   mid_Offices_S Internal Mass 3,          !- Name
   _WoodFurnitures,                        !- Construction Name
   mid_Offices_S_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   mid_Offices_W Internal Mass 3,          !- Name
   _WoodFurnitures,                        !- Construction Name
   mid_Offices_W_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   GroundFloor_Offices_W Internal Mass 3,  !- Name
   _WoodFurnitures,                        !- Construction Name
   GroundFloor_Offices_W_TZ,               !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   mid_Offices_E Internal Mass 3,          !- Name
   _WoodFurnitures,                        !- Construction Name
   mid_Offices_E_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   GroundFloor_Offices_E Internal Mass 3,  !- Name
   _WoodFurnitures,                        !- Construction Name
   GroundFloor_Offices_E_TZ,               !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   GroundFloor_Offices_S Internal Mass 3,  !- Name
   _WoodFurnitures,                        !- Construction Name
   GroundFloor_Hall_S_TZ,                  !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   top_Offices_E Internal Mass 3,          !- Name
   _WoodFurnitures,                        !- Construction Name
   top_Offices_E_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   top_Offices_S Internal Mass 3,          !- Name
   _WoodFurnitures,                        !- Construction Name
   top_Offices_S_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   top_Offices_W Internal Mass 3,          !- Name
   _WoodFurnitures,                        !- Construction Name
   top_Offices_W_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 Lights,
   Lights 5,                               !- Name
@@ -14422,7 +14422,7 @@ People,
   Area/Person,                            !- Number of People Calculation Method
   ,                                       !- Number of People
   ,                                       !- People per Zone Floor Area {person/m2}
-  8,                                      !- Zone Floor Area per Person {m2/person}
+  10,                                     !- Zone Floor Area per Person {m2/person}
   0.3,                                    !- Fraction Radiant
   ,                                       !- Sensible Heat Fraction
   _Activity_Office_People,                !- Activity Level Schedule Name
@@ -14475,19 +14475,19 @@ InternalMass,
   mid_Offices_N Internal Mass 4,          !- Name
   _WoodFurnitures,                        !- Construction Name
   mid_Offices_N_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   GroundFloor_Offices_N Internal Mass 4,  !- Name
   _WoodFurnitures,                        !- Construction Name
   GroundFloor_Offices_N_TZ,               !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   top_Offices_N Internal Mass 4,          !- Name
   _WoodFurnitures,                        !- Construction Name
   top_Offices_N_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 Lights,
   Lights 6,                               !- Name
@@ -14511,7 +14511,7 @@ People,
   Area/Person,                            !- Number of People Calculation Method
   ,                                       !- Number of People
   ,                                       !- People per Zone Floor Area {person/m2}
-  8,                                      !- Zone Floor Area per Person {m2/person}
+  10,                                     !- Zone Floor Area per Person {m2/person}
   0.3,                                    !- Fraction Radiant
   ,                                       !- Sensible Heat Fraction
   _Activity_Office_People,                !- Activity Level Schedule Name

@@ -664,14 +664,14 @@ Sizing:Zone,
   0,                                      !- Cooling Minimum Air Flow Fraction
   DesignDay,                              !- Heating Design Air Flow Method
   0,                                      !- Heating Design Air Flow Rate {m3/s}
-  0.002032,                               !- Heating Maximum Air Flow per Zone Floor Area {m3/s-m2}
+  0.002,                                  !- Heating Maximum Air Flow per Zone Floor Area {m3/s-m2}
   0.142,                                  !- Heating Maximum Air Flow {m3/s}
   0.3,                                    !- Heating Maximum Air Flow Fraction
   GroundFloor_Core_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   GroundFloor_Core_TZ Design Spec Zone Air Dist, !- Name
@@ -1162,8 +1162,8 @@ Sizing:Zone,
   ,                                       !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 Schedule:Day:Interval,
   3 Zone VAV Occ Sch Default,             !- Name
@@ -1406,26 +1406,6 @@ BuildingSurface:Detailed,
   16, 10, 0,                              !- X,Y,Z Vertex 3 {m}
   16, 10, 3.15;                           !- X,Y,Z Vertex 4 {m}
 
-Shading:Zone:Detailed,
-  GroundFloor_S_Window 1 - Overhang,      !- Name
-  GroundFloor_S_Facade,                   !- Base Surface Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  29.9, 0, 3.05,                          !- X,Y,Z Vertex 1 {m}
-  16.1, 0, 3.05,                          !- X,Y,Z Vertex 2 {m}
-  16.1, -1.4, 3.05,                       !- X,Y,Z Vertex 3 {m}
-  29.9, -1.4, 3.05;                       !- X,Y,Z Vertex 4 {m}
-
-Shading:Zone:Detailed,
-  GroundFloor_S_Window 2 - Overhang,      !- Name
-  GroundFloor_S_Facade,                   !- Base Surface Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  13.9, 0, 3.05,                          !- X,Y,Z Vertex 1 {m}
-  0.1, 0, 3.05,                           !- X,Y,Z Vertex 2 {m}
-  0.1, -1.4, 3.05,                        !- X,Y,Z Vertex 3 {m}
-  13.9, -1.4, 3.05;                       !- X,Y,Z Vertex 4 {m}
-
 ZoneControl:Thermostat,
   GroundFloor_Hall_S_TZ Thermostat,       !- Name
   GroundFloor_Hall_S_TZ,                  !- Zone or ZoneList Name
@@ -1555,8 +1535,8 @@ Sizing:Zone,
   GroundFloor_Hall_S_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   GroundFloor_Hall_S_TZ Design Spec Zone Air Dist, !- Name
@@ -1716,16 +1696,6 @@ BuildingSurface:Detailed,
   -10, 10, 0,                             !- X,Y,Z Vertex 3 {m}
   -10, 10, 3.15;                          !- X,Y,Z Vertex 4 {m}
 
-Shading:Zone:Detailed,
-  GroundFloor_E_Window - Overhang,        !- Name
-  GroundFloor_E_Facade,                   !- Base Surface Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  0, 29.9, 3.05,                          !- X,Y,Z Vertex 1 {m}
-  0, 0.1, 3.05,                           !- X,Y,Z Vertex 2 {m}
-  1.4, 0.1, 3.05,                         !- X,Y,Z Vertex 3 {m}
-  1.4, 29.9, 3.05;                        !- X,Y,Z Vertex 4 {m}
-
 ZoneControl:Thermostat,
   GroundFloor_Offices_E_TZ Thermostat,    !- Name
   GroundFloor_Offices_E_TZ,               !- Zone or ZoneList Name
@@ -1855,8 +1825,8 @@ Sizing:Zone,
   GroundFloor_Offices_E_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   GroundFloor_Offices_E_TZ Design Spec Zone Air Dist, !- Name
@@ -2159,8 +2129,8 @@ Sizing:Zone,
   GroundFloor_Offices_N_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   GroundFloor_Offices_N_TZ Design Spec Zone Air Dist, !- Name
@@ -2296,16 +2266,6 @@ BuildingSurface:Detailed,
   10, -10, 0,                             !- X,Y,Z Vertex 3 {m}
   10, -10, 3.15;                          !- X,Y,Z Vertex 4 {m}
 
-Shading:Zone:Detailed,
-  GroundFloor_W_Window - Overhang,        !- Name
-  GroundFloor_W_Facade,                   !- Base Surface Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  0, -29.9, 3.05,                         !- X,Y,Z Vertex 1 {m}
-  0, -0.1, 3.05,                          !- X,Y,Z Vertex 2 {m}
-  -1.4, -0.1, 3.05,                       !- X,Y,Z Vertex 3 {m}
-  -1.4, -29.9, 3.05;                      !- X,Y,Z Vertex 4 {m}
-
 ZoneControl:Thermostat,
   GroundFloor_Offices_W_TZ Thermostat,    !- Name
   GroundFloor_Offices_W_TZ,               !- Zone or ZoneList Name
@@ -2435,8 +2395,8 @@ Sizing:Zone,
   GroundFloor_Offices_W_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   GroundFloor_Offices_W_TZ Design Spec Zone Air Dist, !- Name
@@ -2915,8 +2875,8 @@ Sizing:Zone,
   mid_Core_TZ Design Spec Zone Air Dist,  !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   mid_Core_TZ Design Spec Zone Air Dist,  !- Name
@@ -3166,8 +3126,8 @@ Sizing:Zone,
   ,                                       !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 Zone,
   mid_Offices_E_TZ,                       !- Name
@@ -3311,16 +3271,6 @@ BuildingSurface:Detailed,
   -10, 12, 0,                             !- X,Y,Z Vertex 3 {m}
   -10, 12, 3;                             !- X,Y,Z Vertex 4 {m}
 
-Shading:Zone:Detailed,
-  mid_E_Window - Overhang,                !- Name
-  mid_E_Facade,                           !- Base Surface Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  0, 29.9, 2.9,                           !- X,Y,Z Vertex 1 {m}
-  0, 0.1, 2.9,                            !- X,Y,Z Vertex 2 {m}
-  1.2, 0.1, 2.9,                          !- X,Y,Z Vertex 3 {m}
-  1.2, 29.9, 2.9;                         !- X,Y,Z Vertex 4 {m}
-
 ZoneControl:Thermostat,
   mid_Offices_E_TZ Thermostat,            !- Name
   mid_Offices_E_TZ,                       !- Zone or ZoneList Name
@@ -3450,8 +3400,8 @@ Sizing:Zone,
   mid_Offices_E_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   mid_Offices_E_TZ Design Spec Zone Air Dist, !- Name
@@ -3716,8 +3666,8 @@ Sizing:Zone,
   mid_Offices_N_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   mid_Offices_N_TZ Design Spec Zone Air Dist, !- Name
@@ -3869,16 +3819,6 @@ BuildingSurface:Detailed,
   16, 10, 0,                              !- X,Y,Z Vertex 3 {m}
   16, 10, 3;                              !- X,Y,Z Vertex 4 {m}
 
-Shading:Zone:Detailed,
-  mid_S_Window - Overhang,                !- Name
-  mid_S_Facade,                           !- Base Surface Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  29.9, 0, 2.9,                           !- X,Y,Z Vertex 1 {m}
-  0.1, 0, 2.9,                            !- X,Y,Z Vertex 2 {m}
-  0.1, -1.2, 2.9,                         !- X,Y,Z Vertex 3 {m}
-  29.9, -1.2, 2.9;                        !- X,Y,Z Vertex 4 {m}
-
 ZoneControl:Thermostat,
   mid_Offices_S_TZ Thermostat,            !- Name
   mid_Offices_S_TZ,                       !- Zone or ZoneList Name
@@ -4008,8 +3948,8 @@ Sizing:Zone,
   mid_Offices_S_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   mid_Offices_S_TZ Design Spec Zone Air Dist, !- Name
@@ -4145,16 +4085,6 @@ BuildingSurface:Detailed,
   10, -10, -0,                            !- X,Y,Z Vertex 3 {m}
   10, -10, 3;                             !- X,Y,Z Vertex 4 {m}
 
-Shading:Zone:Detailed,
-  mid_W_Window - Overhang,                !- Name
-  mid_W_Facade,                           !- Base Surface Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  0, -29.9, 2.9,                          !- X,Y,Z Vertex 1 {m}
-  0, -0.1, 2.9,                           !- X,Y,Z Vertex 2 {m}
-  -1.2, -0.1, 2.9,                        !- X,Y,Z Vertex 3 {m}
-  -1.2, -29.9, 2.9;                       !- X,Y,Z Vertex 4 {m}
-
 ZoneControl:Thermostat,
   mid_Offices_W_TZ Thermostat,            !- Name
   mid_Offices_W_TZ,                       !- Zone or ZoneList Name
@@ -4284,8 +4214,8 @@ Sizing:Zone,
   mid_Offices_W_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   mid_Offices_W_TZ Design Spec Zone Air Dist, !- Name
@@ -4764,8 +4694,8 @@ Sizing:Zone,
   top_Core_TZ Design Spec Zone Air Dist,  !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   top_Core_TZ Design Spec Zone Air Dist,  !- Name
@@ -5015,8 +4945,8 @@ Sizing:Zone,
   ,                                       !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 Zone,
   top_Offices_E_TZ,                       !- Name
@@ -5160,16 +5090,6 @@ BuildingSurface:Detailed,
   -10, 12, 0,                             !- X,Y,Z Vertex 3 {m}
   -10, 12, 3;                             !- X,Y,Z Vertex 4 {m}
 
-Shading:Zone:Detailed,
-  top_E_Window - Overhang,                !- Name
-  top_E_Facade,                           !- Base Surface Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  0, 29.9, 2.9,                           !- X,Y,Z Vertex 1 {m}
-  0, 0.1, 2.9,                            !- X,Y,Z Vertex 2 {m}
-  1.2, 0.1, 2.9,                          !- X,Y,Z Vertex 3 {m}
-  1.2, 29.9, 2.9;                         !- X,Y,Z Vertex 4 {m}
-
 ZoneControl:Thermostat,
   top_Offices_E_TZ Thermostat,            !- Name
   top_Offices_E_TZ,                       !- Zone or ZoneList Name
@@ -5299,8 +5219,8 @@ Sizing:Zone,
   top_Offices_E_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   top_Offices_E_TZ Design Spec Zone Air Dist, !- Name
@@ -5565,8 +5485,8 @@ Sizing:Zone,
   top_Offices_N_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   top_Offices_N_TZ Design Spec Zone Air Dist, !- Name
@@ -5718,16 +5638,6 @@ BuildingSurface:Detailed,
   16, 10, 0,                              !- X,Y,Z Vertex 3 {m}
   16, 10, 3;                              !- X,Y,Z Vertex 4 {m}
 
-Shading:Zone:Detailed,
-  top_S_Window - Overhang,                !- Name
-  top_S_Facade,                           !- Base Surface Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  29.9, 0, 2.9,                           !- X,Y,Z Vertex 1 {m}
-  0.1, 0, 2.9,                            !- X,Y,Z Vertex 2 {m}
-  0.1, -1.2, 2.9,                         !- X,Y,Z Vertex 3 {m}
-  29.9, -1.2, 2.9;                        !- X,Y,Z Vertex 4 {m}
-
 ZoneControl:Thermostat,
   top_Offices_S_TZ Thermostat,            !- Name
   top_Offices_S_TZ,                       !- Zone or ZoneList Name
@@ -5857,8 +5767,8 @@ Sizing:Zone,
   top_Offices_S_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   top_Offices_S_TZ Design Spec Zone Air Dist, !- Name
@@ -5994,16 +5904,6 @@ BuildingSurface:Detailed,
   10, -10, -0,                            !- X,Y,Z Vertex 3 {m}
   10, -10, 3;                             !- X,Y,Z Vertex 4 {m}
 
-Shading:Zone:Detailed,
-  top_W_Window - Overhang,                !- Name
-  top_W_Facade,                           !- Base Surface Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  0, -29.9, 2.9,                          !- X,Y,Z Vertex 1 {m}
-  0, -0.1, 2.9,                           !- X,Y,Z Vertex 2 {m}
-  -1.2, -0.1, 2.9,                        !- X,Y,Z Vertex 3 {m}
-  -1.2, -29.9, 2.9;                       !- X,Y,Z Vertex 4 {m}
-
 ZoneControl:Thermostat,
   top_Offices_W_TZ Thermostat,            !- Name
   top_Offices_W_TZ,                       !- Zone or ZoneList Name
@@ -6133,8 +6033,8 @@ Sizing:Zone,
   top_Offices_W_TZ Design Spec Zone Air Dist, !- Design Specification Zone Air Distribution Object Name
   Yes,                                    !- Account for Dedicated Outdoor Air System
   NeutralSupplyAir,                       !- Dedicated Outdoor Air System Control Strategy
-  15.5555555555556,                       !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
-  21.1111111111111;                       !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
+  15.5,                                   !- Dedicated Outdoor Air Low Setpoint Temperature for Design {C}
+  21;                                     !- Dedicated Outdoor Air High Setpoint Temperature for Design {C}
 
 DesignSpecification:ZoneAirDistribution,
   top_Offices_W_TZ Design Spec Zone Air Dist, !- Name
@@ -6553,7 +6453,7 @@ Material:NoMass,
   0.7;                                    !- Visible Absorptance
 
 WindowMaterial:Shade,
-  Ext_EnviroScreen_lightgrey_silver,      !- Name
+  EnviroScreen_lightgrey_silver,          !- Name
   0.05,                                   !- Solar Transmittance {dimensionless}
   0.74,                                   !- Solar Reflectance {dimensionless}
   0.04,                                   !- Visible Transmittance {dimensionless}
@@ -6570,7 +6470,7 @@ WindowMaterial:Shade,
   0.1;                                    !- Airflow Permeability {dimensionless}
 
 WindowMaterial:Shade,
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Name
   0.12,                                   !- Solar Transmittance {dimensionless}
   0.71,                                   !- Solar Reflectance {dimensionless}
   0.12,                                   !- Visible Transmittance {dimensionless}
@@ -6587,7 +6487,7 @@ WindowMaterial:Shade,
   0;                                      !- Airflow Permeability {dimensionless}
 
 WindowMaterial:Shade,
-  Int_Isotiss_Thermal Curtain_Only,       !- Name
+  Isotiss_Thermal Curtain_Only,           !- Name
   0.12,                                   !- Solar Transmittance {dimensionless}
   0.71,                                   !- Solar Reflectance {dimensionless}
   0.12,                                   !- Visible Transmittance {dimensionless}
@@ -6767,7 +6667,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6787,7 +6687,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6806,7 +6706,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6825,7 +6725,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6844,7 +6744,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6863,7 +6763,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6882,7 +6782,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6901,7 +6801,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -6920,7 +6820,7 @@ WindowShadingControl,
   15,                                     !- Setpoint {W/m2, W or deg C}
   Yes,                                    !- Shading Control Is Scheduled
   No,                                     !- Glare Control Is Active
-  Int_Isotiss_Thermal Curtain and Air Wall, !- Shading Device Material Name
+  Isotiss_Thermal Curtain and Air Wall,   !- Shading Device Material Name
   FixedSlatAngle,                         !- Type of Slat Angle Control for Blinds
   ,                                       !- Slat Angle Schedule Name
   ,                                       !- Setpoint 2 {BasedOnField A5}
@@ -11480,134 +11380,6 @@ Schedule:Year,
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  EXT_Shading_OFF Week Rule - Jan1-Dec31, !- Name
-  Schedule Day 50,                        !- Sunday Schedule:Day Name
-  Schedule Day 50,                        !- Monday Schedule:Day Name
-  Schedule Day 50,                        !- Tuesday Schedule:Day Name
-  Schedule Day 50,                        !- Wednesday Schedule:Day Name
-  Schedule Day 50,                        !- Thursday Schedule:Day Name
-  Schedule Day 50,                        !- Friday Schedule:Day Name
-  Schedule Day 50,                        !- Saturday Schedule:Day Name
-  Schedule Day 50,                        !- Holiday Schedule:Day Name
-  Schedule Day 50,                        !- SummerDesignDay Schedule:Day Name
-  Schedule Day 50,                        !- WinterDesignDay Schedule:Day Name
-  Schedule Day 50,                        !- CustomDay1 Schedule:Day Name
-  Schedule Day 50;                        !- CustomDay2 Schedule:Day Name
-
-Schedule:Year,
-  EXT_Shading_OFF,                        !- Name
-  OnOff 1,                                !- Schedule Type Limits Name
-  EXT_Shading_OFF Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
-  1,                                      !- Start Month 1
-  1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
-
-Schedule:Week:Daily,
-  EXT_Shading_ON Week Rule - Jan1-Mar25,  !- Name
-  Schedule Day 47,                        !- Sunday Schedule:Day Name
-  Schedule Day 47,                        !- Monday Schedule:Day Name
-  Schedule Day 47,                        !- Tuesday Schedule:Day Name
-  Schedule Day 47,                        !- Wednesday Schedule:Day Name
-  Schedule Day 47,                        !- Thursday Schedule:Day Name
-  Schedule Day 47,                        !- Friday Schedule:Day Name
-  Schedule Day 47,                        !- Saturday Schedule:Day Name
-  Schedule Day 9,                         !- Holiday Schedule:Day Name
-  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
-  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  EXT_Shading_ON Week Rule - Mar26-Apr1,  !- Name
-  Schedule Day 47,                        !- Sunday Schedule:Day Name
-  Schedule Day 47,                        !- Monday Schedule:Day Name
-  Schedule Day 47,                        !- Tuesday Schedule:Day Name
-  Schedule Day 47,                        !- Wednesday Schedule:Day Name
-  Schedule Day 47,                        !- Thursday Schedule:Day Name
-  Schedule Day 47,                        !- Friday Schedule:Day Name
-  Schedule Day 9,                         !- Saturday Schedule:Day Name
-  Schedule Day 9,                         !- Holiday Schedule:Day Name
-  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
-  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  EXT_Shading_ON Week Rule - Apr2-Oct28,  !- Name
-  Schedule Day 9,                         !- Sunday Schedule:Day Name
-  Schedule Day 9,                         !- Monday Schedule:Day Name
-  Schedule Day 9,                         !- Tuesday Schedule:Day Name
-  Schedule Day 9,                         !- Wednesday Schedule:Day Name
-  Schedule Day 9,                         !- Thursday Schedule:Day Name
-  Schedule Day 9,                         !- Friday Schedule:Day Name
-  Schedule Day 9,                         !- Saturday Schedule:Day Name
-  Schedule Day 9,                         !- Holiday Schedule:Day Name
-  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
-  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  EXT_Shading_ON Week Rule - Oct29-Nov4,  !- Name
-  Schedule Day 9,                         !- Sunday Schedule:Day Name
-  Schedule Day 9,                         !- Monday Schedule:Day Name
-  Schedule Day 9,                         !- Tuesday Schedule:Day Name
-  Schedule Day 10,                        !- Wednesday Schedule:Day Name
-  Schedule Day 10,                        !- Thursday Schedule:Day Name
-  Schedule Day 10,                        !- Friday Schedule:Day Name
-  Schedule Day 10,                        !- Saturday Schedule:Day Name
-  Schedule Day 9,                         !- Holiday Schedule:Day Name
-  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
-  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  EXT_Shading_ON Week Rule - Nov5-Dec31,  !- Name
-  Schedule Day 10,                        !- Sunday Schedule:Day Name
-  Schedule Day 10,                        !- Monday Schedule:Day Name
-  Schedule Day 10,                        !- Tuesday Schedule:Day Name
-  Schedule Day 10,                        !- Wednesday Schedule:Day Name
-  Schedule Day 10,                        !- Thursday Schedule:Day Name
-  Schedule Day 10,                        !- Friday Schedule:Day Name
-  Schedule Day 10,                        !- Saturday Schedule:Day Name
-  Schedule Day 9,                         !- Holiday Schedule:Day Name
-  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
-  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
-  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
-
-Schedule:Year,
-  EXT_Shading_ON,                         !- Name
-  OnOff 1,                                !- Schedule Type Limits Name
-  EXT_Shading_ON Week Rule - Jan1-Mar25,  !- Schedule:Week Name 1
-  1,                                      !- Start Month 1
-  1,                                      !- Start Day 1
-  3,                                      !- End Month 1
-  25,                                     !- End Day 1
-  EXT_Shading_ON Week Rule - Mar26-Apr1,  !- Schedule:Week Name 2
-  3,                                      !- Start Month 2
-  26,                                     !- Start Day 2
-  4,                                      !- End Month 2
-  1,                                      !- End Day 2
-  EXT_Shading_ON Week Rule - Apr2-Oct28,  !- Schedule:Week Name 3
-  4,                                      !- Start Month 3
-  2,                                      !- Start Day 3
-  10,                                     !- End Month 3
-  28,                                     !- End Day 3
-  EXT_Shading_ON Week Rule - Oct29-Nov4,  !- Schedule:Week Name 4
-  10,                                     !- Start Month 4
-  29,                                     !- Start Day 4
-  11,                                     !- End Month 4
-  4,                                      !- End Day 4
-  EXT_Shading_ON Week Rule - Nov5-Dec31,  !- Schedule:Week Name 5
-  11,                                     !- Start Month 5
-  5,                                      !- Start Day 5
-  12,                                     !- End Month 5
-  31;                                     !- End Day 5
-
-Schedule:Week:Daily,
   Hot Water Loop Temp - 120F Week Rule - Jan1-Dec31, !- Name
   Hot Water Loop Temp - 120F Default,     !- Sunday Schedule:Day Name
   Hot Water Loop Temp - 120F Default,     !- Monday Schedule:Day Name
@@ -11726,6 +11498,134 @@ Schedule:Year,
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
+
+Schedule:Week:Daily,
+  Shading_OFF Week Rule - Jan1-Dec31,     !- Name
+  Schedule Day 50,                        !- Sunday Schedule:Day Name
+  Schedule Day 50,                        !- Monday Schedule:Day Name
+  Schedule Day 50,                        !- Tuesday Schedule:Day Name
+  Schedule Day 50,                        !- Wednesday Schedule:Day Name
+  Schedule Day 50,                        !- Thursday Schedule:Day Name
+  Schedule Day 50,                        !- Friday Schedule:Day Name
+  Schedule Day 50,                        !- Saturday Schedule:Day Name
+  Schedule Day 50,                        !- Holiday Schedule:Day Name
+  Schedule Day 50,                        !- SummerDesignDay Schedule:Day Name
+  Schedule Day 50,                        !- WinterDesignDay Schedule:Day Name
+  Schedule Day 50,                        !- CustomDay1 Schedule:Day Name
+  Schedule Day 50;                        !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  Shading_OFF,                            !- Name
+  OnOff 1,                                !- Schedule Type Limits Name
+  Shading_OFF Week Rule - Jan1-Dec31,     !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
+
+Schedule:Week:Daily,
+  Shading_ON Week Rule - Jan1-Mar25,      !- Name
+  Schedule Day 47,                        !- Sunday Schedule:Day Name
+  Schedule Day 47,                        !- Monday Schedule:Day Name
+  Schedule Day 47,                        !- Tuesday Schedule:Day Name
+  Schedule Day 47,                        !- Wednesday Schedule:Day Name
+  Schedule Day 47,                        !- Thursday Schedule:Day Name
+  Schedule Day 47,                        !- Friday Schedule:Day Name
+  Schedule Day 47,                        !- Saturday Schedule:Day Name
+  Schedule Day 9,                         !- Holiday Schedule:Day Name
+  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Shading_ON Week Rule - Mar26-Apr1,      !- Name
+  Schedule Day 47,                        !- Sunday Schedule:Day Name
+  Schedule Day 47,                        !- Monday Schedule:Day Name
+  Schedule Day 47,                        !- Tuesday Schedule:Day Name
+  Schedule Day 47,                        !- Wednesday Schedule:Day Name
+  Schedule Day 47,                        !- Thursday Schedule:Day Name
+  Schedule Day 47,                        !- Friday Schedule:Day Name
+  Schedule Day 9,                         !- Saturday Schedule:Day Name
+  Schedule Day 9,                         !- Holiday Schedule:Day Name
+  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Shading_ON Week Rule - Apr2-Oct28,      !- Name
+  Schedule Day 9,                         !- Sunday Schedule:Day Name
+  Schedule Day 9,                         !- Monday Schedule:Day Name
+  Schedule Day 9,                         !- Tuesday Schedule:Day Name
+  Schedule Day 9,                         !- Wednesday Schedule:Day Name
+  Schedule Day 9,                         !- Thursday Schedule:Day Name
+  Schedule Day 9,                         !- Friday Schedule:Day Name
+  Schedule Day 9,                         !- Saturday Schedule:Day Name
+  Schedule Day 9,                         !- Holiday Schedule:Day Name
+  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Shading_ON Week Rule - Oct29-Nov4,      !- Name
+  Schedule Day 9,                         !- Sunday Schedule:Day Name
+  Schedule Day 9,                         !- Monday Schedule:Day Name
+  Schedule Day 9,                         !- Tuesday Schedule:Day Name
+  Schedule Day 10,                        !- Wednesday Schedule:Day Name
+  Schedule Day 10,                        !- Thursday Schedule:Day Name
+  Schedule Day 10,                        !- Friday Schedule:Day Name
+  Schedule Day 10,                        !- Saturday Schedule:Day Name
+  Schedule Day 9,                         !- Holiday Schedule:Day Name
+  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  Shading_ON Week Rule - Nov5-Dec31,      !- Name
+  Schedule Day 10,                        !- Sunday Schedule:Day Name
+  Schedule Day 10,                        !- Monday Schedule:Day Name
+  Schedule Day 10,                        !- Tuesday Schedule:Day Name
+  Schedule Day 10,                        !- Wednesday Schedule:Day Name
+  Schedule Day 10,                        !- Thursday Schedule:Day Name
+  Schedule Day 10,                        !- Friday Schedule:Day Name
+  Schedule Day 10,                        !- Saturday Schedule:Day Name
+  Schedule Day 9,                         !- Holiday Schedule:Day Name
+  Schedule Day 9,                         !- SummerDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- WinterDesignDay Schedule:Day Name
+  Schedule Day 9,                         !- CustomDay1 Schedule:Day Name
+  Schedule Day 9;                         !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  Shading_ON,                             !- Name
+  OnOff 1,                                !- Schedule Type Limits Name
+  Shading_ON Week Rule - Jan1-Mar25,      !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  3,                                      !- End Month 1
+  25,                                     !- End Day 1
+  Shading_ON Week Rule - Mar26-Apr1,      !- Schedule:Week Name 2
+  3,                                      !- Start Month 2
+  26,                                     !- Start Day 2
+  4,                                      !- End Month 2
+  1,                                      !- End Day 2
+  Shading_ON Week Rule - Apr2-Oct28,      !- Schedule:Week Name 3
+  4,                                      !- Start Month 3
+  2,                                      !- Start Day 3
+  10,                                     !- End Month 3
+  28,                                     !- End Day 3
+  Shading_ON Week Rule - Oct29-Nov4,      !- Schedule:Week Name 4
+  10,                                     !- Start Month 4
+  29,                                     !- Start Day 4
+  11,                                     !- End Month 4
+  4,                                      !- End Day 4
+  Shading_ON Week Rule - Nov5-Dec31,      !- Schedule:Week Name 5
+  11,                                     !- Start Month 5
+  5,                                      !- Start Day 5
+  12,                                     !- End Month 5
+  31;                                     !- End Day 5
 
 Schedule:Week:Daily,
   Supply Air Temp - 55.0F Week Rule - Jan1-Dec31, !- Name
@@ -12567,13 +12467,13 @@ SetpointManager:MixedAir,
 Fan:VariableVolume,
   15 Zone VAV Fan,                        !- Name
   15 Zone VAV Occ Sch,                    !- Availability Schedule Name
-  0.654444444444444,                      !- Fan Total Efficiency
+  0.6572,                                 !- Fan Total Efficiency
   996.35564,                              !- Pressure Rise {Pa}
   AutoSize,                               !- Maximum Flow Rate {m3/s}
   Fraction,                               !- Fan Power Minimum Flow Rate Input Method
   0.25,                                   !- Fan Power Minimum Flow Fraction
   0,                                      !- Fan Power Minimum Air Flow Rate {m3/s}
-  0.95,                                   !- Motor Efficiency
+  0.954,                                  !- Motor Efficiency
   1,                                      !- Motor In Airstream Fraction
   0.04076,                                !- Fan Power Coefficient 1
   0.0881,                                 !- Fan Power Coefficient 2
@@ -13096,12 +12996,12 @@ Branch,
   Chilled Water Loop Supply Branch 1,     !- Name
   ,                                       !- Pressure Drop Curve Name
   Chiller:Electric:EIR,                   !- Component Object Type 1
-  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 322tons 0.7kW/ton, !- Component Name 1
+  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton, !- Component Name 1
   NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Supply Inlet Water Node, !- Component Inlet Node Name 1
   NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Supply Outlet Water Node; !- Component Outlet Node Name 1
 
 Chiller:Electric:EIR,
-  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 322tons 0.7kW/ton, !- Name
+  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton, !- Name
   Autosize,                               !- Reference Capacity {W}
   5.32878787878788,                       !- Reference COP {W/W}
   6.66666666666669,                       !- Reference Leaving Chilled Water Temperature {C}
@@ -13371,7 +13271,7 @@ PlantEquipmentList,
   HeatExchanger:FluidToFluid,             !- Equipment Object Type 2
   Integrated Waterside Economizer Heat Exchanger, !- Equipment Name 2
   Chiller:Electric:EIR,                   !- Equipment Object Type 3
-  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 322tons 0.7kW/ton; !- Equipment Name 3
+  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton; !- Equipment Name 3
 
 PlantEquipmentOperation:ComponentSetpoint,
   Chilled Water Loop Setpoint Operation Scheme, !- Name
@@ -13388,7 +13288,7 @@ PlantEquipmentOperation:ComponentSetpoint,
   Autosize,                               !- Component Flow Rate 2 {m3/s}
   Cooling,                                !- Operation Type 2
   Chiller:Electric:EIR,                   !- Equipment Object Type 3
-  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 322tons 0.7kW/ton, !- Equipment Name 3
+  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton, !- Equipment Name 3
   NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Supply Inlet Water Node, !- Demand Calculation Node Name 3
   NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Supply Outlet Water Node, !- Setpoint Node Name 3
   Autosize,                               !- Component Flow Rate 3 {m3/s}
@@ -13468,7 +13368,7 @@ Pump:ConstantSpeed,
   Autosize,                               !- Design Flow Rate {m3/s}
   148556.625924,                          !- Design Pump Head {Pa}
   Autosize,                               !- Design Power Consumption {W}
-  0.945,                                  !- Motor Efficiency
+  0.95,                                   !- Motor Efficiency
   0,                                      !- Fraction of Motor Inefficiencies to Fluid Stream
   Intermittent,                           !- Pump Control Type
   ,                                       !- Pump Flow Rate Schedule Name
@@ -13501,7 +13401,7 @@ CoolingTower:VariableSpeed,
   5.55555555555556,                       !- Design Range Temperature {deltaC}
   Autosize,                               !- Design Water Flow Rate {m3/s}
   Autosize,                               !- Design Air Flow Rate {m3/s}
-  53327.5379625833,                       !- Design Fan Power {W}
+  56082.4839335926,                       !- Design Fan Power {W}
   VSD-TWR-FAN-FPLR,                       !- Fan Power Ratio Function of Air Flow Rate Ratio Curve Name
   0.2,                                    !- Minimum Air Flow Rate Ratio
   0.125,                                  !- Fraction of Tower Capacity in Free Convection Regime
@@ -13632,7 +13532,7 @@ Branch,
   Condenser Water Loop Demand Branch 2,   !- Name
   ,                                       !- Pressure Drop Curve Name
   Chiller:Electric:EIR,                   !- Component Object Type 1
-  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 322tons 0.7kW/ton, !- Component Name 1
+  NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton, !- Component Name 1
   NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Demand Inlet Water Node, !- Component Inlet Node Name 1
   NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Demand Outlet Water Node; !- Component Outlet Node Name 1
 
@@ -13798,12 +13698,12 @@ Branch,
   Hot Water Loop Supply Branch 1,         !- Name
   ,                                       !- Pressure Drop Curve Name
   Boiler:HotWater,                        !- Component Object Type 1
-  Boiler 1949kBtu/hr 0.94 Combustion Eff, !- Component Name 1
+  Boiler 1943kBtu/hr 0.94 Combustion Eff, !- Component Name 1
   Boiler Inlet Water Node,                !- Component Inlet Node Name 1
   Boiler Outlet Water Node;               !- Component Outlet Node Name 1
 
 Boiler:HotWater,
-  Boiler 1949kBtu/hr 0.94 Combustion Eff, !- Name
+  Boiler 1943kBtu/hr 0.94 Combustion Eff, !- Name
   NaturalGas,                             !- Fuel Type
   Autosize,                               !- Nominal Capacity {W}
   0.933,                                  !- Nominal Thermal Efficiency
@@ -14175,7 +14075,7 @@ PlantEquipmentOperation:HeatingLoad,
 PlantEquipmentList,
   Hot Water Loop Heating Equipment List,  !- Name
   Boiler:HotWater,                        !- Equipment Object Type 1
-  Boiler 1949kBtu/hr 0.94 Combustion Eff; !- Equipment Name 1
+  Boiler 1943kBtu/hr 0.94 Combustion Eff; !- Equipment Name 1
 
 RunPeriodControl:DaylightSavingTime,
   Last Sunday in March,                   !- Start Date
@@ -14450,55 +14350,55 @@ InternalMass,
   mid_Offices_S Internal Mass 3,          !- Name
   _WoodFurnitures,                        !- Construction Name
   mid_Offices_S_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   mid_Offices_W Internal Mass 3,          !- Name
   _WoodFurnitures,                        !- Construction Name
   mid_Offices_W_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   GroundFloor_Offices_W Internal Mass 3,  !- Name
   _WoodFurnitures,                        !- Construction Name
   GroundFloor_Offices_W_TZ,               !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   mid_Offices_E Internal Mass 3,          !- Name
   _WoodFurnitures,                        !- Construction Name
   mid_Offices_E_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   GroundFloor_Offices_E Internal Mass 3,  !- Name
   _WoodFurnitures,                        !- Construction Name
   GroundFloor_Offices_E_TZ,               !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   GroundFloor_Offices_S Internal Mass 3,  !- Name
   _WoodFurnitures,                        !- Construction Name
   GroundFloor_Hall_S_TZ,                  !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   top_Offices_E Internal Mass 3,          !- Name
   _WoodFurnitures,                        !- Construction Name
   top_Offices_E_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   top_Offices_S Internal Mass 3,          !- Name
   _WoodFurnitures,                        !- Construction Name
   top_Offices_S_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   top_Offices_W Internal Mass 3,          !- Name
   _WoodFurnitures,                        !- Construction Name
   top_Offices_W_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 Lights,
   Lights 5,                               !- Name
@@ -14522,7 +14422,7 @@ People,
   Area/Person,                            !- Number of People Calculation Method
   ,                                       !- Number of People
   ,                                       !- People per Zone Floor Area {person/m2}
-  8,                                      !- Zone Floor Area per Person {m2/person}
+  10,                                     !- Zone Floor Area per Person {m2/person}
   0.3,                                    !- Fraction Radiant
   ,                                       !- Sensible Heat Fraction
   _Activity_Office_People,                !- Activity Level Schedule Name
@@ -14575,19 +14475,19 @@ InternalMass,
   mid_Offices_N Internal Mass 4,          !- Name
   _WoodFurnitures,                        !- Construction Name
   mid_Offices_N_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   GroundFloor_Offices_N Internal Mass 4,  !- Name
   _WoodFurnitures,                        !- Construction Name
   GroundFloor_Offices_N_TZ,               !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 InternalMass,
   top_Offices_N Internal Mass 4,          !- Name
   _WoodFurnitures,                        !- Construction Name
   top_Offices_N_TZ,                       !- Zone or ZoneList Name
-  50;                                     !- Surface Area {m2}
+  40;                                     !- Surface Area {m2}
 
 Lights,
   Lights 6,                               !- Name
@@ -14611,7 +14511,7 @@ People,
   Area/Person,                            !- Number of People Calculation Method
   ,                                       !- Number of People
   ,                                       !- People per Zone Floor Area {person/m2}
-  8,                                      !- Zone Floor Area per Person {m2/person}
+  10,                                     !- Zone Floor Area per Person {m2/person}
   0.3,                                    !- Fraction Radiant
   ,                                       !- Sensible Heat Fraction
   _Activity_Office_People,                !- Activity Level Schedule Name
