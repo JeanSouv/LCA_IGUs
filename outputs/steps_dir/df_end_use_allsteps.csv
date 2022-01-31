@@ -1,0 +1,2605 @@
+EndUse,Run name,FuelType,0
+Cooling,a_a_2126_dg_init,Electricity,638.32
+Cooling,a_a_2126_dg_init,Natural Gas,0
+Cooling,a_b_2126_dg0,Electricity,817.34
+Cooling,a_b_2126_dg0,Natural Gas,0
+Cooling,a_c_2126_sg1,Electricity,656.4
+Cooling,a_c_2126_sg1,Natural Gas,0
+Cooling,a_d_2126_sg2,Electricity,553.7
+Cooling,a_d_2126_sg2,Natural Gas,0
+Cooling,a_e_2126_dg1,Electricity,1074.87
+Cooling,a_e_2126_dg1,Natural Gas,0
+Cooling,a_f_2126_dg2,Electricity,864.81
+Cooling,a_f_2126_dg2,Natural Gas,0
+Cooling,a_g_2126_dg3,Electricity,888.93
+Cooling,a_g_2126_dg3,Natural Gas,0
+Cooling,a_h_2126_dg4,Electricity,691.94
+Cooling,a_h_2126_dg4,Natural Gas,0
+Cooling,a_i_2126_dg5,Electricity,769.16
+Cooling,a_i_2126_dg5,Natural Gas,0
+Cooling,a_j_2126_dg6,Electricity,858.09
+Cooling,a_j_2126_dg6,Natural Gas,0
+Cooling,a_k_2126_tg1,Electricity,1135.23
+Cooling,a_k_2126_tg1,Natural Gas,0
+Cooling,a_l_2126_tg2,Electricity,924.45
+Cooling,a_l_2126_tg2,Natural Gas,0
+Cooling,a_m_2126_tg3,Electricity,903.55
+Cooling,a_m_2126_tg3,Natural Gas,0
+Cooling,a_n_2126_tg4,Electricity,763.96
+Cooling,a_n_2126_tg4,Natural Gas,0
+Cooling,a_o_2126_tg5,Electricity,784.7
+Cooling,a_o_2126_tg5,Natural Gas,0
+Cooling,a_p_2126_tg6,Electricity,920.08
+Cooling,a_p_2126_tg6,Natural Gas,0
+Cooling,b_a_2126_dg_init_int,Electricity,625.25
+Cooling,b_a_2126_dg_init_int,Natural Gas,0
+Cooling,b_b_2126_dg0_int,Electricity,733.97
+Cooling,b_b_2126_dg0_int,Natural Gas,0
+Cooling,b_c_2126_sg1_int,Electricity,544.8
+Cooling,b_c_2126_sg1_int,Natural Gas,0
+Cooling,b_d_2126_sg2_int,Electricity,550.7
+Cooling,b_d_2126_sg2_int,Natural Gas,0
+Cooling,b_e_2126_dg1_int,Electricity,1014.03
+Cooling,b_e_2126_dg1_int,Natural Gas,0
+Cooling,b_f_2126_dg2_int,Electricity,869.6
+Cooling,b_f_2126_dg2_int,Natural Gas,0
+Cooling,b_g_2126_dg3_int,Electricity,894.77
+Cooling,b_g_2126_dg3_int,Natural Gas,0
+Cooling,b_h_2126_dg4_int,Electricity,723.09
+Cooling,b_h_2126_dg4_int,Natural Gas,0
+Cooling,b_i_2126_dg5_int,Electricity,797.22
+Cooling,b_i_2126_dg5_int,Natural Gas,0
+Cooling,b_j_2126_dg6_int,Electricity,873.19
+Cooling,b_j_2126_dg6_int,Natural Gas,0
+Cooling,b_k_2126_tg1_int,Electricity,1102.01
+Cooling,b_k_2126_tg1_int,Natural Gas,0
+Cooling,b_l_2126_tg2_int,Electricity,945.71
+Cooling,b_l_2126_tg2_int,Natural Gas,0
+Cooling,b_m_2126_tg3_int,Electricity,929.61
+Cooling,b_m_2126_tg3_int,Natural Gas,0
+Cooling,b_n_2126_tg4_int,Electricity,801.33
+Cooling,b_n_2126_tg4_int,Natural Gas,0
+Cooling,b_o_2126_tg5_int,Electricity,821.98
+Cooling,b_o_2126_tg5_int,Natural Gas,0
+Cooling,b_p_2126_tg6_int,Electricity,948.76
+Cooling,b_p_2126_tg6_int,Natural Gas,0
+Cooling,c_a_2126_dg_init_tc,Electricity,492.29
+Cooling,c_a_2126_dg_init_tc,Natural Gas,0
+Cooling,c_b_2126_dg0_tc,Electricity,578.04
+Cooling,c_b_2126_dg0_tc,Natural Gas,0
+Cooling,c_c_2126_sg1_tc,Electricity,444.79
+Cooling,c_c_2126_sg1_tc,Natural Gas,0
+Cooling,c_d_2126_sg2_tc,Electricity,440.89
+Cooling,c_d_2126_sg2_tc,Natural Gas,0
+Cooling,c_e_2126_dg1_tc,Electricity,790.06
+Cooling,c_e_2126_dg1_tc,Natural Gas,0
+Cooling,c_f_2126_dg2_tc,Electricity,685.16
+Cooling,c_f_2126_dg2_tc,Natural Gas,0
+Cooling,c_g_2126_dg3_tc,Electricity,705.2
+Cooling,c_g_2126_dg3_tc,Natural Gas,0
+Cooling,c_h_2126_dg4_tc,Electricity,602.45
+Cooling,c_h_2126_dg4_tc,Natural Gas,0
+Cooling,c_i_2126_dg5_tc,Electricity,643.14
+Cooling,c_i_2126_dg5_tc,Natural Gas,0
+Cooling,c_j_2126_dg6_tc,Electricity,689.35
+Cooling,c_j_2126_dg6_tc,Natural Gas,0
+Cooling,c_k_2126_tg1_tc,Electricity,863.92
+Cooling,c_k_2126_tg1_tc,Natural Gas,0
+Cooling,c_l_2126_tg2_tc,Electricity,748.09
+Cooling,c_l_2126_tg2_tc,Natural Gas,0
+Cooling,c_m_2126_tg3_tc,Electricity,737.09
+Cooling,c_m_2126_tg3_tc,Natural Gas,0
+Cooling,c_n_2126_tg4_tc,Electricity,672.28
+Cooling,c_n_2126_tg4_tc,Natural Gas,0
+Cooling,c_o_2126_tg5_tc,Electricity,683.39
+Cooling,c_o_2126_tg5_tc,Natural Gas,0
+Cooling,c_p_2126_tg6_tc,Electricity,754.42
+Cooling,c_p_2126_tg6_tc,Natural Gas,0
+Cooling,d_a_2126_dg_init_vav,Electricity,486.53
+Cooling,d_a_2126_dg_init_vav,Natural Gas,0
+Cooling,d_b_2126_dg0_vav,Electricity,678.86
+Cooling,d_b_2126_dg0_vav,Natural Gas,0
+Cooling,d_c_2126_sg1_vav,Electricity,659.3
+Cooling,d_c_2126_sg1_vav,Natural Gas,0
+Cooling,d_d_2126_sg2_vav,Electricity,435.4
+Cooling,d_d_2126_sg2_vav,Natural Gas,0
+Cooling,d_e_2126_dg1_vav,Electricity,819.87
+Cooling,d_e_2126_dg1_vav,Natural Gas,0
+Cooling,d_f_2126_dg2_vav,Electricity,594.3
+Cooling,d_f_2126_dg2_vav,Natural Gas,0
+Cooling,d_g_2126_dg3_vav,Electricity,609.96
+Cooling,d_g_2126_dg3_vav,Natural Gas,0
+Cooling,d_h_2126_dg4_vav,Electricity,446.91
+Cooling,d_h_2126_dg4_vav,Natural Gas,0
+Cooling,d_i_2126_dg5_vav,Electricity,507.02
+Cooling,d_i_2126_dg5_vav,Natural Gas,0
+Cooling,d_j_2126_dg6_vav,Electricity,582.55
+Cooling,d_j_2126_dg6_vav,Natural Gas,0
+Cooling,d_k_2126_tg1_vav,Electricity,838.52
+Cooling,d_k_2126_tg1_vav,Natural Gas,0
+Cooling,d_l_2126_tg2_vav,Electricity,624.74
+Cooling,d_l_2126_tg2_vav,Natural Gas,0
+Cooling,d_m_2126_tg3_vav,Electricity,605.45
+Cooling,d_m_2126_tg3_vav,Natural Gas,0
+Cooling,d_n_2126_tg4_vav,Electricity,481.67
+Cooling,d_n_2126_tg4_vav,Natural Gas,0
+Cooling,d_o_2126_tg5_vav,Electricity,498.29
+Cooling,d_o_2126_tg5_vav,Natural Gas,0
+Cooling,d_p_2126_tg6_vav,Electricity,615.69
+Cooling,d_p_2126_tg6_vav,Natural Gas,0
+Cooling,e_a_2126_dg_init_vav_int,Electricity,464.09
+Cooling,e_a_2126_dg_init_vav_int,Natural Gas,0
+Cooling,e_b_2126_dg0_vav_int,Electricity,530.17
+Cooling,e_b_2126_dg0_vav_int,Natural Gas,0
+Cooling,e_c_2126_sg1_vav_int,Electricity,478.1
+Cooling,e_c_2126_sg1_vav_int,Natural Gas,0
+Cooling,e_d_2126_sg2_vav_int,Electricity,430.56
+Cooling,e_d_2126_sg2_vav_int,Natural Gas,0
+Cooling,e_e_2126_dg1_vav_int,Electricity,652.64
+Cooling,e_e_2126_dg1_vav_int,Natural Gas,0
+Cooling,e_f_2126_dg2_vav_int,Electricity,545.75
+Cooling,e_f_2126_dg2_vav_int,Natural Gas,0
+Cooling,e_g_2126_dg3_vav_int,Electricity,557.5
+Cooling,e_g_2126_dg3_vav_int,Natural Gas,0
+Cooling,e_h_2126_dg4_vav_int,Electricity,443.8
+Cooling,e_h_2126_dg4_vav_int,Natural Gas,0
+Cooling,e_i_2126_dg5_vav_int,Electricity,491.55
+Cooling,e_i_2126_dg5_vav_int,Natural Gas,0
+Cooling,e_j_2126_dg6_vav_int,Electricity,542.52
+Cooling,e_j_2126_dg6_vav_int,Natural Gas,0
+Cooling,e_k_2126_tg1_vav_int,Electricity,695.33
+Cooling,e_k_2126_tg1_vav_int,Natural Gas,0
+Cooling,e_l_2126_tg2_vav_int,Electricity,576.99
+Cooling,e_l_2126_tg2_vav_int,Natural Gas,0
+Cooling,e_m_2126_tg3_vav_int,Electricity,565.23
+Cooling,e_m_2126_tg3_vav_int,Natural Gas,0
+Cooling,e_n_2126_tg4_vav_int,Electricity,474.11
+Cooling,e_n_2126_tg4_vav_int,Natural Gas,0
+Cooling,e_o_2126_tg5_vav_int,Electricity,487.69
+Cooling,e_o_2126_tg5_vav_int,Natural Gas,0
+Cooling,e_p_2126_tg6_vav_int,Electricity,573.9
+Cooling,e_p_2126_tg6_vav_int,Natural Gas,0
+Cooling,f_a_2126_dg_init_vrf,Electricity,212.87
+Cooling,f_a_2126_dg_init_vrf,Natural Gas,0
+Cooling,f_b_2126_dg0_vrf,Electricity,277.59
+Cooling,f_b_2126_dg0_vrf,Natural Gas,0
+Cooling,f_c_2126_sg1_vrf,Electricity,230.55
+Cooling,f_c_2126_sg1_vrf,Natural Gas,0
+Cooling,f_d_2126_sg2_vrf,Electricity,183.45
+Cooling,f_d_2126_sg2_vrf,Natural Gas,0
+Cooling,f_e_2126_dg1_vrf,Electricity,349.75
+Cooling,f_e_2126_dg1_vrf,Natural Gas,0
+Cooling,f_f_2126_dg2_vrf,Electricity,278.18
+Cooling,f_f_2126_dg2_vrf,Natural Gas,0
+Cooling,f_g_2126_dg3_vrf,Electricity,285.26
+Cooling,f_g_2126_dg3_vrf,Natural Gas,0
+Cooling,f_h_2126_dg4_vrf,Electricity,215.91
+Cooling,f_h_2126_dg4_vrf,Natural Gas,0
+Cooling,f_i_2126_dg5_vrf,Electricity,243.31
+Cooling,f_i_2126_dg5_vrf,Natural Gas,0
+Cooling,f_j_2126_dg6_vrf,Electricity,274.59
+Cooling,f_j_2126_dg6_vrf,Natural Gas,0
+Cooling,f_k_2126_tg1_vrf,Electricity,363.61
+Cooling,f_k_2126_tg1_vrf,Natural Gas,0
+Cooling,f_l_2126_tg2_vrf,Electricity,293.89
+Cooling,f_l_2126_tg2_vrf,Natural Gas,0
+Cooling,f_m_2126_tg3_vrf,Electricity,286.55
+Cooling,f_m_2126_tg3_vrf,Natural Gas,0
+Cooling,f_n_2126_tg4_vrf,Electricity,237.23
+Cooling,f_n_2126_tg4_vrf,Natural Gas,0
+Cooling,f_o_2126_tg5_vrf,Electricity,244.42
+Cooling,f_o_2126_tg5_vrf,Natural Gas,0
+Cooling,f_p_2126_tg6_vrf,Electricity,291.1
+Cooling,f_p_2126_tg6_vrf,Natural Gas,0
+Cooling,g_a_2126_dg_init_vrf_int,Electricity,203.86
+Cooling,g_a_2126_dg_init_vrf_int,Natural Gas,0
+Cooling,g_b_2126_dg0_vrf_int,Electricity,242.59
+Cooling,g_b_2126_dg0_vrf_int,Natural Gas,0
+Cooling,g_c_2126_sg1_vrf_int,Electricity,182.55
+Cooling,g_c_2126_sg1_vrf_int,Natural Gas,0
+Cooling,g_d_2126_sg2_vrf_int,Electricity,178.36
+Cooling,g_d_2126_sg2_vrf_int,Natural Gas,0
+Cooling,g_e_2126_dg1_vrf_int,Electricity,322.05
+Cooling,g_e_2126_dg1_vrf_int,Natural Gas,0
+Cooling,g_f_2126_dg2_vrf_int,Electricity,272.99
+Cooling,g_f_2126_dg2_vrf_int,Natural Gas,0
+Cooling,g_g_2126_dg3_vrf_int,Electricity,280.33
+Cooling,g_g_2126_dg3_vrf_int,Natural Gas,0
+Cooling,g_h_2126_dg4_vrf_int,Electricity,221.63
+Cooling,g_h_2126_dg4_vrf_int,Natural Gas,0
+Cooling,g_i_2126_dg5_vrf_int,Electricity,246.96
+Cooling,g_i_2126_dg5_vrf_int,Natural Gas,0
+Cooling,g_j_2126_dg6_vrf_int,Electricity,273.02
+Cooling,g_j_2126_dg6_vrf_int,Natural Gas,0
+Cooling,g_k_2126_tg1_vrf_int,Electricity,345.23
+Cooling,g_k_2126_tg1_vrf_int,Natural Gas,0
+Cooling,g_l_2126_tg2_vrf_int,Electricity,293.87
+Cooling,g_l_2126_tg2_vrf_int,Natural Gas,0
+Cooling,g_m_2126_tg3_vrf_int,Electricity,288.41
+Cooling,g_m_2126_tg3_vrf_int,Natural Gas,0
+Cooling,g_n_2126_tg4_vrf_int,Electricity,243.79
+Cooling,g_n_2126_tg4_vrf_int,Natural Gas,0
+Cooling,g_o_2126_tg5_vrf_int,Electricity,250.8
+Cooling,g_o_2126_tg5_vrf_int,Natural Gas,0
+Cooling,g_p_2126_tg6_vrf_int,Electricity,293.72
+Cooling,g_p_2126_tg6_vrf_int,Natural Gas,0
+Cooling,h_a_2126_dg_init_wtw,Electricity,450.74
+Cooling,h_a_2126_dg_init_wtw,Natural Gas,0
+Cooling,h_b_2126_dg0_wtw,Electricity,574.8
+Cooling,h_b_2126_dg0_wtw,Natural Gas,0
+Cooling,h_c_2126_dg4_wtw,Electricity,427.07
+Cooling,h_c_2126_dg4_wtw,Natural Gas,0
+Cooling,h_d_2126_dg5_wtw,Electricity,471.79
+Cooling,h_d_2126_dg5_wtw,Natural Gas,0
+Cooling,h_e_2126_dg6_wtw,Electricity,526.81
+Cooling,h_e_2126_dg6_wtw,Natural Gas,0
+Cooling,h_f_2126_tg4_wtw,Electricity,454.36
+Cooling,h_f_2126_tg4_wtw,Natural Gas,0
+Cooling,h_g_2126_tg5_wtw,Electricity,465.67
+Cooling,h_g_2126_tg5_wtw,Natural Gas,0
+Cooling,h_h_2126_tg6_wtw,Electricity,549.19
+Cooling,h_h_2126_tg6_wtw,Natural Gas,0
+Cooling,i_a_2126_dg_init_vav_int,Electricity,464.09
+Cooling,i_a_2126_dg_init_vav_int,Natural Gas,0
+Cooling,i_b_2126_dg5k,Electricity,527.03
+Cooling,i_b_2126_dg5k,Natural Gas,0
+Cooling,i_c_2126_tg5k,Electricity,501.49
+Cooling,i_c_2126_tg5k,Natural Gas,0
+Cooling,i_d_2126_tg5x,Electricity,509.06
+Cooling,i_d_2126_tg5x,Natural Gas,0
+Cooling,i_e_2126_ccf,Electricity,404.94
+Cooling,i_e_2126_ccf,Natural Gas,0
+Cooling,i_f_2126_dg_vacuum,Electricity,540.98
+Cooling,i_f_2126_dg_vacuum,Natural Gas,0
+Cooling,i_g_2126_dg_smart,Electricity,400.8
+Cooling,i_g_2126_dg_smart,Natural Gas,0
+Cooling,i_h_2126_dsf_min,Electricity,335.8563417
+Cooling,i_h_2126_dsf_min,Natural Gas,0
+Cooling,i_i_2126_dsf_mean,Electricity,374.3972333
+Cooling,i_i_2126_dsf_mean,Natural Gas,0
+Cooling,i_j_2126_dsf_max,Electricity,407.4322833
+Cooling,i_j_2126_dsf_max,Natural Gas,0
+Cooling,j_a_2124_dg_init,Electricity,659.62
+Cooling,j_a_2124_dg_init,Natural Gas,0
+Cooling,j_b_2124_dg0,Electricity,891.71
+Cooling,j_b_2124_dg0,Natural Gas,0
+Cooling,j_c_2124_dg4,Electricity,557.94
+Cooling,j_c_2124_dg4,Natural Gas,0
+Cooling,j_d_2124_dg5,Electricity,641.52
+Cooling,j_d_2124_dg5,Natural Gas,0
+Cooling,j_e_2124_dg6,Electricity,743.44
+Cooling,j_e_2124_dg6,Natural Gas,0
+Cooling,j_f_2124_tg4,Electricity,597.54
+Cooling,j_f_2124_tg4,Natural Gas,0
+Cooling,j_g_2124_tg5,Electricity,617.88
+Cooling,j_g_2124_tg5,Natural Gas,0
+Cooling,j_h_2124_tg6,Electricity,769.37
+Cooling,j_h_2124_tg6,Natural Gas,0
+Cooling,k_a_1927_dg_init_ext,Electricity,312.94
+Cooling,k_a_1927_dg_init_ext,Natural Gas,0
+Cooling,k_b_1927_dg0_ext,Electricity,366.16
+Cooling,k_b_1927_dg0_ext,Natural Gas,0
+Cooling,k_c_1927_dg4_ext,Electricity,339.75
+Cooling,k_c_1927_dg4_ext,Natural Gas,0
+Cooling,k_d_1927_dg5_ext,Electricity,367.22
+Cooling,k_d_1927_dg5_ext,Natural Gas,0
+Cooling,k_e_1927_dg6_ext,Electricity,399.81
+Cooling,k_e_1927_dg6_ext,Natural Gas,0
+Cooling,k_f_1927_tg4_ext,Electricity,374.39
+Cooling,k_f_1927_tg4_ext,Natural Gas,0
+Cooling,k_g_1927_tg5_ext,Electricity,381.94
+Cooling,k_g_1927_tg5_ext,Natural Gas,0
+Cooling,k_h_1927_tg6_ext,Electricity,433.63
+Cooling,k_h_1927_tg6_ext,Natural Gas,0
+Cooling,l_a_2126_dg_init_intgain,Electricity,564.25
+Cooling,l_a_2126_dg_init_intgain,Natural Gas,0
+Cooling,l_b_2126_dg0_intgain,Electricity,645.74
+Cooling,l_b_2126_dg0_intgain,Natural Gas,0
+Cooling,l_c_2126_dg4_intgain,Electricity,572.8
+Cooling,l_c_2126_dg4_intgain,Natural Gas,0
+Cooling,l_d_2126_dg5_intgain,Electricity,628.56
+Cooling,l_d_2126_dg5_intgain,Natural Gas,0
+Cooling,l_e_2126_dg6_intgain,Electricity,688.91
+Cooling,l_e_2126_dg6_intgain,Natural Gas,0
+Cooling,l_f_2126_tg4_intgain,Electricity,620.73
+Cooling,l_f_2126_tg4_intgain,Natural Gas,0
+Cooling,l_g_2126_tg5_intgain,Electricity,636.02
+Cooling,l_g_2126_tg5_intgain,Natural Gas,0
+Cooling,l_h_2126_tg6_intgain,Electricity,737.01
+Cooling,l_h_2126_tg6_intgain,Natural Gas,0
+Cooling,m_a_2126_dg_init_intgain,Electricity,400.06
+Cooling,m_a_2126_dg_init_intgain,Natural Gas,0
+Cooling,m_b_2126_dg0_intgain,Electricity,450.94
+Cooling,m_b_2126_dg0_intgain,Natural Gas,0
+Cooling,m_c_2126_dg4_intgain,Electricity,358.16
+Cooling,m_c_2126_dg4_intgain,Natural Gas,0
+Cooling,m_d_2126_dg5_intgain,Electricity,398.87
+Cooling,m_d_2126_dg5_intgain,Natural Gas,0
+Cooling,m_e_2126_dg6_intgain,Electricity,441.95
+Cooling,m_e_2126_dg6_intgain,Natural Gas,0
+Cooling,m_f_2126_tg4_intgain,Electricity,375.86
+Cooling,m_f_2126_tg4_intgain,Natural Gas,0
+Cooling,m_g_2126_tg5_intgain,Electricity,387.19
+Cooling,m_g_2126_tg5_intgain,Natural Gas,0
+Cooling,m_h_2126_tg6_intgain,Electricity,460.43
+Cooling,m_h_2126_tg6_intgain,Natural Gas,0
+Cooling,n_a_2126_dg_init_cc,Electricity,651.28
+Cooling,n_a_2126_dg_init_cc,Natural Gas,0
+Cooling,n_b_2126_dg0_cc,Electricity,734.96
+Cooling,n_b_2126_dg0_cc,Natural Gas,0
+Cooling,n_c_2126_dg4_cc,Electricity,601.69
+Cooling,n_c_2126_dg4_cc,Natural Gas,0
+Cooling,n_d_2126_dg5_cc,Electricity,661.27
+Cooling,n_d_2126_dg5_cc,Natural Gas,0
+Cooling,n_e_2126_dg6_cc,Electricity,723.28
+Cooling,n_e_2126_dg6_cc,Natural Gas,0
+Cooling,n_f_2126_tg4_cc,Electricity,628.04
+Cooling,n_f_2126_tg4_cc,Natural Gas,0
+Cooling,n_g_2126_tg5_cc,Electricity,644.65
+Cooling,n_g_2126_tg5_cc,Natural Gas,0
+Cooling,n_h_2126_tg6_cc,Electricity,749.66
+Cooling,n_h_2126_tg6_cc,Natural Gas,0
+Cooling,o_a_2126_dg_init_cc,Electricity,803.03
+Cooling,o_a_2126_dg_init_cc,Natural Gas,0
+Cooling,o_b_2126_dg0_cc,Electricity,896.6
+Cooling,o_b_2126_dg0_cc,Natural Gas,0
+Cooling,o_c_2126_dg4_cc,Electricity,729.43
+Cooling,o_c_2126_dg4_cc,Natural Gas,0
+Cooling,o_d_2126_dg5_cc,Electricity,797.9
+Cooling,o_d_2126_dg5_cc,Natural Gas,0
+Cooling,o_e_2126_dg6_cc,Electricity,868.21
+Cooling,o_e_2126_dg6_cc,Natural Gas,0
+Cooling,o_f_2126_tg4_cc,Electricity,752.71
+Cooling,o_f_2126_tg4_cc,Natural Gas,0
+Cooling,o_g_2126_tg5_cc,Electricity,771.6
+Cooling,o_g_2126_tg5_cc,Natural Gas,0
+Cooling,o_h_2126_tg6_cc,Electricity,891.75
+Cooling,o_h_2126_tg6_cc,Natural Gas,0
+Cooling,p_a_2124_dg_init_cc,Electricity,887.51
+Cooling,p_a_2124_dg_init_cc,Natural Gas,0
+Cooling,p_b_2124_dg0_cc,Electricity,1165.5
+Cooling,p_b_2124_dg0_cc,Natural Gas,0
+Cooling,p_c_2124_dg4_cc,Electricity,734.74
+Cooling,p_c_2124_dg4_cc,Natural Gas,0
+Cooling,p_d_2124_dg5_cc,Electricity,833.76
+Cooling,p_d_2124_dg5_cc,Natural Gas,0
+Cooling,p_e_2124_dg6_cc,Electricity,953.45
+Cooling,p_e_2124_dg6_cc,Natural Gas,0
+Cooling,p_f_2124_tg4_cc,Electricity,767.31
+Cooling,p_f_2124_tg4_cc,Natural Gas,0
+Cooling,p_g_2124_tg5_cc,Electricity,791.49
+Cooling,p_g_2124_tg5_cc,Natural Gas,0
+Cooling,p_h_2124_tg6_cc,Electricity,967.62
+Cooling,p_h_2124_tg6_cc,Natural Gas,0
+Fans,a_a_2126_dg_init,Electricity,292.6
+Fans,a_a_2126_dg_init,Natural Gas,0
+Fans,a_b_2126_dg0,Electricity,329.72
+Fans,a_b_2126_dg0,Natural Gas,0
+Fans,a_c_2126_sg1,Electricity,325.97
+Fans,a_c_2126_sg1,Natural Gas,0
+Fans,a_d_2126_sg2,Electricity,279.79
+Fans,a_d_2126_sg2,Natural Gas,0
+Fans,a_e_2126_dg1,Electricity,391.76
+Fans,a_e_2126_dg1,Natural Gas,0
+Fans,a_f_2126_dg2,Electricity,341.89
+Fans,a_f_2126_dg2,Natural Gas,0
+Fans,a_g_2126_dg3,Electricity,348.57
+Fans,a_g_2126_dg3,Natural Gas,0
+Fans,a_h_2126_dg4,Electricity,301.69
+Fans,a_h_2126_dg4,Natural Gas,0
+Fans,a_i_2126_dg5,Electricity,320.02
+Fans,a_i_2126_dg5,Natural Gas,0
+Fans,a_j_2126_dg6,Electricity,341.21
+Fans,a_j_2126_dg6,Natural Gas,0
+Fans,a_k_2126_tg1,Electricity,413.19
+Fans,a_k_2126_tg1,Natural Gas,0
+Fans,a_l_2126_tg2,Electricity,360.43
+Fans,a_l_2126_tg2,Natural Gas,0
+Fans,a_m_2126_tg3,Electricity,355.3
+Fans,a_m_2126_tg3,Natural Gas,0
+Fans,a_n_2126_tg4,Electricity,323.07
+Fans,a_n_2126_tg4,Natural Gas,0
+Fans,a_o_2126_tg5,Electricity,328.07
+Fans,a_o_2126_tg5,Natural Gas,0
+Fans,a_p_2126_tg6,Electricity,360.83
+Fans,a_p_2126_tg6,Natural Gas,0
+Fans,b_a_2126_dg_init_int,Electricity,286.14
+Fans,b_a_2126_dg_init_int,Natural Gas,0
+Fans,b_b_2126_dg0_int,Electricity,307.86
+Fans,b_b_2126_dg0_int,Natural Gas,0
+Fans,b_c_2126_sg1_int,Electricity,300.45
+Fans,b_c_2126_sg1_int,Natural Gas,0
+Fans,b_d_2126_sg2_int,Electricity,276.59
+Fans,b_d_2126_sg2_int,Natural Gas,0
+Fans,b_e_2126_dg1_int,Electricity,372.26
+Fans,b_e_2126_dg1_int,Natural Gas,0
+Fans,b_f_2126_dg2_int,Electricity,336.49
+Fans,b_f_2126_dg2_int,Natural Gas,0
+Fans,b_g_2126_dg3_int,Electricity,343.23
+Fans,b_g_2126_dg3_int,Natural Gas,0
+Fans,b_h_2126_dg4_int,Electricity,303.41
+Fans,b_h_2126_dg4_int,Natural Gas,0
+Fans,b_i_2126_dg5_int,Electricity,320.13
+Fans,b_i_2126_dg5_int,Natural Gas,0
+Fans,b_j_2126_dg6_int,Electricity,337.89
+Fans,b_j_2126_dg6_int,Natural Gas,0
+Fans,b_k_2126_tg1_int,Electricity,398.52
+Fans,b_k_2126_tg1_int,Natural Gas,0
+Fans,b_l_2126_tg2_int,Electricity,357.96
+Fans,b_l_2126_tg2_int,Natural Gas,0
+Fans,b_m_2126_tg3_int,Electricity,354.03
+Fans,b_m_2126_tg3_int,Natural Gas,0
+Fans,b_n_2126_tg4_int,Electricity,325.79
+Fans,b_n_2126_tg4_int,Natural Gas,0
+Fans,b_o_2126_tg5_int,Electricity,330.53
+Fans,b_o_2126_tg5_int,Natural Gas,0
+Fans,b_p_2126_tg6_int,Electricity,359.97
+Fans,b_p_2126_tg6_int,Natural Gas,0
+Fans,c_a_2126_dg_init_tc,Electricity,264.02
+Fans,c_a_2126_dg_init_tc,Natural Gas,0
+Fans,c_b_2126_dg0_tc,Electricity,282.98
+Fans,c_b_2126_dg0_tc,Natural Gas,0
+Fans,c_c_2126_sg1_tc,Electricity,278
+Fans,c_c_2126_sg1_tc,Natural Gas,0
+Fans,c_d_2126_sg2_tc,Electricity,257.28
+Fans,c_d_2126_sg2_tc,Natural Gas,0
+Fans,c_e_2126_dg1_tc,Electricity,340.51
+Fans,c_e_2126_dg1_tc,Natural Gas,0
+Fans,c_f_2126_dg2_tc,Electricity,309.48
+Fans,c_f_2126_dg2_tc,Natural Gas,0
+Fans,c_g_2126_dg3_tc,Electricity,315.66
+Fans,c_g_2126_dg3_tc,Natural Gas,0
+Fans,c_h_2126_dg4_tc,Electricity,285.72
+Fans,c_h_2126_dg4_tc,Natural Gas,0
+Fans,c_i_2126_dg5_tc,Electricity,297.55
+Fans,c_i_2126_dg5_tc,Natural Gas,0
+Fans,c_j_2126_dg6_tc,Electricity,311
+Fans,c_j_2126_dg6_tc,Natural Gas,0
+Fans,c_k_2126_tg1_tc,Electricity,366.55
+Fans,c_k_2126_tg1_tc,Natural Gas,0
+Fans,c_l_2126_tg2_tc,Electricity,330.03
+Fans,c_l_2126_tg2_tc,Natural Gas,0
+Fans,c_m_2126_tg3_tc,Electricity,326.73
+Fans,c_m_2126_tg3_tc,Natural Gas,0
+Fans,c_n_2126_tg4_tc,Electricity,307.74
+Fans,c_n_2126_tg4_tc,Natural Gas,0
+Fans,c_o_2126_tg5_tc,Electricity,311.11
+Fans,c_o_2126_tg5_tc,Natural Gas,0
+Fans,c_p_2126_tg6_tc,Electricity,332.92
+Fans,c_p_2126_tg6_tc,Natural Gas,0
+Fans,d_a_2126_dg_init_vav,Electricity,101.53
+Fans,d_a_2126_dg_init_vav,Natural Gas,0
+Fans,d_b_2126_dg0_vav,Electricity,123.22
+Fans,d_b_2126_dg0_vav,Natural Gas,0
+Fans,d_c_2126_sg1_vav,Electricity,128.89
+Fans,d_c_2126_sg1_vav,Natural Gas,0
+Fans,d_d_2126_sg2_vav,Electricity,94.56
+Fans,d_d_2126_sg2_vav,Natural Gas,0
+Fans,d_e_2126_dg1_vav,Electricity,134.61
+Fans,d_e_2126_dg1_vav,Natural Gas,0
+Fans,d_f_2126_dg2_vav,Electricity,111.07
+Fans,d_f_2126_dg2_vav,Natural Gas,0
+Fans,d_g_2126_dg3_vav,Electricity,113.06
+Fans,d_g_2126_dg3_vav,Natural Gas,0
+Fans,d_h_2126_dg4_vav,Electricity,89.85
+Fans,d_h_2126_dg4_vav,Natural Gas,0
+Fans,d_i_2126_dg5_vav,Electricity,99.26
+Fans,d_i_2126_dg5_vav,Natural Gas,0
+Fans,d_j_2126_dg6_vav,Electricity,109.58
+Fans,d_j_2126_dg6_vav,Natural Gas,0
+Fans,d_k_2126_tg1_vav,Electricity,138.03
+Fans,d_k_2126_tg1_vav,Natural Gas,0
+Fans,d_l_2126_tg2_vav,Electricity,115.48
+Fans,d_l_2126_tg2_vav,Natural Gas,0
+Fans,d_m_2126_tg3_vav,Electricity,113.1
+Fans,d_m_2126_tg3_vav,Natural Gas,0
+Fans,d_n_2126_tg4_vav,Electricity,96.97
+Fans,d_n_2126_tg4_vav,Natural Gas,0
+Fans,d_o_2126_tg5_vav,Electricity,99.43
+Fans,d_o_2126_tg5_vav,Natural Gas,0
+Fans,d_p_2126_tg6_vav,Electricity,114.85
+Fans,d_p_2126_tg6_vav,Natural Gas,0
+Fans,e_a_2126_dg_init_vav_int,Electricity,98.26
+Fans,e_a_2126_dg_init_vav_int,Natural Gas,0
+Fans,e_b_2126_dg0_vav_int,Electricity,108.05
+Fans,e_b_2126_dg0_vav_int,Natural Gas,0
+Fans,e_c_2126_sg1_vav_int,Electricity,105.25
+Fans,e_c_2126_sg1_vav_int,Natural Gas,0
+Fans,e_d_2126_sg2_vav_int,Electricity,93.26
+Fans,e_d_2126_sg2_vav_int,Natural Gas,0
+Fans,e_e_2126_dg1_vav_int,Electricity,122.8
+Fans,e_e_2126_dg1_vav_int,Natural Gas,0
+Fans,e_f_2126_dg2_vav_int,Electricity,106.69
+Fans,e_f_2126_dg2_vav_int,Natural Gas,0
+Fans,e_g_2126_dg3_vav_int,Electricity,108.54
+Fans,e_g_2126_dg3_vav_int,Natural Gas,0
+Fans,e_h_2126_dg4_vav_int,Electricity,89.07
+Fans,e_h_2126_dg4_vav_int,Natural Gas,0
+Fans,e_i_2126_dg5_vav_int,Electricity,97.44
+Fans,e_i_2126_dg5_vav_int,Natural Gas,0
+Fans,e_j_2126_dg6_vav_int,Electricity,106.14
+Fans,e_j_2126_dg6_vav_int,Natural Gas,0
+Fans,e_k_2126_tg1_vav_int,Electricity,129.01
+Fans,e_k_2126_tg1_vav_int,Natural Gas,0
+Fans,e_l_2126_tg2_vav_int,Electricity,111.65
+Fans,e_l_2126_tg2_vav_int,Natural Gas,0
+Fans,e_m_2126_tg3_vav_int,Electricity,109.82
+Fans,e_m_2126_tg3_vav_int,Natural Gas,0
+Fans,e_n_2126_tg4_vav_int,Electricity,94.98
+Fans,e_n_2126_tg4_vav_int,Natural Gas,0
+Fans,e_o_2126_tg5_vav_int,Electricity,97.15
+Fans,e_o_2126_tg5_vav_int,Natural Gas,0
+Fans,e_p_2126_tg6_vav_int,Electricity,111.32
+Fans,e_p_2126_tg6_vav_int,Natural Gas,0
+Fans,f_a_2126_dg_init_vrf,Electricity,673.06
+Fans,f_a_2126_dg_init_vrf,Natural Gas,0
+Fans,f_b_2126_dg0_vrf,Electricity,816.2
+Fans,f_b_2126_dg0_vrf,Natural Gas,0
+Fans,f_c_2126_sg1_vrf,Electricity,870.01
+Fans,f_c_2126_sg1_vrf,Natural Gas,0
+Fans,f_d_2126_sg2_vrf,Electricity,630.19
+Fans,f_d_2126_sg2_vrf,Natural Gas,0
+Fans,f_e_2126_dg1_vrf,Electricity,837.35
+Fans,f_e_2126_dg1_vrf,Natural Gas,0
+Fans,f_f_2126_dg2_vrf,Electricity,679.59
+Fans,f_f_2126_dg2_vrf,Natural Gas,0
+Fans,f_g_2126_dg3_vrf,Electricity,684.63
+Fans,f_g_2126_dg3_vrf,Natural Gas,0
+Fans,f_h_2126_dg4_vrf,Electricity,535.83
+Fans,f_h_2126_dg4_vrf,Natural Gas,0
+Fans,f_i_2126_dg5_vrf,Electricity,593.41
+Fans,f_i_2126_dg5_vrf,Natural Gas,0
+Fans,f_j_2126_dg6_vrf,Electricity,662.73
+Fans,f_j_2126_dg6_vrf,Natural Gas,0
+Fans,f_k_2126_tg1_vrf,Electricity,814.27
+Fans,f_k_2126_tg1_vrf,Natural Gas,0
+Fans,f_l_2126_tg2_vrf,Electricity,672.42
+Fans,f_l_2126_tg2_vrf,Natural Gas,0
+Fans,f_m_2126_tg3_vrf,Electricity,657.18
+Fans,f_m_2126_tg3_vrf,Natural Gas,0
+Fans,f_n_2126_tg4_vrf,Electricity,539.52
+Fans,f_n_2126_tg4_vrf,Natural Gas,0
+Fans,f_o_2126_tg5_vrf,Electricity,554.39
+Fans,f_o_2126_tg5_vrf,Natural Gas,0
+Fans,f_p_2126_tg6_vrf,Electricity,653.2
+Fans,f_p_2126_tg6_vrf,Natural Gas,0
+Fans,g_a_2126_dg_init_vrf_int,Electricity,771.61
+Fans,g_a_2126_dg_init_vrf_int,Natural Gas,0
+Fans,g_b_2126_dg0_vrf_int,Electricity,830.53
+Fans,g_b_2126_dg0_vrf_int,Natural Gas,0
+Fans,g_c_2126_sg1_vrf_int,Electricity,797.05
+Fans,g_c_2126_sg1_vrf_int,Natural Gas,0
+Fans,g_d_2126_sg2_vrf_int,Electricity,733.15
+Fans,g_d_2126_sg2_vrf_int,Natural Gas,0
+Fans,g_e_2126_dg1_vrf_int,Electricity,880.34
+Fans,g_e_2126_dg1_vrf_int,Natural Gas,0
+Fans,g_f_2126_dg2_vrf_int,Electricity,786.29
+Fans,g_f_2126_dg2_vrf_int,Natural Gas,0
+Fans,g_g_2126_dg3_vrf_int,Electricity,792.18
+Fans,g_g_2126_dg3_vrf_int,Natural Gas,0
+Fans,g_h_2126_dg4_vrf_int,Electricity,644.45
+Fans,g_h_2126_dg4_vrf_int,Natural Gas,0
+Fans,g_i_2126_dg5_vrf_int,Electricity,714.98
+Fans,g_i_2126_dg5_vrf_int,Natural Gas,0
+Fans,g_j_2126_dg6_vrf_int,Electricity,779.09
+Fans,g_j_2126_dg6_vrf_int,Natural Gas,0
+Fans,g_k_2126_tg1_vrf_int,Electricity,884.65
+Fans,g_k_2126_tg1_vrf_int,Natural Gas,0
+Fans,g_l_2126_tg2_vrf_int,Electricity,793.4
+Fans,g_l_2126_tg2_vrf_int,Natural Gas,0
+Fans,g_m_2126_tg3_vrf_int,Electricity,781.98
+Fans,g_m_2126_tg3_vrf_int,Natural Gas,0
+Fans,g_n_2126_tg4_vrf_int,Electricity,645.09
+Fans,g_n_2126_tg4_vrf_int,Natural Gas,0
+Fans,g_o_2126_tg5_vrf_int,Electricity,665
+Fans,g_o_2126_tg5_vrf_int,Natural Gas,0
+Fans,g_p_2126_tg6_vrf_int,Electricity,781.28
+Fans,g_p_2126_tg6_vrf_int,Natural Gas,0
+Fans,h_a_2126_dg_init_wtw,Electricity,92.75
+Fans,h_a_2126_dg_init_wtw,Natural Gas,0
+Fans,h_b_2126_dg0_wtw,Electricity,109.97
+Fans,h_b_2126_dg0_wtw,Natural Gas,0
+Fans,h_c_2126_dg4_wtw,Electricity,87.28
+Fans,h_c_2126_dg4_wtw,Natural Gas,0
+Fans,h_d_2126_dg5_wtw,Electricity,94.38
+Fans,h_d_2126_dg5_wtw,Natural Gas,0
+Fans,h_e_2126_dg6_wtw,Electricity,102.48
+Fans,h_e_2126_dg6_wtw,Natural Gas,0
+Fans,h_f_2126_tg4_wtw,Electricity,93.47
+Fans,h_f_2126_tg4_wtw,Natural Gas,0
+Fans,h_g_2126_tg5_wtw,Electricity,95.32
+Fans,h_g_2126_tg5_wtw,Natural Gas,0
+Fans,h_h_2126_tg6_wtw,Electricity,107.07
+Fans,h_h_2126_tg6_wtw,Natural Gas,0
+Fans,i_a_2126_dg_init_vav_int,Electricity,98.26
+Fans,i_a_2126_dg_init_vav_int,Natural Gas,0
+Fans,i_b_2126_dg5k,Electricity,103.47
+Fans,i_b_2126_dg5k,Natural Gas,0
+Fans,i_c_2126_tg5k,Electricity,99.89
+Fans,i_c_2126_tg5k,Natural Gas,0
+Fans,i_d_2126_tg5x,Electricity,101.39
+Fans,i_d_2126_tg5x,Natural Gas,0
+Fans,i_e_2126_ccf,Electricity,85.87
+Fans,i_e_2126_ccf,Natural Gas,0
+Fans,i_f_2126_dg_vacuum,Electricity,105.97
+Fans,i_f_2126_dg_vacuum,Natural Gas,0
+Fans,i_g_2126_dg_smart,Electricity,84.96
+Fans,i_g_2126_dg_smart,Natural Gas,0
+Fans,i_h_2126_dsf_min,Electricity,107.0508333
+Fans,i_h_2126_dsf_min,Natural Gas,0
+Fans,i_i_2126_dsf_mean,Electricity,107.0508333
+Fans,i_i_2126_dsf_mean,Natural Gas,0
+Fans,i_j_2126_dsf_max,Electricity,107.0508333
+Fans,i_j_2126_dsf_max,Natural Gas,0
+Fans,j_a_2124_dg_init,Electricity,129.65
+Fans,j_a_2124_dg_init,Natural Gas,0
+Fans,j_b_2124_dg0,Electricity,155.4
+Fans,j_b_2124_dg0,Natural Gas,0
+Fans,j_c_2124_dg4,Electricity,113.37
+Fans,j_c_2124_dg4,Natural Gas,0
+Fans,j_d_2124_dg5,Electricity,124.19
+Fans,j_d_2124_dg5,Natural Gas,0
+Fans,j_e_2124_dg6,Electricity,136.23
+Fans,j_e_2124_dg6,Natural Gas,0
+Fans,j_f_2124_tg4,Electricity,120.75
+Fans,j_f_2124_tg4,Natural Gas,0
+Fans,j_g_2124_tg5,Electricity,123.48
+Fans,j_g_2124_tg5,Natural Gas,0
+Fans,j_h_2124_tg6,Electricity,141.28
+Fans,j_h_2124_tg6,Natural Gas,0
+Fans,k_a_1927_dg_init_ext,Electricity,66.05
+Fans,k_a_1927_dg_init_ext,Natural Gas,0
+Fans,k_b_1927_dg0_ext,Electricity,76.12
+Fans,k_b_1927_dg0_ext,Natural Gas,0
+Fans,k_c_1927_dg4_ext,Electricity,72.66
+Fans,k_c_1927_dg4_ext,Natural Gas,0
+Fans,k_d_1927_dg5_ext,Electricity,78.35
+Fans,k_d_1927_dg5_ext,Natural Gas,0
+Fans,k_e_1927_dg6_ext,Electricity,84.98
+Fans,k_e_1927_dg6_ext,Natural Gas,0
+Fans,k_f_1927_tg4_ext,Electricity,82.1
+Fans,k_f_1927_tg4_ext,Natural Gas,0
+Fans,k_g_1927_tg5_ext,Electricity,83.85
+Fans,k_g_1927_tg5_ext,Natural Gas,0
+Fans,k_h_1927_tg6_ext,Electricity,95.54
+Fans,k_h_1927_tg6_ext,Natural Gas,0
+Fans,l_a_2126_dg_init_intgain,Electricity,109.06
+Fans,l_a_2126_dg_init_intgain,Natural Gas,0
+Fans,l_b_2126_dg0_intgain,Electricity,119.92
+Fans,l_b_2126_dg0_intgain,Natural Gas,0
+Fans,l_c_2126_dg4_intgain,Electricity,105.12
+Fans,l_c_2126_dg4_intgain,Natural Gas,0
+Fans,l_d_2126_dg5_intgain,Electricity,113.19
+Fans,l_d_2126_dg5_intgain,Natural Gas,0
+Fans,l_e_2126_dg6_intgain,Electricity,121.6
+Fans,l_e_2126_dg6_intgain,Natural Gas,0
+Fans,l_f_2126_tg4_intgain,Electricity,113.23
+Fans,l_f_2126_tg4_intgain,Natural Gas,0
+Fans,l_g_2126_tg5_intgain,Electricity,115.29
+Fans,l_g_2126_tg5_intgain,Natural Gas,0
+Fans,l_h_2126_tg6_intgain,Electricity,128.29
+Fans,l_h_2126_tg6_intgain,Natural Gas,0
+Fans,m_a_2126_dg_init_intgain,Electricity,89.45
+Fans,m_a_2126_dg_init_intgain,Natural Gas,0
+Fans,m_b_2126_dg0_intgain,Electricity,98.6
+Fans,m_b_2126_dg0_intgain,Natural Gas,0
+Fans,m_c_2126_dg4_intgain,Electricity,76.67
+Fans,m_c_2126_dg4_intgain,Natural Gas,0
+Fans,m_d_2126_dg5_intgain,Electricity,85.35
+Fans,m_d_2126_dg5_intgain,Natural Gas,0
+Fans,m_e_2126_dg6_intgain,Electricity,93.84
+Fans,m_e_2126_dg6_intgain,Natural Gas,0
+Fans,m_f_2126_tg4_intgain,Electricity,80.76
+Fans,m_f_2126_tg4_intgain,Natural Gas,0
+Fans,m_g_2126_tg5_intgain,Electricity,83.16
+Fans,m_g_2126_tg5_intgain,Natural Gas,0
+Fans,m_h_2126_tg6_intgain,Electricity,97.64
+Fans,m_h_2126_tg6_intgain,Natural Gas,0
+Fans,n_a_2126_dg_init_cc,Electricity,105.59
+Fans,n_a_2126_dg_init_cc,Natural Gas,0
+Fans,n_b_2126_dg0_cc,Electricity,118.11
+Fans,n_b_2126_dg0_cc,Natural Gas,0
+Fans,n_c_2126_dg4_cc,Electricity,97.98
+Fans,n_c_2126_dg4_cc,Natural Gas,0
+Fans,n_d_2126_dg5_cc,Electricity,107.05
+Fans,n_d_2126_dg5_cc,Natural Gas,0
+Fans,n_e_2126_dg6_cc,Electricity,116.46
+Fans,n_e_2126_dg6_cc,Natural Gas,0
+Fans,n_f_2126_tg4_cc,Electricity,103.9
+Fans,n_f_2126_tg4_cc,Natural Gas,0
+Fans,n_g_2126_tg5_cc,Electricity,106.28
+Fans,n_g_2126_tg5_cc,Natural Gas,0
+Fans,n_h_2126_tg6_cc,Electricity,121.18
+Fans,n_h_2126_tg6_cc,Natural Gas,0
+Fans,o_a_2126_dg_init_cc,Electricity,112.82
+Fans,o_a_2126_dg_init_cc,Natural Gas,0
+Fans,o_b_2126_dg0_cc,Electricity,126.49
+Fans,o_b_2126_dg0_cc,Natural Gas,0
+Fans,o_c_2126_dg4_cc,Electricity,104.29
+Fans,o_c_2126_dg4_cc,Natural Gas,0
+Fans,o_d_2126_dg5_cc,Electricity,113.51
+Fans,o_d_2126_dg5_cc,Natural Gas,0
+Fans,o_e_2126_dg6_cc,Electricity,123.15
+Fans,o_e_2126_dg6_cc,Natural Gas,0
+Fans,o_f_2126_tg4_cc,Electricity,109.69
+Fans,o_f_2126_tg4_cc,Natural Gas,0
+Fans,o_g_2126_tg5_cc,Electricity,112.06
+Fans,o_g_2126_tg5_cc,Natural Gas,0
+Fans,o_h_2126_tg6_cc,Electricity,127.13
+Fans,o_h_2126_tg6_cc,Natural Gas,0
+Fans,p_a_2124_dg_init_cc,Electricity,140.84
+Fans,p_a_2124_dg_init_cc,Natural Gas,0
+Fans,p_b_2124_dg0_cc,Electricity,169.31
+Fans,p_b_2124_dg0_cc,Natural Gas,0
+Fans,p_c_2124_dg4_cc,Electricity,125.11
+Fans,p_c_2124_dg4_cc,Natural Gas,0
+Fans,p_d_2124_dg5_cc,Electricity,136.6
+Fans,p_d_2124_dg5_cc,Natural Gas,0
+Fans,p_e_2124_dg6_cc,Electricity,149.49
+Fans,p_e_2124_dg6_cc,Natural Gas,0
+Fans,p_f_2124_tg4_cc,Electricity,132.07
+Fans,p_f_2124_tg4_cc,Natural Gas,0
+Fans,p_g_2124_tg5_cc,Electricity,134.94
+Fans,p_g_2124_tg5_cc,Natural Gas,0
+Fans,p_h_2124_tg6_cc,Electricity,153.54
+Fans,p_h_2124_tg6_cc,Natural Gas,0
+Heat Rejection,a_a_2126_dg_init,Electricity,112.54
+Heat Rejection,a_a_2126_dg_init,Natural Gas,0
+Heat Rejection,a_b_2126_dg0,Electricity,127.38
+Heat Rejection,a_b_2126_dg0,Natural Gas,0
+Heat Rejection,a_c_2126_sg1,Electricity,84.6
+Heat Rejection,a_c_2126_sg1,Natural Gas,0
+Heat Rejection,a_d_2126_sg2,Electricity,99.42
+Heat Rejection,a_d_2126_sg2,Natural Gas,0
+Heat Rejection,a_e_2126_dg1,Electricity,192.6
+Heat Rejection,a_e_2126_dg1,Natural Gas,0
+Heat Rejection,a_f_2126_dg2,Electricity,174.17
+Heat Rejection,a_f_2126_dg2,Natural Gas,0
+Heat Rejection,a_g_2126_dg3,Electricity,180.47
+Heat Rejection,a_g_2126_dg3,Natural Gas,0
+Heat Rejection,a_h_2126_dg4,Electricity,159.93
+Heat Rejection,a_h_2126_dg4,Natural Gas,0
+Heat Rejection,a_i_2126_dg5,Electricity,168.92
+Heat Rejection,a_i_2126_dg5,Natural Gas,0
+Heat Rejection,a_j_2126_dg6,Electricity,177.58
+Heat Rejection,a_j_2126_dg6,Natural Gas,0
+Heat Rejection,a_k_2126_tg1,Electricity,216.8
+Heat Rejection,a_k_2126_tg1,Natural Gas,0
+Heat Rejection,a_l_2126_tg2,Electricity,195.27
+Heat Rejection,a_l_2126_tg2,Natural Gas,0
+Heat Rejection,a_m_2126_tg3,Electricity,193.35
+Heat Rejection,a_m_2126_tg3,Natural Gas,0
+Heat Rejection,a_n_2126_tg4,Electricity,186.49
+Heat Rejection,a_n_2126_tg4,Natural Gas,0
+Heat Rejection,a_o_2126_tg5,Electricity,188.28
+Heat Rejection,a_o_2126_tg5,Natural Gas,0
+Heat Rejection,a_p_2126_tg6,Electricity,199.23
+Heat Rejection,a_p_2126_tg6,Natural Gas,0
+Heat Rejection,b_a_2126_dg_init_int,Electricity,97.41
+Heat Rejection,b_a_2126_dg_init_int,Natural Gas,0
+Heat Rejection,b_b_2126_dg0_int,Electricity,111.65
+Heat Rejection,b_b_2126_dg0_int,Natural Gas,0
+Heat Rejection,b_c_2126_sg1_int,Electricity,73.76
+Heat Rejection,b_c_2126_sg1_int,Natural Gas,0
+Heat Rejection,b_d_2126_sg2_int,Electricity,85.39
+Heat Rejection,b_d_2126_sg2_int,Natural Gas,0
+Heat Rejection,b_e_2126_dg1_int,Electricity,175.65
+Heat Rejection,b_e_2126_dg1_int,Natural Gas,0
+Heat Rejection,b_f_2126_dg2_int,Electricity,158.6
+Heat Rejection,b_f_2126_dg2_int,Natural Gas,0
+Heat Rejection,b_g_2126_dg3_int,Electricity,164.87
+Heat Rejection,b_g_2126_dg3_int,Natural Gas,0
+Heat Rejection,b_h_2126_dg4_int,Electricity,147.47
+Heat Rejection,b_h_2126_dg4_int,Natural Gas,0
+Heat Rejection,b_i_2126_dg5_int,Electricity,153.96
+Heat Rejection,b_i_2126_dg5_int,Natural Gas,0
+Heat Rejection,b_j_2126_dg6_int,Electricity,161.96
+Heat Rejection,b_j_2126_dg6_int,Natural Gas,0
+Heat Rejection,b_k_2126_tg1_int,Electricity,198.66
+Heat Rejection,b_k_2126_tg1_int,Natural Gas,0
+Heat Rejection,b_l_2126_tg2_int,Electricity,180.99
+Heat Rejection,b_l_2126_tg2_int,Natural Gas,0
+Heat Rejection,b_m_2126_tg3_int,Electricity,179.11
+Heat Rejection,b_m_2126_tg3_int,Natural Gas,0
+Heat Rejection,b_n_2126_tg4_int,Electricity,175.65
+Heat Rejection,b_n_2126_tg4_int,Natural Gas,0
+Heat Rejection,b_o_2126_tg5_int,Electricity,177.04
+Heat Rejection,b_o_2126_tg5_int,Natural Gas,0
+Heat Rejection,b_p_2126_tg6_int,Electricity,185.76
+Heat Rejection,b_p_2126_tg6_int,Natural Gas,0
+Heat Rejection,c_a_2126_dg_init_tc,Electricity,115.15
+Heat Rejection,c_a_2126_dg_init_tc,Natural Gas,0
+Heat Rejection,c_b_2126_dg0_tc,Electricity,129.21
+Heat Rejection,c_b_2126_dg0_tc,Natural Gas,0
+Heat Rejection,c_c_2126_sg1_tc,Electricity,90.17
+Heat Rejection,c_c_2126_sg1_tc,Natural Gas,0
+Heat Rejection,c_d_2126_sg2_tc,Electricity,103.18
+Heat Rejection,c_d_2126_sg2_tc,Natural Gas,0
+Heat Rejection,c_e_2126_dg1_tc,Electricity,194.01
+Heat Rejection,c_e_2126_dg1_tc,Natural Gas,0
+Heat Rejection,c_f_2126_dg2_tc,Electricity,176.8
+Heat Rejection,c_f_2126_dg2_tc,Natural Gas,0
+Heat Rejection,c_g_2126_dg3_tc,Electricity,183.08
+Heat Rejection,c_g_2126_dg3_tc,Natural Gas,0
+Heat Rejection,c_h_2126_dg4_tc,Electricity,161.83
+Heat Rejection,c_h_2126_dg4_tc,Natural Gas,0
+Heat Rejection,c_i_2126_dg5_tc,Electricity,171.25
+Heat Rejection,c_i_2126_dg5_tc,Natural Gas,0
+Heat Rejection,c_j_2126_dg6_tc,Electricity,180.38
+Heat Rejection,c_j_2126_dg6_tc,Natural Gas,0
+Heat Rejection,c_k_2126_tg1_tc,Electricity,217.8
+Heat Rejection,c_k_2126_tg1_tc,Natural Gas,0
+Heat Rejection,c_l_2126_tg2_tc,Electricity,198.61
+Heat Rejection,c_l_2126_tg2_tc,Natural Gas,0
+Heat Rejection,c_m_2126_tg3_tc,Electricity,197.03
+Heat Rejection,c_m_2126_tg3_tc,Natural Gas,0
+Heat Rejection,c_n_2126_tg4_tc,Electricity,188.85
+Heat Rejection,c_n_2126_tg4_tc,Natural Gas,0
+Heat Rejection,c_o_2126_tg5_tc,Electricity,191.36
+Heat Rejection,c_o_2126_tg5_tc,Natural Gas,0
+Heat Rejection,c_p_2126_tg6_tc,Electricity,202.68
+Heat Rejection,c_p_2126_tg6_tc,Natural Gas,0
+Heat Rejection,d_a_2126_dg_init_vav,Electricity,67.39
+Heat Rejection,d_a_2126_dg_init_vav,Natural Gas,0
+Heat Rejection,d_b_2126_dg0_vav,Electricity,84.18
+Heat Rejection,d_b_2126_dg0_vav,Natural Gas,0
+Heat Rejection,d_c_2126_sg1_vav,Electricity,80.35
+Heat Rejection,d_c_2126_sg1_vav,Natural Gas,0
+Heat Rejection,d_d_2126_sg2_vav,Electricity,64.16
+Heat Rejection,d_d_2126_sg2_vav,Natural Gas,0
+Heat Rejection,d_e_2126_dg1_vav,Electricity,113.57
+Heat Rejection,d_e_2126_dg1_vav,Natural Gas,0
+Heat Rejection,d_f_2126_dg2_vav,Electricity,90.93
+Heat Rejection,d_f_2126_dg2_vav,Natural Gas,0
+Heat Rejection,d_g_2126_dg3_vav,Electricity,93.9
+Heat Rejection,d_g_2126_dg3_vav,Natural Gas,0
+Heat Rejection,d_h_2126_dg4_vav,Electricity,79.19
+Heat Rejection,d_h_2126_dg4_vav,Natural Gas,0
+Heat Rejection,d_i_2126_dg5_vav,Electricity,84.15
+Heat Rejection,d_i_2126_dg5_vav,Natural Gas,0
+Heat Rejection,d_j_2126_dg6_vav,Electricity,91.53
+Heat Rejection,d_j_2126_dg6_vav,Natural Gas,0
+Heat Rejection,d_k_2126_tg1_vav,Electricity,128.37
+Heat Rejection,d_k_2126_tg1_vav,Natural Gas,0
+Heat Rejection,d_l_2126_tg2_vav,Electricity,101.65
+Heat Rejection,d_l_2126_tg2_vav,Natural Gas,0
+Heat Rejection,d_m_2126_tg3_vav,Electricity,99.71
+Heat Rejection,d_m_2126_tg3_vav,Natural Gas,0
+Heat Rejection,d_n_2126_tg4_vav,Electricity,90.96
+Heat Rejection,d_n_2126_tg4_vav,Natural Gas,0
+Heat Rejection,d_o_2126_tg5_vav,Electricity,92.68
+Heat Rejection,d_o_2126_tg5_vav,Natural Gas,0
+Heat Rejection,d_p_2126_tg6_vav,Electricity,103.46
+Heat Rejection,d_p_2126_tg6_vav,Natural Gas,0
+Heat Rejection,e_a_2126_dg_init_vav_int,Electricity,67.34
+Heat Rejection,e_a_2126_dg_init_vav_int,Natural Gas,0
+Heat Rejection,e_b_2126_dg0_vav_int,Electricity,73.46
+Heat Rejection,e_b_2126_dg0_vav_int,Natural Gas,0
+Heat Rejection,e_c_2126_sg1_vav_int,Electricity,72.89
+Heat Rejection,e_c_2126_sg1_vav_int,Natural Gas,0
+Heat Rejection,e_d_2126_sg2_vav_int,Electricity,66.69
+Heat Rejection,e_d_2126_sg2_vav_int,Natural Gas,0
+Heat Rejection,e_e_2126_dg1_vav_int,Electricity,94.86
+Heat Rejection,e_e_2126_dg1_vav_int,Natural Gas,0
+Heat Rejection,e_f_2126_dg2_vav_int,Electricity,82.36
+Heat Rejection,e_f_2126_dg2_vav_int,Natural Gas,0
+Heat Rejection,e_g_2126_dg3_vav_int,Electricity,84.7
+Heat Rejection,e_g_2126_dg3_vav_int,Natural Gas,0
+Heat Rejection,e_h_2126_dg4_vav_int,Electricity,75.34
+Heat Rejection,e_h_2126_dg4_vav_int,Natural Gas,0
+Heat Rejection,e_i_2126_dg5_vav_int,Electricity,78.7
+Heat Rejection,e_i_2126_dg5_vav_int,Natural Gas,0
+Heat Rejection,e_j_2126_dg6_vav_int,Electricity,82.84
+Heat Rejection,e_j_2126_dg6_vav_int,Natural Gas,0
+Heat Rejection,e_k_2126_tg1_vav_int,Electricity,107.97
+Heat Rejection,e_k_2126_tg1_vav_int,Natural Gas,0
+Heat Rejection,e_l_2126_tg2_vav_int,Electricity,91.03
+Heat Rejection,e_l_2126_tg2_vav_int,Natural Gas,0
+Heat Rejection,e_m_2126_tg3_vav_int,Electricity,89.53
+Heat Rejection,e_m_2126_tg3_vav_int,Natural Gas,0
+Heat Rejection,e_n_2126_tg4_vav_int,Electricity,83.97
+Heat Rejection,e_n_2126_tg4_vav_int,Natural Gas,0
+Heat Rejection,e_o_2126_tg5_vav_int,Electricity,84.97
+Heat Rejection,e_o_2126_tg5_vav_int,Natural Gas,0
+Heat Rejection,e_p_2126_tg6_vav_int,Electricity,92.35
+Heat Rejection,e_p_2126_tg6_vav_int,Natural Gas,0
+Heat Rejection,f_a_2126_dg_init_vrf,Electricity,0
+Heat Rejection,f_a_2126_dg_init_vrf,Natural Gas,0
+Heat Rejection,f_b_2126_dg0_vrf,Electricity,0
+Heat Rejection,f_b_2126_dg0_vrf,Natural Gas,0
+Heat Rejection,f_c_2126_sg1_vrf,Electricity,0
+Heat Rejection,f_c_2126_sg1_vrf,Natural Gas,0
+Heat Rejection,f_d_2126_sg2_vrf,Electricity,0
+Heat Rejection,f_d_2126_sg2_vrf,Natural Gas,0
+Heat Rejection,f_e_2126_dg1_vrf,Electricity,0
+Heat Rejection,f_e_2126_dg1_vrf,Natural Gas,0
+Heat Rejection,f_f_2126_dg2_vrf,Electricity,0
+Heat Rejection,f_f_2126_dg2_vrf,Natural Gas,0
+Heat Rejection,f_g_2126_dg3_vrf,Electricity,0
+Heat Rejection,f_g_2126_dg3_vrf,Natural Gas,0
+Heat Rejection,f_h_2126_dg4_vrf,Electricity,0
+Heat Rejection,f_h_2126_dg4_vrf,Natural Gas,0
+Heat Rejection,f_i_2126_dg5_vrf,Electricity,0
+Heat Rejection,f_i_2126_dg5_vrf,Natural Gas,0
+Heat Rejection,f_j_2126_dg6_vrf,Electricity,0
+Heat Rejection,f_j_2126_dg6_vrf,Natural Gas,0
+Heat Rejection,f_k_2126_tg1_vrf,Electricity,0
+Heat Rejection,f_k_2126_tg1_vrf,Natural Gas,0
+Heat Rejection,f_l_2126_tg2_vrf,Electricity,0
+Heat Rejection,f_l_2126_tg2_vrf,Natural Gas,0
+Heat Rejection,f_m_2126_tg3_vrf,Electricity,0
+Heat Rejection,f_m_2126_tg3_vrf,Natural Gas,0
+Heat Rejection,f_n_2126_tg4_vrf,Electricity,0
+Heat Rejection,f_n_2126_tg4_vrf,Natural Gas,0
+Heat Rejection,f_o_2126_tg5_vrf,Electricity,0
+Heat Rejection,f_o_2126_tg5_vrf,Natural Gas,0
+Heat Rejection,f_p_2126_tg6_vrf,Electricity,0
+Heat Rejection,f_p_2126_tg6_vrf,Natural Gas,0
+Heat Rejection,g_a_2126_dg_init_vrf_int,Electricity,0
+Heat Rejection,g_a_2126_dg_init_vrf_int,Natural Gas,0
+Heat Rejection,g_b_2126_dg0_vrf_int,Electricity,0
+Heat Rejection,g_b_2126_dg0_vrf_int,Natural Gas,0
+Heat Rejection,g_c_2126_sg1_vrf_int,Electricity,0
+Heat Rejection,g_c_2126_sg1_vrf_int,Natural Gas,0
+Heat Rejection,g_d_2126_sg2_vrf_int,Electricity,0
+Heat Rejection,g_d_2126_sg2_vrf_int,Natural Gas,0
+Heat Rejection,g_e_2126_dg1_vrf_int,Electricity,0
+Heat Rejection,g_e_2126_dg1_vrf_int,Natural Gas,0
+Heat Rejection,g_f_2126_dg2_vrf_int,Electricity,0
+Heat Rejection,g_f_2126_dg2_vrf_int,Natural Gas,0
+Heat Rejection,g_g_2126_dg3_vrf_int,Electricity,0
+Heat Rejection,g_g_2126_dg3_vrf_int,Natural Gas,0
+Heat Rejection,g_h_2126_dg4_vrf_int,Electricity,0
+Heat Rejection,g_h_2126_dg4_vrf_int,Natural Gas,0
+Heat Rejection,g_i_2126_dg5_vrf_int,Electricity,0
+Heat Rejection,g_i_2126_dg5_vrf_int,Natural Gas,0
+Heat Rejection,g_j_2126_dg6_vrf_int,Electricity,0
+Heat Rejection,g_j_2126_dg6_vrf_int,Natural Gas,0
+Heat Rejection,g_k_2126_tg1_vrf_int,Electricity,0
+Heat Rejection,g_k_2126_tg1_vrf_int,Natural Gas,0
+Heat Rejection,g_l_2126_tg2_vrf_int,Electricity,0
+Heat Rejection,g_l_2126_tg2_vrf_int,Natural Gas,0
+Heat Rejection,g_m_2126_tg3_vrf_int,Electricity,0
+Heat Rejection,g_m_2126_tg3_vrf_int,Natural Gas,0
+Heat Rejection,g_n_2126_tg4_vrf_int,Electricity,0
+Heat Rejection,g_n_2126_tg4_vrf_int,Natural Gas,0
+Heat Rejection,g_o_2126_tg5_vrf_int,Electricity,0
+Heat Rejection,g_o_2126_tg5_vrf_int,Natural Gas,0
+Heat Rejection,g_p_2126_tg6_vrf_int,Electricity,0
+Heat Rejection,g_p_2126_tg6_vrf_int,Natural Gas,0
+Heat Rejection,h_a_2126_dg_init_wtw,Electricity,67.67
+Heat Rejection,h_a_2126_dg_init_wtw,Natural Gas,0
+Heat Rejection,h_b_2126_dg0_wtw,Electricity,77.69
+Heat Rejection,h_b_2126_dg0_wtw,Natural Gas,0
+Heat Rejection,h_c_2126_dg4_wtw,Electricity,80.9
+Heat Rejection,h_c_2126_dg4_wtw,Natural Gas,0
+Heat Rejection,h_d_2126_dg5_wtw,Electricity,85.01
+Heat Rejection,h_d_2126_dg5_wtw,Natural Gas,0
+Heat Rejection,h_e_2126_dg6_wtw,Electricity,90.25
+Heat Rejection,h_e_2126_dg6_wtw,Natural Gas,0
+Heat Rejection,h_f_2126_tg4_wtw,Electricity,89.99
+Heat Rejection,h_f_2126_tg4_wtw,Natural Gas,0
+Heat Rejection,h_g_2126_tg5_wtw,Electricity,91.65
+Heat Rejection,h_g_2126_tg5_wtw,Natural Gas,0
+Heat Rejection,h_h_2126_tg6_wtw,Electricity,99.93
+Heat Rejection,h_h_2126_tg6_wtw,Natural Gas,0
+Heat Rejection,i_a_2126_dg_init_vav_int,Electricity,67.34
+Heat Rejection,i_a_2126_dg_init_vav_int,Natural Gas,0
+Heat Rejection,i_b_2126_dg5k,Electricity,86.11
+Heat Rejection,i_b_2126_dg5k,Natural Gas,0
+Heat Rejection,i_c_2126_tg5k,Electricity,88.41
+Heat Rejection,i_c_2126_tg5k,Natural Gas,0
+Heat Rejection,i_d_2126_tg5x,Electricity,90.32
+Heat Rejection,i_d_2126_tg5x,Natural Gas,0
+Heat Rejection,i_e_2126_ccf,Electricity,87.01
+Heat Rejection,i_e_2126_ccf,Natural Gas,0
+Heat Rejection,i_f_2126_dg_vacuum,Electricity,89.4
+Heat Rejection,i_f_2126_dg_vacuum,Natural Gas,0
+Heat Rejection,i_g_2126_dg_smart,Electricity,82.03
+Heat Rejection,i_g_2126_dg_smart,Natural Gas,0
+Heat Rejection,i_h_2126_dsf_min,Electricity,87.385
+Heat Rejection,i_h_2126_dsf_min,Natural Gas,0
+Heat Rejection,i_i_2126_dsf_mean,Electricity,87.385
+Heat Rejection,i_i_2126_dsf_mean,Natural Gas,0
+Heat Rejection,i_j_2126_dsf_max,Electricity,87.385
+Heat Rejection,i_j_2126_dsf_max,Natural Gas,0
+Heat Rejection,j_a_2124_dg_init,Electricity,90.84
+Heat Rejection,j_a_2124_dg_init,Natural Gas,0
+Heat Rejection,j_b_2124_dg0,Electricity,111.07
+Heat Rejection,j_b_2124_dg0,Natural Gas,0
+Heat Rejection,j_c_2124_dg4,Electricity,96.09
+Heat Rejection,j_c_2124_dg4,Natural Gas,0
+Heat Rejection,j_d_2124_dg5,Electricity,104.19
+Heat Rejection,j_d_2124_dg5,Natural Gas,0
+Heat Rejection,j_e_2124_dg6,Electricity,115.53
+Heat Rejection,j_e_2124_dg6,Natural Gas,0
+Heat Rejection,j_f_2124_tg4,Electricity,109.23
+Heat Rejection,j_f_2124_tg4,Natural Gas,0
+Heat Rejection,j_g_2124_tg5,Electricity,111.23
+Heat Rejection,j_g_2124_tg5,Natural Gas,0
+Heat Rejection,j_h_2124_tg6,Electricity,127.73
+Heat Rejection,j_h_2124_tg6,Natural Gas,0
+Heat Rejection,k_a_1927_dg_init_ext,Electricity,59.98
+Heat Rejection,k_a_1927_dg_init_ext,Natural Gas,0
+Heat Rejection,k_b_1927_dg0_ext,Electricity,67.09
+Heat Rejection,k_b_1927_dg0_ext,Natural Gas,0
+Heat Rejection,k_c_1927_dg4_ext,Electricity,75.89
+Heat Rejection,k_c_1927_dg4_ext,Natural Gas,0
+Heat Rejection,k_d_1927_dg5_ext,Electricity,80.55
+Heat Rejection,k_d_1927_dg5_ext,Natural Gas,0
+Heat Rejection,k_e_1927_dg6_ext,Electricity,86.11
+Heat Rejection,k_e_1927_dg6_ext,Natural Gas,0
+Heat Rejection,k_f_1927_tg4_ext,Electricity,86.05
+Heat Rejection,k_f_1927_tg4_ext,Natural Gas,0
+Heat Rejection,k_g_1927_tg5_ext,Electricity,87.67
+Heat Rejection,k_g_1927_tg5_ext,Natural Gas,0
+Heat Rejection,k_h_1927_tg6_ext,Electricity,98.67
+Heat Rejection,k_h_1927_tg6_ext,Natural Gas,0
+Heat Rejection,l_a_2126_dg_init_intgain,Electricity,72.24
+Heat Rejection,l_a_2126_dg_init_intgain,Natural Gas,0
+Heat Rejection,l_b_2126_dg0_intgain,Electricity,80.26
+Heat Rejection,l_b_2126_dg0_intgain,Natural Gas,0
+Heat Rejection,l_c_2126_dg4_intgain,Electricity,89.31
+Heat Rejection,l_c_2126_dg4_intgain,Natural Gas,0
+Heat Rejection,l_d_2126_dg5_intgain,Electricity,93.19
+Heat Rejection,l_d_2126_dg5_intgain,Natural Gas,0
+Heat Rejection,l_e_2126_dg6_intgain,Electricity,98.13
+Heat Rejection,l_e_2126_dg6_intgain,Natural Gas,0
+Heat Rejection,l_f_2126_tg4_intgain,Electricity,101.9
+Heat Rejection,l_f_2126_tg4_intgain,Natural Gas,0
+Heat Rejection,l_g_2126_tg5_intgain,Electricity,103.09
+Heat Rejection,l_g_2126_tg5_intgain,Natural Gas,0
+Heat Rejection,l_h_2126_tg6_intgain,Electricity,110.96
+Heat Rejection,l_h_2126_tg6_intgain,Natural Gas,0
+Heat Rejection,m_a_2126_dg_init_intgain,Electricity,68.59
+Heat Rejection,m_a_2126_dg_init_intgain,Natural Gas,0
+Heat Rejection,m_b_2126_dg0_intgain,Electricity,70.56
+Heat Rejection,m_b_2126_dg0_intgain,Natural Gas,0
+Heat Rejection,m_c_2126_dg4_intgain,Electricity,67.93
+Heat Rejection,m_c_2126_dg4_intgain,Natural Gas,0
+Heat Rejection,m_d_2126_dg5_intgain,Electricity,70.48
+Heat Rejection,m_d_2126_dg5_intgain,Natural Gas,0
+Heat Rejection,m_e_2126_dg6_intgain,Electricity,74.06
+Heat Rejection,m_e_2126_dg6_intgain,Natural Gas,0
+Heat Rejection,m_f_2126_tg4_intgain,Electricity,73.65
+Heat Rejection,m_f_2126_tg4_intgain,Natural Gas,0
+Heat Rejection,m_g_2126_tg5_intgain,Electricity,74.35
+Heat Rejection,m_g_2126_tg5_intgain,Natural Gas,0
+Heat Rejection,m_h_2126_tg6_intgain,Electricity,79.25
+Heat Rejection,m_h_2126_tg6_intgain,Natural Gas,0
+Heat Rejection,n_a_2126_dg_init_cc,Electricity,88.82
+Heat Rejection,n_a_2126_dg_init_cc,Natural Gas,0
+Heat Rejection,n_b_2126_dg0_cc,Electricity,95.01
+Heat Rejection,n_b_2126_dg0_cc,Natural Gas,0
+Heat Rejection,n_c_2126_dg4_cc,Electricity,97.87
+Heat Rejection,n_c_2126_dg4_cc,Natural Gas,0
+Heat Rejection,n_d_2126_dg5_cc,Electricity,101.2
+Heat Rejection,n_d_2126_dg5_cc,Natural Gas,0
+Heat Rejection,n_e_2126_dg6_cc,Electricity,105.23
+Heat Rejection,n_e_2126_dg6_cc,Natural Gas,0
+Heat Rejection,n_f_2126_tg4_cc,Electricity,105.96
+Heat Rejection,n_f_2126_tg4_cc,Natural Gas,0
+Heat Rejection,n_g_2126_tg5_cc,Electricity,106.79
+Heat Rejection,n_g_2126_tg5_cc,Natural Gas,0
+Heat Rejection,n_h_2126_tg6_cc,Electricity,113.27
+Heat Rejection,n_h_2126_tg6_cc,Natural Gas,0
+Heat Rejection,o_a_2126_dg_init_cc,Electricity,102.72
+Heat Rejection,o_a_2126_dg_init_cc,Natural Gas,0
+Heat Rejection,o_b_2126_dg0_cc,Electricity,108.67
+Heat Rejection,o_b_2126_dg0_cc,Natural Gas,0
+Heat Rejection,o_c_2126_dg4_cc,Electricity,111.15
+Heat Rejection,o_c_2126_dg4_cc,Natural Gas,0
+Heat Rejection,o_d_2126_dg5_cc,Electricity,113.73
+Heat Rejection,o_d_2126_dg5_cc,Natural Gas,0
+Heat Rejection,o_e_2126_dg6_cc,Electricity,117.6
+Heat Rejection,o_e_2126_dg6_cc,Natural Gas,0
+Heat Rejection,o_f_2126_tg4_cc,Electricity,118.08
+Heat Rejection,o_f_2126_tg4_cc,Natural Gas,0
+Heat Rejection,o_g_2126_tg5_cc,Electricity,119.03
+Heat Rejection,o_g_2126_tg5_cc,Natural Gas,0
+Heat Rejection,o_h_2126_tg6_cc,Electricity,125.77
+Heat Rejection,o_h_2126_tg6_cc,Natural Gas,0
+Heat Rejection,p_a_2124_dg_init_cc,Electricity,112.51
+Heat Rejection,p_a_2124_dg_init_cc,Natural Gas,0
+Heat Rejection,p_b_2124_dg0_cc,Electricity,133.82
+Heat Rejection,p_b_2124_dg0_cc,Natural Gas,0
+Heat Rejection,p_c_2124_dg4_cc,Electricity,118.33
+Heat Rejection,p_c_2124_dg4_cc,Natural Gas,0
+Heat Rejection,p_d_2124_dg5_cc,Electricity,126.79
+Heat Rejection,p_d_2124_dg5_cc,Natural Gas,0
+Heat Rejection,p_e_2124_dg6_cc,Electricity,136.6
+Heat Rejection,p_e_2124_dg6_cc,Natural Gas,0
+Heat Rejection,p_f_2124_tg4_cc,Electricity,130.68
+Heat Rejection,p_f_2124_tg4_cc,Natural Gas,0
+Heat Rejection,p_g_2124_tg5_cc,Electricity,132.52
+Heat Rejection,p_g_2124_tg5_cc,Natural Gas,0
+Heat Rejection,p_h_2124_tg6_cc,Electricity,146.33
+Heat Rejection,p_h_2124_tg6_cc,Natural Gas,0
+Heating,a_a_2126_dg_init,Electricity,0
+Heating,a_a_2126_dg_init,Natural Gas,1485.91
+Heating,a_b_2126_dg0,Electricity,0
+Heating,a_b_2126_dg0,Natural Gas,1460.13
+Heating,a_c_2126_sg1,Electricity,0
+Heating,a_c_2126_sg1,Natural Gas,1906.62
+Heating,a_d_2126_sg2,Electricity,0
+Heating,a_d_2126_sg2,Natural Gas,1558.74
+Heating,a_e_2126_dg1,Electricity,0
+Heating,a_e_2126_dg1,Natural Gas,1360.11
+Heating,a_f_2126_dg2,Electricity,0
+Heating,a_f_2126_dg2,Natural Gas,1361.12
+Heating,a_g_2126_dg3,Electricity,0
+Heating,a_g_2126_dg3,Natural Gas,1357.5
+Heating,a_h_2126_dg4,Electricity,0
+Heating,a_h_2126_dg4,Natural Gas,1358.6
+Heating,a_i_2126_dg5,Electricity,0
+Heating,a_i_2126_dg5,Natural Gas,1358.16
+Heating,a_j_2126_dg6,Electricity,0
+Heating,a_j_2126_dg6,Natural Gas,1357.67
+Heating,a_k_2126_tg1,Electricity,0
+Heating,a_k_2126_tg1,Natural Gas,1342.97
+Heating,a_l_2126_tg2,Electricity,0
+Heating,a_l_2126_tg2,Natural Gas,1347.29
+Heating,a_m_2126_tg3,Electricity,0
+Heating,a_m_2126_tg3,Natural Gas,1347.34
+Heating,a_n_2126_tg4,Electricity,0
+Heating,a_n_2126_tg4,Natural Gas,1344.36
+Heating,a_o_2126_tg5,Electricity,0
+Heating,a_o_2126_tg5,Natural Gas,1344.31
+Heating,a_p_2126_tg6,Electricity,0
+Heating,a_p_2126_tg6,Natural Gas,1343.56
+Heating,b_a_2126_dg_init_int,Electricity,0
+Heating,b_a_2126_dg_init_int,Natural Gas,1485.93
+Heating,b_b_2126_dg0_int,Electricity,0
+Heating,b_b_2126_dg0_int,Natural Gas,1460.59
+Heating,b_c_2126_sg1_int,Electricity,0
+Heating,b_c_2126_sg1_int,Natural Gas,1918.52
+Heating,b_d_2126_sg2_int,Electricity,0
+Heating,b_d_2126_sg2_int,Natural Gas,1559.06
+Heating,b_e_2126_dg1_int,Electricity,0
+Heating,b_e_2126_dg1_int,Natural Gas,1360.13
+Heating,b_f_2126_dg2_int,Electricity,0
+Heating,b_f_2126_dg2_int,Natural Gas,1361.11
+Heating,b_g_2126_dg3_int,Electricity,0
+Heating,b_g_2126_dg3_int,Natural Gas,1357.5
+Heating,b_h_2126_dg4_int,Electricity,0
+Heating,b_h_2126_dg4_int,Natural Gas,1358.54
+Heating,b_i_2126_dg5_int,Electricity,0
+Heating,b_i_2126_dg5_int,Natural Gas,1358.12
+Heating,b_j_2126_dg6_int,Electricity,0
+Heating,b_j_2126_dg6_int,Natural Gas,1357.67
+Heating,b_k_2126_tg1_int,Electricity,0
+Heating,b_k_2126_tg1_int,Natural Gas,1342.93
+Heating,b_l_2126_tg2_int,Electricity,0
+Heating,b_l_2126_tg2_int,Natural Gas,1347.28
+Heating,b_m_2126_tg3_int,Electricity,0
+Heating,b_m_2126_tg3_int,Natural Gas,1347.34
+Heating,b_n_2126_tg4_int,Electricity,0
+Heating,b_n_2126_tg4_int,Natural Gas,1344.35
+Heating,b_o_2126_tg5_int,Electricity,0
+Heating,b_o_2126_tg5_int,Natural Gas,1344.29
+Heating,b_p_2126_tg6_int,Electricity,0
+Heating,b_p_2126_tg6_int,Natural Gas,1343.56
+Heating,c_a_2126_dg_init_tc,Electricity,0
+Heating,c_a_2126_dg_init_tc,Natural Gas,1488.92
+Heating,c_b_2126_dg0_tc,Electricity,0
+Heating,c_b_2126_dg0_tc,Natural Gas,1462.86
+Heating,c_c_2126_sg1_tc,Electricity,0
+Heating,c_c_2126_sg1_tc,Natural Gas,1929.11
+Heating,c_d_2126_sg2_tc,Electricity,0
+Heating,c_d_2126_sg2_tc,Natural Gas,1563.81
+Heating,c_e_2126_dg1_tc,Electricity,0
+Heating,c_e_2126_dg1_tc,Natural Gas,1360.36
+Heating,c_f_2126_dg2_tc,Electricity,0
+Heating,c_f_2126_dg2_tc,Natural Gas,1361.33
+Heating,c_g_2126_dg3_tc,Electricity,0
+Heating,c_g_2126_dg3_tc,Natural Gas,1357.71
+Heating,c_h_2126_dg4_tc,Electricity,0
+Heating,c_h_2126_dg4_tc,Natural Gas,1358.68
+Heating,c_i_2126_dg5_tc,Electricity,0
+Heating,c_i_2126_dg5_tc,Natural Gas,1358.29
+Heating,c_j_2126_dg6_tc,Electricity,0
+Heating,c_j_2126_dg6_tc,Natural Gas,1357.86
+Heating,c_k_2126_tg1_tc,Electricity,0
+Heating,c_k_2126_tg1_tc,Natural Gas,1343.01
+Heating,c_l_2126_tg2_tc,Electricity,0
+Heating,c_l_2126_tg2_tc,Natural Gas,1347.4
+Heating,c_m_2126_tg3_tc,Electricity,0
+Heating,c_m_2126_tg3_tc,Natural Gas,1347.45
+Heating,c_n_2126_tg4_tc,Electricity,0
+Heating,c_n_2126_tg4_tc,Natural Gas,1344.46
+Heating,c_o_2126_tg5_tc,Electricity,0
+Heating,c_o_2126_tg5_tc,Natural Gas,1344.4
+Heating,c_p_2126_tg6_tc,Electricity,0
+Heating,c_p_2126_tg6_tc,Natural Gas,1343.64
+Heating,d_a_2126_dg_init_vav,Electricity,0
+Heating,d_a_2126_dg_init_vav,Natural Gas,1129.31
+Heating,d_b_2126_dg0_vav,Electricity,0
+Heating,d_b_2126_dg0_vav,Natural Gas,911.44
+Heating,d_c_2126_sg1_vav,Electricity,0
+Heating,d_c_2126_sg1_vav,Natural Gas,1690.45
+Heating,d_d_2126_sg2_vav,Electricity,0
+Heating,d_d_2126_sg2_vav,Natural Gas,1224.69
+Heating,d_e_2126_dg1_vav,Electricity,0
+Heating,d_e_2126_dg1_vav,Natural Gas,504.45
+Heating,d_f_2126_dg2_vav,Electricity,0
+Heating,d_f_2126_dg2_vav,Natural Gas,718.77
+Heating,d_g_2126_dg3_vav,Electricity,0
+Heating,d_g_2126_dg3_vav,Natural Gas,700.61
+Heating,d_h_2126_dg4_vav,Electricity,0
+Heating,d_h_2126_dg4_vav,Natural Gas,615.28
+Heating,d_i_2126_dg5_vav,Electricity,0
+Heating,d_i_2126_dg5_vav,Natural Gas,657.13
+Heating,d_j_2126_dg6_vav,Electricity,0
+Heating,d_j_2126_dg6_vav,Natural Gas,693.76
+Heating,d_k_2126_tg1_vav,Electricity,0
+Heating,d_k_2126_tg1_vav,Natural Gas,478.03
+Heating,d_l_2126_tg2_vav,Electricity,0
+Heating,d_l_2126_tg2_vav,Natural Gas,650.17
+Heating,d_m_2126_tg3_vav,Electricity,0
+Heating,d_m_2126_tg3_vav,Natural Gas,647.44
+Heating,d_n_2126_tg4_vav,Electricity,0
+Heating,d_n_2126_tg4_vav,Natural Gas,588.18
+Heating,d_o_2126_tg5_vav,Electricity,0
+Heating,d_o_2126_tg5_vav,Natural Gas,596.49
+Heating,d_p_2126_tg6_vav,Electricity,0
+Heating,d_p_2126_tg6_vav,Natural Gas,632.89
+Heating,e_a_2126_dg_init_vav_int,Electricity,0
+Heating,e_a_2126_dg_init_vav_int,Natural Gas,1351.76
+Heating,e_b_2126_dg0_vav_int,Electricity,0
+Heating,e_b_2126_dg0_vav_int,Natural Gas,1324.21
+Heating,e_c_2126_sg1_vav_int,Electricity,0
+Heating,e_c_2126_sg1_vav_int,Natural Gas,2020.97
+Heating,e_d_2126_sg2_vav_int,Electricity,0
+Heating,e_d_2126_sg2_vav_int,Natural Gas,1456.14
+Heating,e_e_2126_dg1_vav_int,Electricity,0
+Heating,e_e_2126_dg1_vav_int,Natural Gas,902.61
+Heating,e_f_2126_dg2_vav_int,Electricity,0
+Heating,e_f_2126_dg2_vav_int,Natural Gas,883.05
+Heating,e_g_2126_dg3_vav_int,Electricity,0
+Heating,e_g_2126_dg3_vav_int,Natural Gas,863.09
+Heating,e_h_2126_dg4_vav_int,Electricity,0
+Heating,e_h_2126_dg4_vav_int,Natural Gas,756.14
+Heating,e_i_2126_dg5_vav_int,Electricity,0
+Heating,e_i_2126_dg5_vav_int,Natural Gas,818.24
+Heating,e_j_2126_dg6_vav_int,Electricity,0
+Heating,e_j_2126_dg6_vav_int,Natural Gas,859.64
+Heating,e_k_2126_tg1_vav_int,Electricity,0
+Heating,e_k_2126_tg1_vav_int,Natural Gas,781.24
+Heating,e_l_2126_tg2_vav_int,Electricity,0
+Heating,e_l_2126_tg2_vav_int,Natural Gas,798.67
+Heating,e_m_2126_tg3_vav_int,Electricity,0
+Heating,e_m_2126_tg3_vav_int,Natural Gas,795.32
+Heating,e_n_2126_tg4_vav_int,Electricity,0
+Heating,e_n_2126_tg4_vav_int,Natural Gas,694.72
+Heating,e_o_2126_tg5_vav_int,Electricity,0
+Heating,e_o_2126_tg5_vav_int,Natural Gas,709.19
+Heating,e_p_2126_tg6_vav_int,Electricity,0
+Heating,e_p_2126_tg6_vav_int,Natural Gas,772.99
+Heating,f_a_2126_dg_init_vrf,Electricity,140.98
+Heating,f_a_2126_dg_init_vrf,Natural Gas,0
+Heating,f_b_2126_dg0_vrf,Electricity,98.84
+Heating,f_b_2126_dg0_vrf,Natural Gas,0
+Heating,f_c_2126_sg1_vrf,Electricity,354.38
+Heating,f_c_2126_sg1_vrf,Natural Gas,0
+Heating,f_d_2126_sg2_vrf,Electricity,200.8
+Heating,f_d_2126_sg2_vrf,Natural Gas,0
+Heating,f_e_2126_dg1_vrf,Electricity,9.95
+Heating,f_e_2126_dg1_vrf,Natural Gas,0
+Heating,f_f_2126_dg2_vrf,Electricity,17.24
+Heating,f_f_2126_dg2_vrf,Natural Gas,0
+Heating,f_g_2126_dg3_vrf,Electricity,13.53
+Heating,f_g_2126_dg3_vrf,Natural Gas,0
+Heating,f_h_2126_dg4_vrf,Electricity,26.23
+Heating,f_h_2126_dg4_vrf,Natural Gas,0
+Heating,f_i_2126_dg5_vrf,Electricity,19.92
+Heating,f_i_2126_dg5_vrf,Natural Gas,0
+Heating,f_j_2126_dg6_vrf,Electricity,14.84
+Heating,f_j_2126_dg6_vrf,Natural Gas,0
+Heating,f_k_2126_tg1_vrf,Electricity,4.35
+Heating,f_k_2126_tg1_vrf,Natural Gas,0
+Heating,f_l_2126_tg2_vrf,Electricity,7.26
+Heating,f_l_2126_tg2_vrf,Natural Gas,0
+Heating,f_m_2126_tg3_vrf,Electricity,7.66
+Heating,f_m_2126_tg3_vrf,Natural Gas,0
+Heating,f_n_2126_tg4_vrf,Electricity,9.12
+Heating,f_n_2126_tg4_vrf,Natural Gas,0
+Heating,f_o_2126_tg5_vrf,Electricity,8.67
+Heating,f_o_2126_tg5_vrf,Natural Gas,0
+Heating,f_p_2126_tg6_vrf,Electricity,6.24
+Heating,f_p_2126_tg6_vrf,Natural Gas,0
+Heating,g_a_2126_dg_init_vrf_int,Electricity,130.89
+Heating,g_a_2126_dg_init_vrf_int,Natural Gas,0
+Heating,g_b_2126_dg0_vrf_int,Electricity,97.9
+Heating,g_b_2126_dg0_vrf_int,Natural Gas,0
+Heating,g_c_2126_sg1_vrf_int,Electricity,372.75
+Heating,g_c_2126_sg1_vrf_int,Natural Gas,0
+Heating,g_d_2126_sg2_vrf_int,Electricity,189.5
+Heating,g_d_2126_sg2_vrf_int,Natural Gas,0
+Heating,g_e_2126_dg1_vrf_int,Electricity,9.39
+Heating,g_e_2126_dg1_vrf_int,Natural Gas,0
+Heating,g_f_2126_dg2_vrf_int,Electricity,14.21
+Heating,g_f_2126_dg2_vrf_int,Natural Gas,0
+Heating,g_g_2126_dg3_vrf_int,Electricity,11.18
+Heating,g_g_2126_dg3_vrf_int,Natural Gas,0
+Heating,g_h_2126_dg4_vrf_int,Electricity,21.24
+Heating,g_h_2126_dg4_vrf_int,Natural Gas,0
+Heating,g_i_2126_dg5_vrf_int,Electricity,15.82
+Heating,g_i_2126_dg5_vrf_int,Natural Gas,0
+Heating,g_j_2126_dg6_vrf_int,Electricity,11.97
+Heating,g_j_2126_dg6_vrf_int,Natural Gas,0
+Heating,g_k_2126_tg1_vrf_int,Electricity,3.89
+Heating,g_k_2126_tg1_vrf_int,Natural Gas,0
+Heating,g_l_2126_tg2_vrf_int,Electricity,6.19
+Heating,g_l_2126_tg2_vrf_int,Natural Gas,0
+Heating,g_m_2126_tg3_vrf_int,Electricity,6.4
+Heating,g_m_2126_tg3_vrf_int,Natural Gas,0
+Heating,g_n_2126_tg4_vrf_int,Electricity,7.67
+Heating,g_n_2126_tg4_vrf_int,Natural Gas,0
+Heating,g_o_2126_tg5_vrf_int,Electricity,7.19
+Heating,g_o_2126_tg5_vrf_int,Natural Gas,0
+Heating,g_p_2126_tg6_vrf_int,Electricity,5.3
+Heating,g_p_2126_tg6_vrf_int,Natural Gas,0
+Heating,h_a_2126_dg_init_wtw,Electricity,0
+Heating,h_a_2126_dg_init_wtw,Natural Gas,889.25
+Heating,h_b_2126_dg0_wtw,Electricity,0
+Heating,h_b_2126_dg0_wtw,Natural Gas,877.83
+Heating,h_c_2126_dg4_wtw,Electricity,0
+Heating,h_c_2126_dg4_wtw,Natural Gas,568.93
+Heating,h_d_2126_dg5_wtw,Electricity,0
+Heating,h_d_2126_dg5_wtw,Natural Gas,601.9
+Heating,h_e_2126_dg6_wtw,Electricity,0
+Heating,h_e_2126_dg6_wtw,Natural Gas,631
+Heating,h_f_2126_tg4_wtw,Electricity,0
+Heating,h_f_2126_tg4_wtw,Natural Gas,564.78
+Heating,h_g_2126_tg5_wtw,Electricity,0
+Heating,h_g_2126_tg5_wtw,Natural Gas,570.65
+Heating,h_h_2126_tg6_wtw,Electricity,0
+Heating,h_h_2126_tg6_wtw,Natural Gas,607
+Heating,i_a_2126_dg_init_vav_int,Electricity,0
+Heating,i_a_2126_dg_init_vav_int,Natural Gas,1351.76
+Heating,i_b_2126_dg5k,Electricity,0
+Heating,i_b_2126_dg5k,Natural Gas,768.17
+Heating,i_c_2126_tg5k,Electricity,0
+Heating,i_c_2126_tg5k,Natural Gas,701.82
+Heating,i_d_2126_tg5x,Electricity,0
+Heating,i_d_2126_tg5x,Natural Gas,698.82
+Heating,i_e_2126_ccf,Electricity,0
+Heating,i_e_2126_ccf,Natural Gas,508.11
+Heating,i_f_2126_dg_vacuum,Electricity,0
+Heating,i_f_2126_dg_vacuum,Natural Gas,753.17
+Heating,i_g_2126_dg_smart,Electricity,0
+Heating,i_g_2126_dg_smart,Natural Gas,555.68
+Heating,i_h_2126_dsf_min,Electricity,0
+Heating,i_h_2126_dsf_min,Natural Gas,570.0649167
+Heating,i_i_2126_dsf_mean,Electricity,0
+Heating,i_i_2126_dsf_mean,Natural Gas,610.2103333
+Heating,i_j_2126_dsf_max,Electricity,0
+Heating,i_j_2126_dsf_max,Natural Gas,650.35575
+Heating,j_a_2124_dg_init,Electricity,0
+Heating,j_a_2124_dg_init,Natural Gas,1013.69
+Heating,j_b_2124_dg0,Electricity,0
+Heating,j_b_2124_dg0,Natural Gas,844.95
+Heating,j_c_2124_dg4,Electricity,0
+Heating,j_c_2124_dg4,Natural Gas,747.9
+Heating,j_d_2124_dg5,Electricity,0
+Heating,j_d_2124_dg5,Natural Gas,639.44
+Heating,j_e_2124_dg6,Electricity,0
+Heating,j_e_2124_dg6,Natural Gas,524
+Heating,j_f_2124_tg4,Electricity,0
+Heating,j_f_2124_tg4,Natural Gas,660.67
+Heating,j_g_2124_tg5,Electricity,0
+Heating,j_g_2124_tg5,Natural Gas,652.13
+Heating,j_h_2124_tg6,Electricity,0
+Heating,j_h_2124_tg6,Natural Gas,466.2
+Heating,k_a_1927_dg_init_ext,Electricity,0
+Heating,k_a_1927_dg_init_ext,Natural Gas,538.64
+Heating,k_b_1927_dg0_ext,Electricity,0
+Heating,k_b_1927_dg0_ext,Natural Gas,554.95
+Heating,k_c_1927_dg4_ext,Electricity,0
+Heating,k_c_1927_dg4_ext,Natural Gas,421.35
+Heating,k_d_1927_dg5_ext,Electricity,0
+Heating,k_d_1927_dg5_ext,Natural Gas,442.47
+Heating,k_e_1927_dg6_ext,Electricity,0
+Heating,k_e_1927_dg6_ext,Natural Gas,465.96
+Heating,k_f_1927_tg4_ext,Electricity,0
+Heating,k_f_1927_tg4_ext,Natural Gas,459.54
+Heating,k_g_1927_tg5_ext,Electricity,0
+Heating,k_g_1927_tg5_ext,Natural Gas,464.27
+Heating,k_h_1927_tg6_ext,Electricity,0
+Heating,k_h_1927_tg6_ext,Natural Gas,484.29
+Heating,l_a_2126_dg_init_intgain,Electricity,0
+Heating,l_a_2126_dg_init_intgain,Natural Gas,1249.68
+Heating,l_b_2126_dg0_intgain,Electricity,0
+Heating,l_b_2126_dg0_intgain,Natural Gas,1215.53
+Heating,l_c_2126_dg4_intgain,Electricity,0
+Heating,l_c_2126_dg4_intgain,Natural Gas,750.05
+Heating,l_d_2126_dg5_intgain,Electricity,0
+Heating,l_d_2126_dg5_intgain,Natural Gas,783.51
+Heating,l_e_2126_dg6_intgain,Electricity,0
+Heating,l_e_2126_dg6_intgain,Natural Gas,802.44
+Heating,l_f_2126_tg4_intgain,Electricity,0
+Heating,l_f_2126_tg4_intgain,Natural Gas,685.77
+Heating,l_g_2126_tg5_intgain,Electricity,0
+Heating,l_g_2126_tg5_intgain,Natural Gas,691.03
+Heating,l_h_2126_tg6_intgain,Electricity,0
+Heating,l_h_2126_tg6_intgain,Natural Gas,715.31
+Heating,m_a_2126_dg_init_intgain,Electricity,0
+Heating,m_a_2126_dg_init_intgain,Natural Gas,1453.2
+Heating,m_b_2126_dg0_intgain,Electricity,0
+Heating,m_b_2126_dg0_intgain,Natural Gas,1410.42
+Heating,m_c_2126_dg4_intgain,Electricity,0
+Heating,m_c_2126_dg4_intgain,Natural Gas,745.27
+Heating,m_d_2126_dg5_intgain,Electricity,0
+Heating,m_d_2126_dg5_intgain,Natural Gas,819.89
+Heating,m_e_2126_dg6_intgain,Electricity,0
+Heating,m_e_2126_dg6_intgain,Natural Gas,874.3
+Heating,m_f_2126_tg4_intgain,Electricity,0
+Heating,m_f_2126_tg4_intgain,Natural Gas,658.02
+Heating,m_g_2126_tg5_intgain,Electricity,0
+Heating,m_g_2126_tg5_intgain,Natural Gas,678.55
+Heating,m_h_2126_tg6_intgain,Electricity,0
+Heating,m_h_2126_tg6_intgain,Natural Gas,785.47
+Heating,n_a_2126_dg_init_cc,Electricity,0
+Heating,n_a_2126_dg_init_cc,Natural Gas,942.83
+Heating,n_b_2126_dg0_cc,Electricity,0
+Heating,n_b_2126_dg0_cc,Natural Gas,934.88
+Heating,n_c_2126_dg4_cc,Electricity,0
+Heating,n_c_2126_dg4_cc,Natural Gas,551.72
+Heating,n_d_2126_dg5_cc,Electricity,0
+Heating,n_d_2126_dg5_cc,Natural Gas,599.19
+Heating,n_e_2126_dg6_cc,Electricity,0
+Heating,n_e_2126_dg6_cc,Natural Gas,632.16
+Heating,n_f_2126_tg4_cc,Electricity,0
+Heating,n_f_2126_tg4_cc,Natural Gas,513.26
+Heating,n_g_2126_tg5_cc,Electricity,0
+Heating,n_g_2126_tg5_cc,Natural Gas,524.1
+Heating,n_h_2126_tg6_cc,Electricity,0
+Heating,n_h_2126_tg6_cc,Natural Gas,575.24
+Heating,o_a_2126_dg_init_cc,Electricity,0
+Heating,o_a_2126_dg_init_cc,Natural Gas,720.45
+Heating,o_b_2126_dg0_cc,Electricity,0
+Heating,o_b_2126_dg0_cc,Natural Gas,718.76
+Heating,o_c_2126_dg4_cc,Electricity,0
+Heating,o_c_2126_dg4_cc,Natural Gas,413.9
+Heating,o_d_2126_dg5_cc,Electricity,0
+Heating,o_d_2126_dg5_cc,Natural Gas,450.85
+Heating,o_e_2126_dg6_cc,Electricity,0
+Heating,o_e_2126_dg6_cc,Natural Gas,479.44
+Heating,o_f_2126_tg4_cc,Electricity,0
+Heating,o_f_2126_tg4_cc,Natural Gas,386.26
+Heating,o_g_2126_tg5_cc,Electricity,0
+Heating,o_g_2126_tg5_cc,Natural Gas,394.83
+Heating,o_h_2126_tg6_cc,Electricity,0
+Heating,o_h_2126_tg6_cc,Natural Gas,439.77
+Heating,p_a_2124_dg_init_cc,Electricity,0
+Heating,p_a_2124_dg_init_cc,Natural Gas,665.54
+Heating,p_b_2124_dg0_cc,Electricity,0
+Heating,p_b_2124_dg0_cc,Natural Gas,555.27
+Heating,p_c_2124_dg4_cc,Electricity,0
+Heating,p_c_2124_dg4_cc,Natural Gas,543.52
+Heating,p_d_2124_dg5_cc,Electricity,0
+Heating,p_d_2124_dg5_cc,Natural Gas,450.95
+Heating,p_e_2124_dg6_cc,Electricity,0
+Heating,p_e_2124_dg6_cc,Natural Gas,359.17
+Heating,p_f_2124_tg4_cc,Electricity,0
+Heating,p_f_2124_tg4_cc,Natural Gas,487.04
+Heating,p_g_2124_tg5_cc,Electricity,0
+Heating,p_g_2124_tg5_cc,Natural Gas,478.13
+Heating,p_h_2124_tg6_cc,Electricity,0
+Heating,p_h_2124_tg6_cc,Natural Gas,322.88
+Interior Equipment,a_a_2126_dg_init,Electricity,2009.8
+Interior Equipment,a_a_2126_dg_init,Natural Gas,0
+Interior Equipment,a_b_2126_dg0,Electricity,2009.8
+Interior Equipment,a_b_2126_dg0,Natural Gas,0
+Interior Equipment,a_c_2126_sg1,Electricity,2009.8
+Interior Equipment,a_c_2126_sg1,Natural Gas,0
+Interior Equipment,a_d_2126_sg2,Electricity,2009.8
+Interior Equipment,a_d_2126_sg2,Natural Gas,0
+Interior Equipment,a_e_2126_dg1,Electricity,2009.8
+Interior Equipment,a_e_2126_dg1,Natural Gas,0
+Interior Equipment,a_f_2126_dg2,Electricity,2009.8
+Interior Equipment,a_f_2126_dg2,Natural Gas,0
+Interior Equipment,a_g_2126_dg3,Electricity,2009.8
+Interior Equipment,a_g_2126_dg3,Natural Gas,0
+Interior Equipment,a_h_2126_dg4,Electricity,2009.8
+Interior Equipment,a_h_2126_dg4,Natural Gas,0
+Interior Equipment,a_i_2126_dg5,Electricity,2009.8
+Interior Equipment,a_i_2126_dg5,Natural Gas,0
+Interior Equipment,a_j_2126_dg6,Electricity,2009.8
+Interior Equipment,a_j_2126_dg6,Natural Gas,0
+Interior Equipment,a_k_2126_tg1,Electricity,2009.8
+Interior Equipment,a_k_2126_tg1,Natural Gas,0
+Interior Equipment,a_l_2126_tg2,Electricity,2009.8
+Interior Equipment,a_l_2126_tg2,Natural Gas,0
+Interior Equipment,a_m_2126_tg3,Electricity,2009.8
+Interior Equipment,a_m_2126_tg3,Natural Gas,0
+Interior Equipment,a_n_2126_tg4,Electricity,2009.8
+Interior Equipment,a_n_2126_tg4,Natural Gas,0
+Interior Equipment,a_o_2126_tg5,Electricity,2009.8
+Interior Equipment,a_o_2126_tg5,Natural Gas,0
+Interior Equipment,a_p_2126_tg6,Electricity,2009.8
+Interior Equipment,a_p_2126_tg6,Natural Gas,0
+Interior Equipment,b_a_2126_dg_init_int,Electricity,2009.8
+Interior Equipment,b_a_2126_dg_init_int,Natural Gas,0
+Interior Equipment,b_b_2126_dg0_int,Electricity,2009.8
+Interior Equipment,b_b_2126_dg0_int,Natural Gas,0
+Interior Equipment,b_c_2126_sg1_int,Electricity,2009.8
+Interior Equipment,b_c_2126_sg1_int,Natural Gas,0
+Interior Equipment,b_d_2126_sg2_int,Electricity,2009.8
+Interior Equipment,b_d_2126_sg2_int,Natural Gas,0
+Interior Equipment,b_e_2126_dg1_int,Electricity,2009.8
+Interior Equipment,b_e_2126_dg1_int,Natural Gas,0
+Interior Equipment,b_f_2126_dg2_int,Electricity,2009.8
+Interior Equipment,b_f_2126_dg2_int,Natural Gas,0
+Interior Equipment,b_g_2126_dg3_int,Electricity,2009.8
+Interior Equipment,b_g_2126_dg3_int,Natural Gas,0
+Interior Equipment,b_h_2126_dg4_int,Electricity,2009.8
+Interior Equipment,b_h_2126_dg4_int,Natural Gas,0
+Interior Equipment,b_i_2126_dg5_int,Electricity,2009.8
+Interior Equipment,b_i_2126_dg5_int,Natural Gas,0
+Interior Equipment,b_j_2126_dg6_int,Electricity,2009.8
+Interior Equipment,b_j_2126_dg6_int,Natural Gas,0
+Interior Equipment,b_k_2126_tg1_int,Electricity,2009.8
+Interior Equipment,b_k_2126_tg1_int,Natural Gas,0
+Interior Equipment,b_l_2126_tg2_int,Electricity,2009.8
+Interior Equipment,b_l_2126_tg2_int,Natural Gas,0
+Interior Equipment,b_m_2126_tg3_int,Electricity,2009.8
+Interior Equipment,b_m_2126_tg3_int,Natural Gas,0
+Interior Equipment,b_n_2126_tg4_int,Electricity,2009.8
+Interior Equipment,b_n_2126_tg4_int,Natural Gas,0
+Interior Equipment,b_o_2126_tg5_int,Electricity,2009.8
+Interior Equipment,b_o_2126_tg5_int,Natural Gas,0
+Interior Equipment,b_p_2126_tg6_int,Electricity,2009.8
+Interior Equipment,b_p_2126_tg6_int,Natural Gas,0
+Interior Equipment,c_a_2126_dg_init_tc,Electricity,2009.8
+Interior Equipment,c_a_2126_dg_init_tc,Natural Gas,0
+Interior Equipment,c_b_2126_dg0_tc,Electricity,2009.8
+Interior Equipment,c_b_2126_dg0_tc,Natural Gas,0
+Interior Equipment,c_c_2126_sg1_tc,Electricity,2009.8
+Interior Equipment,c_c_2126_sg1_tc,Natural Gas,0
+Interior Equipment,c_d_2126_sg2_tc,Electricity,2009.8
+Interior Equipment,c_d_2126_sg2_tc,Natural Gas,0
+Interior Equipment,c_e_2126_dg1_tc,Electricity,2009.8
+Interior Equipment,c_e_2126_dg1_tc,Natural Gas,0
+Interior Equipment,c_f_2126_dg2_tc,Electricity,2009.8
+Interior Equipment,c_f_2126_dg2_tc,Natural Gas,0
+Interior Equipment,c_g_2126_dg3_tc,Electricity,2009.8
+Interior Equipment,c_g_2126_dg3_tc,Natural Gas,0
+Interior Equipment,c_h_2126_dg4_tc,Electricity,2009.8
+Interior Equipment,c_h_2126_dg4_tc,Natural Gas,0
+Interior Equipment,c_i_2126_dg5_tc,Electricity,2009.8
+Interior Equipment,c_i_2126_dg5_tc,Natural Gas,0
+Interior Equipment,c_j_2126_dg6_tc,Electricity,2009.8
+Interior Equipment,c_j_2126_dg6_tc,Natural Gas,0
+Interior Equipment,c_k_2126_tg1_tc,Electricity,2009.8
+Interior Equipment,c_k_2126_tg1_tc,Natural Gas,0
+Interior Equipment,c_l_2126_tg2_tc,Electricity,2009.8
+Interior Equipment,c_l_2126_tg2_tc,Natural Gas,0
+Interior Equipment,c_m_2126_tg3_tc,Electricity,2009.8
+Interior Equipment,c_m_2126_tg3_tc,Natural Gas,0
+Interior Equipment,c_n_2126_tg4_tc,Electricity,2009.8
+Interior Equipment,c_n_2126_tg4_tc,Natural Gas,0
+Interior Equipment,c_o_2126_tg5_tc,Electricity,2009.8
+Interior Equipment,c_o_2126_tg5_tc,Natural Gas,0
+Interior Equipment,c_p_2126_tg6_tc,Electricity,2009.8
+Interior Equipment,c_p_2126_tg6_tc,Natural Gas,0
+Interior Equipment,d_a_2126_dg_init_vav,Electricity,2009.8
+Interior Equipment,d_a_2126_dg_init_vav,Natural Gas,0
+Interior Equipment,d_b_2126_dg0_vav,Electricity,2009.8
+Interior Equipment,d_b_2126_dg0_vav,Natural Gas,0
+Interior Equipment,d_c_2126_sg1_vav,Electricity,2009.8
+Interior Equipment,d_c_2126_sg1_vav,Natural Gas,0
+Interior Equipment,d_d_2126_sg2_vav,Electricity,2009.8
+Interior Equipment,d_d_2126_sg2_vav,Natural Gas,0
+Interior Equipment,d_e_2126_dg1_vav,Electricity,2009.8
+Interior Equipment,d_e_2126_dg1_vav,Natural Gas,0
+Interior Equipment,d_f_2126_dg2_vav,Electricity,2009.8
+Interior Equipment,d_f_2126_dg2_vav,Natural Gas,0
+Interior Equipment,d_g_2126_dg3_vav,Electricity,2009.8
+Interior Equipment,d_g_2126_dg3_vav,Natural Gas,0
+Interior Equipment,d_h_2126_dg4_vav,Electricity,2009.8
+Interior Equipment,d_h_2126_dg4_vav,Natural Gas,0
+Interior Equipment,d_i_2126_dg5_vav,Electricity,2009.8
+Interior Equipment,d_i_2126_dg5_vav,Natural Gas,0
+Interior Equipment,d_j_2126_dg6_vav,Electricity,2009.8
+Interior Equipment,d_j_2126_dg6_vav,Natural Gas,0
+Interior Equipment,d_k_2126_tg1_vav,Electricity,2009.8
+Interior Equipment,d_k_2126_tg1_vav,Natural Gas,0
+Interior Equipment,d_l_2126_tg2_vav,Electricity,2009.8
+Interior Equipment,d_l_2126_tg2_vav,Natural Gas,0
+Interior Equipment,d_m_2126_tg3_vav,Electricity,2009.8
+Interior Equipment,d_m_2126_tg3_vav,Natural Gas,0
+Interior Equipment,d_n_2126_tg4_vav,Electricity,2009.8
+Interior Equipment,d_n_2126_tg4_vav,Natural Gas,0
+Interior Equipment,d_o_2126_tg5_vav,Electricity,2009.8
+Interior Equipment,d_o_2126_tg5_vav,Natural Gas,0
+Interior Equipment,d_p_2126_tg6_vav,Electricity,2009.8
+Interior Equipment,d_p_2126_tg6_vav,Natural Gas,0
+Interior Equipment,e_a_2126_dg_init_vav_int,Electricity,2009.8
+Interior Equipment,e_a_2126_dg_init_vav_int,Natural Gas,0
+Interior Equipment,e_b_2126_dg0_vav_int,Electricity,2009.8
+Interior Equipment,e_b_2126_dg0_vav_int,Natural Gas,0
+Interior Equipment,e_c_2126_sg1_vav_int,Electricity,2009.8
+Interior Equipment,e_c_2126_sg1_vav_int,Natural Gas,0
+Interior Equipment,e_d_2126_sg2_vav_int,Electricity,2009.8
+Interior Equipment,e_d_2126_sg2_vav_int,Natural Gas,0
+Interior Equipment,e_e_2126_dg1_vav_int,Electricity,2009.8
+Interior Equipment,e_e_2126_dg1_vav_int,Natural Gas,0
+Interior Equipment,e_f_2126_dg2_vav_int,Electricity,2009.8
+Interior Equipment,e_f_2126_dg2_vav_int,Natural Gas,0
+Interior Equipment,e_g_2126_dg3_vav_int,Electricity,2009.8
+Interior Equipment,e_g_2126_dg3_vav_int,Natural Gas,0
+Interior Equipment,e_h_2126_dg4_vav_int,Electricity,2009.8
+Interior Equipment,e_h_2126_dg4_vav_int,Natural Gas,0
+Interior Equipment,e_i_2126_dg5_vav_int,Electricity,2009.8
+Interior Equipment,e_i_2126_dg5_vav_int,Natural Gas,0
+Interior Equipment,e_j_2126_dg6_vav_int,Electricity,2009.8
+Interior Equipment,e_j_2126_dg6_vav_int,Natural Gas,0
+Interior Equipment,e_k_2126_tg1_vav_int,Electricity,2009.8
+Interior Equipment,e_k_2126_tg1_vav_int,Natural Gas,0
+Interior Equipment,e_l_2126_tg2_vav_int,Electricity,2009.8
+Interior Equipment,e_l_2126_tg2_vav_int,Natural Gas,0
+Interior Equipment,e_m_2126_tg3_vav_int,Electricity,2009.8
+Interior Equipment,e_m_2126_tg3_vav_int,Natural Gas,0
+Interior Equipment,e_n_2126_tg4_vav_int,Electricity,2009.8
+Interior Equipment,e_n_2126_tg4_vav_int,Natural Gas,0
+Interior Equipment,e_o_2126_tg5_vav_int,Electricity,2009.8
+Interior Equipment,e_o_2126_tg5_vav_int,Natural Gas,0
+Interior Equipment,e_p_2126_tg6_vav_int,Electricity,2009.8
+Interior Equipment,e_p_2126_tg6_vav_int,Natural Gas,0
+Interior Equipment,f_a_2126_dg_init_vrf,Electricity,2009.8
+Interior Equipment,f_a_2126_dg_init_vrf,Natural Gas,0
+Interior Equipment,f_b_2126_dg0_vrf,Electricity,2009.8
+Interior Equipment,f_b_2126_dg0_vrf,Natural Gas,0
+Interior Equipment,f_c_2126_sg1_vrf,Electricity,2009.8
+Interior Equipment,f_c_2126_sg1_vrf,Natural Gas,0
+Interior Equipment,f_d_2126_sg2_vrf,Electricity,2009.8
+Interior Equipment,f_d_2126_sg2_vrf,Natural Gas,0
+Interior Equipment,f_e_2126_dg1_vrf,Electricity,2009.8
+Interior Equipment,f_e_2126_dg1_vrf,Natural Gas,0
+Interior Equipment,f_f_2126_dg2_vrf,Electricity,2009.8
+Interior Equipment,f_f_2126_dg2_vrf,Natural Gas,0
+Interior Equipment,f_g_2126_dg3_vrf,Electricity,2009.8
+Interior Equipment,f_g_2126_dg3_vrf,Natural Gas,0
+Interior Equipment,f_h_2126_dg4_vrf,Electricity,2009.8
+Interior Equipment,f_h_2126_dg4_vrf,Natural Gas,0
+Interior Equipment,f_i_2126_dg5_vrf,Electricity,2009.8
+Interior Equipment,f_i_2126_dg5_vrf,Natural Gas,0
+Interior Equipment,f_j_2126_dg6_vrf,Electricity,2009.8
+Interior Equipment,f_j_2126_dg6_vrf,Natural Gas,0
+Interior Equipment,f_k_2126_tg1_vrf,Electricity,2009.8
+Interior Equipment,f_k_2126_tg1_vrf,Natural Gas,0
+Interior Equipment,f_l_2126_tg2_vrf,Electricity,2009.8
+Interior Equipment,f_l_2126_tg2_vrf,Natural Gas,0
+Interior Equipment,f_m_2126_tg3_vrf,Electricity,2009.8
+Interior Equipment,f_m_2126_tg3_vrf,Natural Gas,0
+Interior Equipment,f_n_2126_tg4_vrf,Electricity,2009.8
+Interior Equipment,f_n_2126_tg4_vrf,Natural Gas,0
+Interior Equipment,f_o_2126_tg5_vrf,Electricity,2009.8
+Interior Equipment,f_o_2126_tg5_vrf,Natural Gas,0
+Interior Equipment,f_p_2126_tg6_vrf,Electricity,2009.8
+Interior Equipment,f_p_2126_tg6_vrf,Natural Gas,0
+Interior Equipment,g_a_2126_dg_init_vrf_int,Electricity,2009.8
+Interior Equipment,g_a_2126_dg_init_vrf_int,Natural Gas,0
+Interior Equipment,g_b_2126_dg0_vrf_int,Electricity,2009.8
+Interior Equipment,g_b_2126_dg0_vrf_int,Natural Gas,0
+Interior Equipment,g_c_2126_sg1_vrf_int,Electricity,2009.8
+Interior Equipment,g_c_2126_sg1_vrf_int,Natural Gas,0
+Interior Equipment,g_d_2126_sg2_vrf_int,Electricity,2009.8
+Interior Equipment,g_d_2126_sg2_vrf_int,Natural Gas,0
+Interior Equipment,g_e_2126_dg1_vrf_int,Electricity,2009.8
+Interior Equipment,g_e_2126_dg1_vrf_int,Natural Gas,0
+Interior Equipment,g_f_2126_dg2_vrf_int,Electricity,2009.8
+Interior Equipment,g_f_2126_dg2_vrf_int,Natural Gas,0
+Interior Equipment,g_g_2126_dg3_vrf_int,Electricity,2009.8
+Interior Equipment,g_g_2126_dg3_vrf_int,Natural Gas,0
+Interior Equipment,g_h_2126_dg4_vrf_int,Electricity,2009.8
+Interior Equipment,g_h_2126_dg4_vrf_int,Natural Gas,0
+Interior Equipment,g_i_2126_dg5_vrf_int,Electricity,2009.8
+Interior Equipment,g_i_2126_dg5_vrf_int,Natural Gas,0
+Interior Equipment,g_j_2126_dg6_vrf_int,Electricity,2009.8
+Interior Equipment,g_j_2126_dg6_vrf_int,Natural Gas,0
+Interior Equipment,g_k_2126_tg1_vrf_int,Electricity,2009.8
+Interior Equipment,g_k_2126_tg1_vrf_int,Natural Gas,0
+Interior Equipment,g_l_2126_tg2_vrf_int,Electricity,2009.8
+Interior Equipment,g_l_2126_tg2_vrf_int,Natural Gas,0
+Interior Equipment,g_m_2126_tg3_vrf_int,Electricity,2009.8
+Interior Equipment,g_m_2126_tg3_vrf_int,Natural Gas,0
+Interior Equipment,g_n_2126_tg4_vrf_int,Electricity,2009.8
+Interior Equipment,g_n_2126_tg4_vrf_int,Natural Gas,0
+Interior Equipment,g_o_2126_tg5_vrf_int,Electricity,2009.8
+Interior Equipment,g_o_2126_tg5_vrf_int,Natural Gas,0
+Interior Equipment,g_p_2126_tg6_vrf_int,Electricity,2009.8
+Interior Equipment,g_p_2126_tg6_vrf_int,Natural Gas,0
+Interior Equipment,h_a_2126_dg_init_wtw,Electricity,2009.8
+Interior Equipment,h_a_2126_dg_init_wtw,Natural Gas,0
+Interior Equipment,h_b_2126_dg0_wtw,Electricity,2009.8
+Interior Equipment,h_b_2126_dg0_wtw,Natural Gas,0
+Interior Equipment,h_c_2126_dg4_wtw,Electricity,2009.8
+Interior Equipment,h_c_2126_dg4_wtw,Natural Gas,0
+Interior Equipment,h_d_2126_dg5_wtw,Electricity,2009.8
+Interior Equipment,h_d_2126_dg5_wtw,Natural Gas,0
+Interior Equipment,h_e_2126_dg6_wtw,Electricity,2009.8
+Interior Equipment,h_e_2126_dg6_wtw,Natural Gas,0
+Interior Equipment,h_f_2126_tg4_wtw,Electricity,2009.8
+Interior Equipment,h_f_2126_tg4_wtw,Natural Gas,0
+Interior Equipment,h_g_2126_tg5_wtw,Electricity,2009.8
+Interior Equipment,h_g_2126_tg5_wtw,Natural Gas,0
+Interior Equipment,h_h_2126_tg6_wtw,Electricity,2009.8
+Interior Equipment,h_h_2126_tg6_wtw,Natural Gas,0
+Interior Equipment,i_a_2126_dg_init_vav_int,Electricity,2009.8
+Interior Equipment,i_a_2126_dg_init_vav_int,Natural Gas,0
+Interior Equipment,i_b_2126_dg5k,Electricity,2009.8
+Interior Equipment,i_b_2126_dg5k,Natural Gas,0
+Interior Equipment,i_c_2126_tg5k,Electricity,2009.8
+Interior Equipment,i_c_2126_tg5k,Natural Gas,0
+Interior Equipment,i_d_2126_tg5x,Electricity,2009.8
+Interior Equipment,i_d_2126_tg5x,Natural Gas,0
+Interior Equipment,i_e_2126_ccf,Electricity,2009.8
+Interior Equipment,i_e_2126_ccf,Natural Gas,0
+Interior Equipment,i_f_2126_dg_vacuum,Electricity,2009.8
+Interior Equipment,i_f_2126_dg_vacuum,Natural Gas,0
+Interior Equipment,i_g_2126_dg_smart,Electricity,2009.8
+Interior Equipment,i_g_2126_dg_smart,Natural Gas,0
+Interior Equipment,i_h_2126_dsf_min,Electricity,2009.8
+Interior Equipment,i_h_2126_dsf_min,Natural Gas,0
+Interior Equipment,i_i_2126_dsf_mean,Electricity,2009.8
+Interior Equipment,i_i_2126_dsf_mean,Natural Gas,0
+Interior Equipment,i_j_2126_dsf_max,Electricity,2009.8
+Interior Equipment,i_j_2126_dsf_max,Natural Gas,0
+Interior Equipment,j_a_2124_dg_init,Electricity,2009.8
+Interior Equipment,j_a_2124_dg_init,Natural Gas,0
+Interior Equipment,j_b_2124_dg0,Electricity,2009.8
+Interior Equipment,j_b_2124_dg0,Natural Gas,0
+Interior Equipment,j_c_2124_dg4,Electricity,2009.8
+Interior Equipment,j_c_2124_dg4,Natural Gas,0
+Interior Equipment,j_d_2124_dg5,Electricity,2009.8
+Interior Equipment,j_d_2124_dg5,Natural Gas,0
+Interior Equipment,j_e_2124_dg6,Electricity,2009.8
+Interior Equipment,j_e_2124_dg6,Natural Gas,0
+Interior Equipment,j_f_2124_tg4,Electricity,2009.8
+Interior Equipment,j_f_2124_tg4,Natural Gas,0
+Interior Equipment,j_g_2124_tg5,Electricity,2009.8
+Interior Equipment,j_g_2124_tg5,Natural Gas,0
+Interior Equipment,j_h_2124_tg6,Electricity,2009.8
+Interior Equipment,j_h_2124_tg6,Natural Gas,0
+Interior Equipment,k_a_1927_dg_init_ext,Electricity,2009.8
+Interior Equipment,k_a_1927_dg_init_ext,Natural Gas,0
+Interior Equipment,k_b_1927_dg0_ext,Electricity,2009.8
+Interior Equipment,k_b_1927_dg0_ext,Natural Gas,0
+Interior Equipment,k_c_1927_dg4_ext,Electricity,2009.8
+Interior Equipment,k_c_1927_dg4_ext,Natural Gas,0
+Interior Equipment,k_d_1927_dg5_ext,Electricity,2009.8
+Interior Equipment,k_d_1927_dg5_ext,Natural Gas,0
+Interior Equipment,k_e_1927_dg6_ext,Electricity,2009.8
+Interior Equipment,k_e_1927_dg6_ext,Natural Gas,0
+Interior Equipment,k_f_1927_tg4_ext,Electricity,2009.8
+Interior Equipment,k_f_1927_tg4_ext,Natural Gas,0
+Interior Equipment,k_g_1927_tg5_ext,Electricity,2009.8
+Interior Equipment,k_g_1927_tg5_ext,Natural Gas,0
+Interior Equipment,k_h_1927_tg6_ext,Electricity,2009.8
+Interior Equipment,k_h_1927_tg6_ext,Natural Gas,0
+Interior Equipment,l_a_2126_dg_init_intgain,Electricity,2408.53
+Interior Equipment,l_a_2126_dg_init_intgain,Natural Gas,0
+Interior Equipment,l_b_2126_dg0_intgain,Electricity,2408.53
+Interior Equipment,l_b_2126_dg0_intgain,Natural Gas,0
+Interior Equipment,l_c_2126_dg4_intgain,Electricity,2408.53
+Interior Equipment,l_c_2126_dg4_intgain,Natural Gas,0
+Interior Equipment,l_d_2126_dg5_intgain,Electricity,2408.53
+Interior Equipment,l_d_2126_dg5_intgain,Natural Gas,0
+Interior Equipment,l_e_2126_dg6_intgain,Electricity,2408.53
+Interior Equipment,l_e_2126_dg6_intgain,Natural Gas,0
+Interior Equipment,l_f_2126_tg4_intgain,Electricity,2408.53
+Interior Equipment,l_f_2126_tg4_intgain,Natural Gas,0
+Interior Equipment,l_g_2126_tg5_intgain,Electricity,2408.53
+Interior Equipment,l_g_2126_tg5_intgain,Natural Gas,0
+Interior Equipment,l_h_2126_tg6_intgain,Electricity,2408.53
+Interior Equipment,l_h_2126_tg6_intgain,Natural Gas,0
+Interior Equipment,m_a_2126_dg_init_intgain,Electricity,1743.97
+Interior Equipment,m_a_2126_dg_init_intgain,Natural Gas,0
+Interior Equipment,m_b_2126_dg0_intgain,Electricity,1743.97
+Interior Equipment,m_b_2126_dg0_intgain,Natural Gas,0
+Interior Equipment,m_c_2126_dg4_intgain,Electricity,1743.97
+Interior Equipment,m_c_2126_dg4_intgain,Natural Gas,0
+Interior Equipment,m_d_2126_dg5_intgain,Electricity,1743.97
+Interior Equipment,m_d_2126_dg5_intgain,Natural Gas,0
+Interior Equipment,m_e_2126_dg6_intgain,Electricity,1743.97
+Interior Equipment,m_e_2126_dg6_intgain,Natural Gas,0
+Interior Equipment,m_f_2126_tg4_intgain,Electricity,1743.97
+Interior Equipment,m_f_2126_tg4_intgain,Natural Gas,0
+Interior Equipment,m_g_2126_tg5_intgain,Electricity,1743.97
+Interior Equipment,m_g_2126_tg5_intgain,Natural Gas,0
+Interior Equipment,m_h_2126_tg6_intgain,Electricity,1743.97
+Interior Equipment,m_h_2126_tg6_intgain,Natural Gas,0
+Interior Equipment,n_a_2126_dg_init_cc,Electricity,2009.8
+Interior Equipment,n_a_2126_dg_init_cc,Natural Gas,0
+Interior Equipment,n_b_2126_dg0_cc,Electricity,2009.8
+Interior Equipment,n_b_2126_dg0_cc,Natural Gas,0
+Interior Equipment,n_c_2126_dg4_cc,Electricity,2009.8
+Interior Equipment,n_c_2126_dg4_cc,Natural Gas,0
+Interior Equipment,n_d_2126_dg5_cc,Electricity,2009.8
+Interior Equipment,n_d_2126_dg5_cc,Natural Gas,0
+Interior Equipment,n_e_2126_dg6_cc,Electricity,2009.8
+Interior Equipment,n_e_2126_dg6_cc,Natural Gas,0
+Interior Equipment,n_f_2126_tg4_cc,Electricity,2009.8
+Interior Equipment,n_f_2126_tg4_cc,Natural Gas,0
+Interior Equipment,n_g_2126_tg5_cc,Electricity,2009.8
+Interior Equipment,n_g_2126_tg5_cc,Natural Gas,0
+Interior Equipment,n_h_2126_tg6_cc,Electricity,2009.8
+Interior Equipment,n_h_2126_tg6_cc,Natural Gas,0
+Interior Equipment,o_a_2126_dg_init_cc,Electricity,2009.8
+Interior Equipment,o_a_2126_dg_init_cc,Natural Gas,0
+Interior Equipment,o_b_2126_dg0_cc,Electricity,2009.8
+Interior Equipment,o_b_2126_dg0_cc,Natural Gas,0
+Interior Equipment,o_c_2126_dg4_cc,Electricity,2009.8
+Interior Equipment,o_c_2126_dg4_cc,Natural Gas,0
+Interior Equipment,o_d_2126_dg5_cc,Electricity,2009.8
+Interior Equipment,o_d_2126_dg5_cc,Natural Gas,0
+Interior Equipment,o_e_2126_dg6_cc,Electricity,2009.8
+Interior Equipment,o_e_2126_dg6_cc,Natural Gas,0
+Interior Equipment,o_f_2126_tg4_cc,Electricity,2009.8
+Interior Equipment,o_f_2126_tg4_cc,Natural Gas,0
+Interior Equipment,o_g_2126_tg5_cc,Electricity,2009.8
+Interior Equipment,o_g_2126_tg5_cc,Natural Gas,0
+Interior Equipment,o_h_2126_tg6_cc,Electricity,2009.8
+Interior Equipment,o_h_2126_tg6_cc,Natural Gas,0
+Interior Equipment,p_a_2124_dg_init_cc,Electricity,2009.8
+Interior Equipment,p_a_2124_dg_init_cc,Natural Gas,0
+Interior Equipment,p_b_2124_dg0_cc,Electricity,2009.8
+Interior Equipment,p_b_2124_dg0_cc,Natural Gas,0
+Interior Equipment,p_c_2124_dg4_cc,Electricity,2009.8
+Interior Equipment,p_c_2124_dg4_cc,Natural Gas,0
+Interior Equipment,p_d_2124_dg5_cc,Electricity,2009.8
+Interior Equipment,p_d_2124_dg5_cc,Natural Gas,0
+Interior Equipment,p_e_2124_dg6_cc,Electricity,2009.8
+Interior Equipment,p_e_2124_dg6_cc,Natural Gas,0
+Interior Equipment,p_f_2124_tg4_cc,Electricity,2009.8
+Interior Equipment,p_f_2124_tg4_cc,Natural Gas,0
+Interior Equipment,p_g_2124_tg5_cc,Electricity,2009.8
+Interior Equipment,p_g_2124_tg5_cc,Natural Gas,0
+Interior Equipment,p_h_2124_tg6_cc,Electricity,2009.8
+Interior Equipment,p_h_2124_tg6_cc,Natural Gas,0
+Interior Lighting,a_a_2126_dg_init,Electricity,685.7
+Interior Lighting,a_a_2126_dg_init,Natural Gas,0
+Interior Lighting,a_b_2126_dg0,Electricity,685.7
+Interior Lighting,a_b_2126_dg0,Natural Gas,0
+Interior Lighting,a_c_2126_sg1,Electricity,685.7
+Interior Lighting,a_c_2126_sg1,Natural Gas,0
+Interior Lighting,a_d_2126_sg2,Electricity,685.7
+Interior Lighting,a_d_2126_sg2,Natural Gas,0
+Interior Lighting,a_e_2126_dg1,Electricity,685.7
+Interior Lighting,a_e_2126_dg1,Natural Gas,0
+Interior Lighting,a_f_2126_dg2,Electricity,685.7
+Interior Lighting,a_f_2126_dg2,Natural Gas,0
+Interior Lighting,a_g_2126_dg3,Electricity,685.7
+Interior Lighting,a_g_2126_dg3,Natural Gas,0
+Interior Lighting,a_h_2126_dg4,Electricity,685.7
+Interior Lighting,a_h_2126_dg4,Natural Gas,0
+Interior Lighting,a_i_2126_dg5,Electricity,685.7
+Interior Lighting,a_i_2126_dg5,Natural Gas,0
+Interior Lighting,a_j_2126_dg6,Electricity,685.7
+Interior Lighting,a_j_2126_dg6,Natural Gas,0
+Interior Lighting,a_k_2126_tg1,Electricity,685.7
+Interior Lighting,a_k_2126_tg1,Natural Gas,0
+Interior Lighting,a_l_2126_tg2,Electricity,685.7
+Interior Lighting,a_l_2126_tg2,Natural Gas,0
+Interior Lighting,a_m_2126_tg3,Electricity,685.7
+Interior Lighting,a_m_2126_tg3,Natural Gas,0
+Interior Lighting,a_n_2126_tg4,Electricity,685.7
+Interior Lighting,a_n_2126_tg4,Natural Gas,0
+Interior Lighting,a_o_2126_tg5,Electricity,685.7
+Interior Lighting,a_o_2126_tg5,Natural Gas,0
+Interior Lighting,a_p_2126_tg6,Electricity,685.7
+Interior Lighting,a_p_2126_tg6,Natural Gas,0
+Interior Lighting,b_a_2126_dg_init_int,Electricity,685.7
+Interior Lighting,b_a_2126_dg_init_int,Natural Gas,0
+Interior Lighting,b_b_2126_dg0_int,Electricity,685.7
+Interior Lighting,b_b_2126_dg0_int,Natural Gas,0
+Interior Lighting,b_c_2126_sg1_int,Electricity,685.7
+Interior Lighting,b_c_2126_sg1_int,Natural Gas,0
+Interior Lighting,b_d_2126_sg2_int,Electricity,685.7
+Interior Lighting,b_d_2126_sg2_int,Natural Gas,0
+Interior Lighting,b_e_2126_dg1_int,Electricity,685.7
+Interior Lighting,b_e_2126_dg1_int,Natural Gas,0
+Interior Lighting,b_f_2126_dg2_int,Electricity,685.7
+Interior Lighting,b_f_2126_dg2_int,Natural Gas,0
+Interior Lighting,b_g_2126_dg3_int,Electricity,685.7
+Interior Lighting,b_g_2126_dg3_int,Natural Gas,0
+Interior Lighting,b_h_2126_dg4_int,Electricity,685.7
+Interior Lighting,b_h_2126_dg4_int,Natural Gas,0
+Interior Lighting,b_i_2126_dg5_int,Electricity,685.7
+Interior Lighting,b_i_2126_dg5_int,Natural Gas,0
+Interior Lighting,b_j_2126_dg6_int,Electricity,685.7
+Interior Lighting,b_j_2126_dg6_int,Natural Gas,0
+Interior Lighting,b_k_2126_tg1_int,Electricity,685.7
+Interior Lighting,b_k_2126_tg1_int,Natural Gas,0
+Interior Lighting,b_l_2126_tg2_int,Electricity,685.7
+Interior Lighting,b_l_2126_tg2_int,Natural Gas,0
+Interior Lighting,b_m_2126_tg3_int,Electricity,685.7
+Interior Lighting,b_m_2126_tg3_int,Natural Gas,0
+Interior Lighting,b_n_2126_tg4_int,Electricity,685.7
+Interior Lighting,b_n_2126_tg4_int,Natural Gas,0
+Interior Lighting,b_o_2126_tg5_int,Electricity,685.7
+Interior Lighting,b_o_2126_tg5_int,Natural Gas,0
+Interior Lighting,b_p_2126_tg6_int,Electricity,685.7
+Interior Lighting,b_p_2126_tg6_int,Natural Gas,0
+Interior Lighting,c_a_2126_dg_init_tc,Electricity,685.7
+Interior Lighting,c_a_2126_dg_init_tc,Natural Gas,0
+Interior Lighting,c_b_2126_dg0_tc,Electricity,685.7
+Interior Lighting,c_b_2126_dg0_tc,Natural Gas,0
+Interior Lighting,c_c_2126_sg1_tc,Electricity,685.7
+Interior Lighting,c_c_2126_sg1_tc,Natural Gas,0
+Interior Lighting,c_d_2126_sg2_tc,Electricity,685.7
+Interior Lighting,c_d_2126_sg2_tc,Natural Gas,0
+Interior Lighting,c_e_2126_dg1_tc,Electricity,685.7
+Interior Lighting,c_e_2126_dg1_tc,Natural Gas,0
+Interior Lighting,c_f_2126_dg2_tc,Electricity,685.7
+Interior Lighting,c_f_2126_dg2_tc,Natural Gas,0
+Interior Lighting,c_g_2126_dg3_tc,Electricity,685.7
+Interior Lighting,c_g_2126_dg3_tc,Natural Gas,0
+Interior Lighting,c_h_2126_dg4_tc,Electricity,685.7
+Interior Lighting,c_h_2126_dg4_tc,Natural Gas,0
+Interior Lighting,c_i_2126_dg5_tc,Electricity,685.7
+Interior Lighting,c_i_2126_dg5_tc,Natural Gas,0
+Interior Lighting,c_j_2126_dg6_tc,Electricity,685.7
+Interior Lighting,c_j_2126_dg6_tc,Natural Gas,0
+Interior Lighting,c_k_2126_tg1_tc,Electricity,685.7
+Interior Lighting,c_k_2126_tg1_tc,Natural Gas,0
+Interior Lighting,c_l_2126_tg2_tc,Electricity,685.7
+Interior Lighting,c_l_2126_tg2_tc,Natural Gas,0
+Interior Lighting,c_m_2126_tg3_tc,Electricity,685.7
+Interior Lighting,c_m_2126_tg3_tc,Natural Gas,0
+Interior Lighting,c_n_2126_tg4_tc,Electricity,685.7
+Interior Lighting,c_n_2126_tg4_tc,Natural Gas,0
+Interior Lighting,c_o_2126_tg5_tc,Electricity,685.7
+Interior Lighting,c_o_2126_tg5_tc,Natural Gas,0
+Interior Lighting,c_p_2126_tg6_tc,Electricity,685.7
+Interior Lighting,c_p_2126_tg6_tc,Natural Gas,0
+Interior Lighting,d_a_2126_dg_init_vav,Electricity,685.7
+Interior Lighting,d_a_2126_dg_init_vav,Natural Gas,0
+Interior Lighting,d_b_2126_dg0_vav,Electricity,685.7
+Interior Lighting,d_b_2126_dg0_vav,Natural Gas,0
+Interior Lighting,d_c_2126_sg1_vav,Electricity,685.7
+Interior Lighting,d_c_2126_sg1_vav,Natural Gas,0
+Interior Lighting,d_d_2126_sg2_vav,Electricity,685.7
+Interior Lighting,d_d_2126_sg2_vav,Natural Gas,0
+Interior Lighting,d_e_2126_dg1_vav,Electricity,685.7
+Interior Lighting,d_e_2126_dg1_vav,Natural Gas,0
+Interior Lighting,d_f_2126_dg2_vav,Electricity,685.7
+Interior Lighting,d_f_2126_dg2_vav,Natural Gas,0
+Interior Lighting,d_g_2126_dg3_vav,Electricity,685.7
+Interior Lighting,d_g_2126_dg3_vav,Natural Gas,0
+Interior Lighting,d_h_2126_dg4_vav,Electricity,685.7
+Interior Lighting,d_h_2126_dg4_vav,Natural Gas,0
+Interior Lighting,d_i_2126_dg5_vav,Electricity,685.7
+Interior Lighting,d_i_2126_dg5_vav,Natural Gas,0
+Interior Lighting,d_j_2126_dg6_vav,Electricity,685.7
+Interior Lighting,d_j_2126_dg6_vav,Natural Gas,0
+Interior Lighting,d_k_2126_tg1_vav,Electricity,685.7
+Interior Lighting,d_k_2126_tg1_vav,Natural Gas,0
+Interior Lighting,d_l_2126_tg2_vav,Electricity,685.7
+Interior Lighting,d_l_2126_tg2_vav,Natural Gas,0
+Interior Lighting,d_m_2126_tg3_vav,Electricity,685.7
+Interior Lighting,d_m_2126_tg3_vav,Natural Gas,0
+Interior Lighting,d_n_2126_tg4_vav,Electricity,685.7
+Interior Lighting,d_n_2126_tg4_vav,Natural Gas,0
+Interior Lighting,d_o_2126_tg5_vav,Electricity,685.7
+Interior Lighting,d_o_2126_tg5_vav,Natural Gas,0
+Interior Lighting,d_p_2126_tg6_vav,Electricity,685.7
+Interior Lighting,d_p_2126_tg6_vav,Natural Gas,0
+Interior Lighting,e_a_2126_dg_init_vav_int,Electricity,685.7
+Interior Lighting,e_a_2126_dg_init_vav_int,Natural Gas,0
+Interior Lighting,e_b_2126_dg0_vav_int,Electricity,685.7
+Interior Lighting,e_b_2126_dg0_vav_int,Natural Gas,0
+Interior Lighting,e_c_2126_sg1_vav_int,Electricity,685.7
+Interior Lighting,e_c_2126_sg1_vav_int,Natural Gas,0
+Interior Lighting,e_d_2126_sg2_vav_int,Electricity,685.7
+Interior Lighting,e_d_2126_sg2_vav_int,Natural Gas,0
+Interior Lighting,e_e_2126_dg1_vav_int,Electricity,685.7
+Interior Lighting,e_e_2126_dg1_vav_int,Natural Gas,0
+Interior Lighting,e_f_2126_dg2_vav_int,Electricity,685.7
+Interior Lighting,e_f_2126_dg2_vav_int,Natural Gas,0
+Interior Lighting,e_g_2126_dg3_vav_int,Electricity,685.7
+Interior Lighting,e_g_2126_dg3_vav_int,Natural Gas,0
+Interior Lighting,e_h_2126_dg4_vav_int,Electricity,685.7
+Interior Lighting,e_h_2126_dg4_vav_int,Natural Gas,0
+Interior Lighting,e_i_2126_dg5_vav_int,Electricity,685.7
+Interior Lighting,e_i_2126_dg5_vav_int,Natural Gas,0
+Interior Lighting,e_j_2126_dg6_vav_int,Electricity,685.7
+Interior Lighting,e_j_2126_dg6_vav_int,Natural Gas,0
+Interior Lighting,e_k_2126_tg1_vav_int,Electricity,685.7
+Interior Lighting,e_k_2126_tg1_vav_int,Natural Gas,0
+Interior Lighting,e_l_2126_tg2_vav_int,Electricity,685.7
+Interior Lighting,e_l_2126_tg2_vav_int,Natural Gas,0
+Interior Lighting,e_m_2126_tg3_vav_int,Electricity,685.7
+Interior Lighting,e_m_2126_tg3_vav_int,Natural Gas,0
+Interior Lighting,e_n_2126_tg4_vav_int,Electricity,685.7
+Interior Lighting,e_n_2126_tg4_vav_int,Natural Gas,0
+Interior Lighting,e_o_2126_tg5_vav_int,Electricity,685.7
+Interior Lighting,e_o_2126_tg5_vav_int,Natural Gas,0
+Interior Lighting,e_p_2126_tg6_vav_int,Electricity,685.7
+Interior Lighting,e_p_2126_tg6_vav_int,Natural Gas,0
+Interior Lighting,f_a_2126_dg_init_vrf,Electricity,685.7
+Interior Lighting,f_a_2126_dg_init_vrf,Natural Gas,0
+Interior Lighting,f_b_2126_dg0_vrf,Electricity,685.7
+Interior Lighting,f_b_2126_dg0_vrf,Natural Gas,0
+Interior Lighting,f_c_2126_sg1_vrf,Electricity,685.7
+Interior Lighting,f_c_2126_sg1_vrf,Natural Gas,0
+Interior Lighting,f_d_2126_sg2_vrf,Electricity,685.7
+Interior Lighting,f_d_2126_sg2_vrf,Natural Gas,0
+Interior Lighting,f_e_2126_dg1_vrf,Electricity,685.7
+Interior Lighting,f_e_2126_dg1_vrf,Natural Gas,0
+Interior Lighting,f_f_2126_dg2_vrf,Electricity,685.7
+Interior Lighting,f_f_2126_dg2_vrf,Natural Gas,0
+Interior Lighting,f_g_2126_dg3_vrf,Electricity,685.7
+Interior Lighting,f_g_2126_dg3_vrf,Natural Gas,0
+Interior Lighting,f_h_2126_dg4_vrf,Electricity,685.7
+Interior Lighting,f_h_2126_dg4_vrf,Natural Gas,0
+Interior Lighting,f_i_2126_dg5_vrf,Electricity,685.7
+Interior Lighting,f_i_2126_dg5_vrf,Natural Gas,0
+Interior Lighting,f_j_2126_dg6_vrf,Electricity,685.7
+Interior Lighting,f_j_2126_dg6_vrf,Natural Gas,0
+Interior Lighting,f_k_2126_tg1_vrf,Electricity,685.7
+Interior Lighting,f_k_2126_tg1_vrf,Natural Gas,0
+Interior Lighting,f_l_2126_tg2_vrf,Electricity,685.7
+Interior Lighting,f_l_2126_tg2_vrf,Natural Gas,0
+Interior Lighting,f_m_2126_tg3_vrf,Electricity,685.7
+Interior Lighting,f_m_2126_tg3_vrf,Natural Gas,0
+Interior Lighting,f_n_2126_tg4_vrf,Electricity,685.7
+Interior Lighting,f_n_2126_tg4_vrf,Natural Gas,0
+Interior Lighting,f_o_2126_tg5_vrf,Electricity,685.7
+Interior Lighting,f_o_2126_tg5_vrf,Natural Gas,0
+Interior Lighting,f_p_2126_tg6_vrf,Electricity,685.7
+Interior Lighting,f_p_2126_tg6_vrf,Natural Gas,0
+Interior Lighting,g_a_2126_dg_init_vrf_int,Electricity,685.7
+Interior Lighting,g_a_2126_dg_init_vrf_int,Natural Gas,0
+Interior Lighting,g_b_2126_dg0_vrf_int,Electricity,685.7
+Interior Lighting,g_b_2126_dg0_vrf_int,Natural Gas,0
+Interior Lighting,g_c_2126_sg1_vrf_int,Electricity,685.7
+Interior Lighting,g_c_2126_sg1_vrf_int,Natural Gas,0
+Interior Lighting,g_d_2126_sg2_vrf_int,Electricity,685.7
+Interior Lighting,g_d_2126_sg2_vrf_int,Natural Gas,0
+Interior Lighting,g_e_2126_dg1_vrf_int,Electricity,685.7
+Interior Lighting,g_e_2126_dg1_vrf_int,Natural Gas,0
+Interior Lighting,g_f_2126_dg2_vrf_int,Electricity,685.7
+Interior Lighting,g_f_2126_dg2_vrf_int,Natural Gas,0
+Interior Lighting,g_g_2126_dg3_vrf_int,Electricity,685.7
+Interior Lighting,g_g_2126_dg3_vrf_int,Natural Gas,0
+Interior Lighting,g_h_2126_dg4_vrf_int,Electricity,685.7
+Interior Lighting,g_h_2126_dg4_vrf_int,Natural Gas,0
+Interior Lighting,g_i_2126_dg5_vrf_int,Electricity,685.7
+Interior Lighting,g_i_2126_dg5_vrf_int,Natural Gas,0
+Interior Lighting,g_j_2126_dg6_vrf_int,Electricity,685.7
+Interior Lighting,g_j_2126_dg6_vrf_int,Natural Gas,0
+Interior Lighting,g_k_2126_tg1_vrf_int,Electricity,685.7
+Interior Lighting,g_k_2126_tg1_vrf_int,Natural Gas,0
+Interior Lighting,g_l_2126_tg2_vrf_int,Electricity,685.7
+Interior Lighting,g_l_2126_tg2_vrf_int,Natural Gas,0
+Interior Lighting,g_m_2126_tg3_vrf_int,Electricity,685.7
+Interior Lighting,g_m_2126_tg3_vrf_int,Natural Gas,0
+Interior Lighting,g_n_2126_tg4_vrf_int,Electricity,685.7
+Interior Lighting,g_n_2126_tg4_vrf_int,Natural Gas,0
+Interior Lighting,g_o_2126_tg5_vrf_int,Electricity,685.7
+Interior Lighting,g_o_2126_tg5_vrf_int,Natural Gas,0
+Interior Lighting,g_p_2126_tg6_vrf_int,Electricity,685.7
+Interior Lighting,g_p_2126_tg6_vrf_int,Natural Gas,0
+Interior Lighting,h_a_2126_dg_init_wtw,Electricity,685.7
+Interior Lighting,h_a_2126_dg_init_wtw,Natural Gas,0
+Interior Lighting,h_b_2126_dg0_wtw,Electricity,685.7
+Interior Lighting,h_b_2126_dg0_wtw,Natural Gas,0
+Interior Lighting,h_c_2126_dg4_wtw,Electricity,685.7
+Interior Lighting,h_c_2126_dg4_wtw,Natural Gas,0
+Interior Lighting,h_d_2126_dg5_wtw,Electricity,685.7
+Interior Lighting,h_d_2126_dg5_wtw,Natural Gas,0
+Interior Lighting,h_e_2126_dg6_wtw,Electricity,685.7
+Interior Lighting,h_e_2126_dg6_wtw,Natural Gas,0
+Interior Lighting,h_f_2126_tg4_wtw,Electricity,685.7
+Interior Lighting,h_f_2126_tg4_wtw,Natural Gas,0
+Interior Lighting,h_g_2126_tg5_wtw,Electricity,685.7
+Interior Lighting,h_g_2126_tg5_wtw,Natural Gas,0
+Interior Lighting,h_h_2126_tg6_wtw,Electricity,685.7
+Interior Lighting,h_h_2126_tg6_wtw,Natural Gas,0
+Interior Lighting,i_a_2126_dg_init_vav_int,Electricity,685.7
+Interior Lighting,i_a_2126_dg_init_vav_int,Natural Gas,0
+Interior Lighting,i_b_2126_dg5k,Electricity,685.7
+Interior Lighting,i_b_2126_dg5k,Natural Gas,0
+Interior Lighting,i_c_2126_tg5k,Electricity,685.7
+Interior Lighting,i_c_2126_tg5k,Natural Gas,0
+Interior Lighting,i_d_2126_tg5x,Electricity,685.7
+Interior Lighting,i_d_2126_tg5x,Natural Gas,0
+Interior Lighting,i_e_2126_ccf,Electricity,685.7
+Interior Lighting,i_e_2126_ccf,Natural Gas,0
+Interior Lighting,i_f_2126_dg_vacuum,Electricity,685.7
+Interior Lighting,i_f_2126_dg_vacuum,Natural Gas,0
+Interior Lighting,i_g_2126_dg_smart,Electricity,685.7
+Interior Lighting,i_g_2126_dg_smart,Natural Gas,0
+Interior Lighting,i_h_2126_dsf_min,Electricity,685.7
+Interior Lighting,i_h_2126_dsf_min,Natural Gas,0
+Interior Lighting,i_i_2126_dsf_mean,Electricity,685.7
+Interior Lighting,i_i_2126_dsf_mean,Natural Gas,0
+Interior Lighting,i_j_2126_dsf_max,Electricity,685.7
+Interior Lighting,i_j_2126_dsf_max,Natural Gas,0
+Interior Lighting,j_a_2124_dg_init,Electricity,685.7
+Interior Lighting,j_a_2124_dg_init,Natural Gas,0
+Interior Lighting,j_b_2124_dg0,Electricity,685.7
+Interior Lighting,j_b_2124_dg0,Natural Gas,0
+Interior Lighting,j_c_2124_dg4,Electricity,685.7
+Interior Lighting,j_c_2124_dg4,Natural Gas,0
+Interior Lighting,j_d_2124_dg5,Electricity,685.7
+Interior Lighting,j_d_2124_dg5,Natural Gas,0
+Interior Lighting,j_e_2124_dg6,Electricity,685.7
+Interior Lighting,j_e_2124_dg6,Natural Gas,0
+Interior Lighting,j_f_2124_tg4,Electricity,685.7
+Interior Lighting,j_f_2124_tg4,Natural Gas,0
+Interior Lighting,j_g_2124_tg5,Electricity,685.7
+Interior Lighting,j_g_2124_tg5,Natural Gas,0
+Interior Lighting,j_h_2124_tg6,Electricity,685.7
+Interior Lighting,j_h_2124_tg6,Natural Gas,0
+Interior Lighting,k_a_1927_dg_init_ext,Electricity,685.7
+Interior Lighting,k_a_1927_dg_init_ext,Natural Gas,0
+Interior Lighting,k_b_1927_dg0_ext,Electricity,685.7
+Interior Lighting,k_b_1927_dg0_ext,Natural Gas,0
+Interior Lighting,k_c_1927_dg4_ext,Electricity,685.7
+Interior Lighting,k_c_1927_dg4_ext,Natural Gas,0
+Interior Lighting,k_d_1927_dg5_ext,Electricity,685.7
+Interior Lighting,k_d_1927_dg5_ext,Natural Gas,0
+Interior Lighting,k_e_1927_dg6_ext,Electricity,685.7
+Interior Lighting,k_e_1927_dg6_ext,Natural Gas,0
+Interior Lighting,k_f_1927_tg4_ext,Electricity,685.7
+Interior Lighting,k_f_1927_tg4_ext,Natural Gas,0
+Interior Lighting,k_g_1927_tg5_ext,Electricity,685.7
+Interior Lighting,k_g_1927_tg5_ext,Natural Gas,0
+Interior Lighting,k_h_1927_tg6_ext,Electricity,685.7
+Interior Lighting,k_h_1927_tg6_ext,Natural Gas,0
+Interior Lighting,l_a_2126_dg_init_intgain,Electricity,839.42
+Interior Lighting,l_a_2126_dg_init_intgain,Natural Gas,0
+Interior Lighting,l_b_2126_dg0_intgain,Electricity,839.42
+Interior Lighting,l_b_2126_dg0_intgain,Natural Gas,0
+Interior Lighting,l_c_2126_dg4_intgain,Electricity,839.42
+Interior Lighting,l_c_2126_dg4_intgain,Natural Gas,0
+Interior Lighting,l_d_2126_dg5_intgain,Electricity,839.42
+Interior Lighting,l_d_2126_dg5_intgain,Natural Gas,0
+Interior Lighting,l_e_2126_dg6_intgain,Electricity,839.42
+Interior Lighting,l_e_2126_dg6_intgain,Natural Gas,0
+Interior Lighting,l_f_2126_tg4_intgain,Electricity,839.42
+Interior Lighting,l_f_2126_tg4_intgain,Natural Gas,0
+Interior Lighting,l_g_2126_tg5_intgain,Electricity,839.42
+Interior Lighting,l_g_2126_tg5_intgain,Natural Gas,0
+Interior Lighting,l_h_2126_tg6_intgain,Electricity,839.42
+Interior Lighting,l_h_2126_tg6_intgain,Natural Gas,0
+Interior Lighting,m_a_2126_dg_init_intgain,Electricity,455.13
+Interior Lighting,m_a_2126_dg_init_intgain,Natural Gas,0
+Interior Lighting,m_b_2126_dg0_intgain,Electricity,455.13
+Interior Lighting,m_b_2126_dg0_intgain,Natural Gas,0
+Interior Lighting,m_c_2126_dg4_intgain,Electricity,455.13
+Interior Lighting,m_c_2126_dg4_intgain,Natural Gas,0
+Interior Lighting,m_d_2126_dg5_intgain,Electricity,455.13
+Interior Lighting,m_d_2126_dg5_intgain,Natural Gas,0
+Interior Lighting,m_e_2126_dg6_intgain,Electricity,455.13
+Interior Lighting,m_e_2126_dg6_intgain,Natural Gas,0
+Interior Lighting,m_f_2126_tg4_intgain,Electricity,455.13
+Interior Lighting,m_f_2126_tg4_intgain,Natural Gas,0
+Interior Lighting,m_g_2126_tg5_intgain,Electricity,455.13
+Interior Lighting,m_g_2126_tg5_intgain,Natural Gas,0
+Interior Lighting,m_h_2126_tg6_intgain,Electricity,455.13
+Interior Lighting,m_h_2126_tg6_intgain,Natural Gas,0
+Interior Lighting,n_a_2126_dg_init_cc,Electricity,685.7
+Interior Lighting,n_a_2126_dg_init_cc,Natural Gas,0
+Interior Lighting,n_b_2126_dg0_cc,Electricity,685.7
+Interior Lighting,n_b_2126_dg0_cc,Natural Gas,0
+Interior Lighting,n_c_2126_dg4_cc,Electricity,685.7
+Interior Lighting,n_c_2126_dg4_cc,Natural Gas,0
+Interior Lighting,n_d_2126_dg5_cc,Electricity,685.7
+Interior Lighting,n_d_2126_dg5_cc,Natural Gas,0
+Interior Lighting,n_e_2126_dg6_cc,Electricity,685.7
+Interior Lighting,n_e_2126_dg6_cc,Natural Gas,0
+Interior Lighting,n_f_2126_tg4_cc,Electricity,685.7
+Interior Lighting,n_f_2126_tg4_cc,Natural Gas,0
+Interior Lighting,n_g_2126_tg5_cc,Electricity,685.7
+Interior Lighting,n_g_2126_tg5_cc,Natural Gas,0
+Interior Lighting,n_h_2126_tg6_cc,Electricity,685.7
+Interior Lighting,n_h_2126_tg6_cc,Natural Gas,0
+Interior Lighting,o_a_2126_dg_init_cc,Electricity,685.7
+Interior Lighting,o_a_2126_dg_init_cc,Natural Gas,0
+Interior Lighting,o_b_2126_dg0_cc,Electricity,685.7
+Interior Lighting,o_b_2126_dg0_cc,Natural Gas,0
+Interior Lighting,o_c_2126_dg4_cc,Electricity,685.7
+Interior Lighting,o_c_2126_dg4_cc,Natural Gas,0
+Interior Lighting,o_d_2126_dg5_cc,Electricity,685.7
+Interior Lighting,o_d_2126_dg5_cc,Natural Gas,0
+Interior Lighting,o_e_2126_dg6_cc,Electricity,685.7
+Interior Lighting,o_e_2126_dg6_cc,Natural Gas,0
+Interior Lighting,o_f_2126_tg4_cc,Electricity,685.7
+Interior Lighting,o_f_2126_tg4_cc,Natural Gas,0
+Interior Lighting,o_g_2126_tg5_cc,Electricity,685.7
+Interior Lighting,o_g_2126_tg5_cc,Natural Gas,0
+Interior Lighting,o_h_2126_tg6_cc,Electricity,685.7
+Interior Lighting,o_h_2126_tg6_cc,Natural Gas,0
+Interior Lighting,p_a_2124_dg_init_cc,Electricity,685.7
+Interior Lighting,p_a_2124_dg_init_cc,Natural Gas,0
+Interior Lighting,p_b_2124_dg0_cc,Electricity,685.7
+Interior Lighting,p_b_2124_dg0_cc,Natural Gas,0
+Interior Lighting,p_c_2124_dg4_cc,Electricity,685.7
+Interior Lighting,p_c_2124_dg4_cc,Natural Gas,0
+Interior Lighting,p_d_2124_dg5_cc,Electricity,685.7
+Interior Lighting,p_d_2124_dg5_cc,Natural Gas,0
+Interior Lighting,p_e_2124_dg6_cc,Electricity,685.7
+Interior Lighting,p_e_2124_dg6_cc,Natural Gas,0
+Interior Lighting,p_f_2124_tg4_cc,Electricity,685.7
+Interior Lighting,p_f_2124_tg4_cc,Natural Gas,0
+Interior Lighting,p_g_2124_tg5_cc,Electricity,685.7
+Interior Lighting,p_g_2124_tg5_cc,Natural Gas,0
+Interior Lighting,p_h_2124_tg6_cc,Electricity,685.7
+Interior Lighting,p_h_2124_tg6_cc,Natural Gas,0
+Pumps,a_a_2126_dg_init,Electricity,1067.73
+Pumps,a_a_2126_dg_init,Natural Gas,0
+Pumps,a_b_2126_dg0,Electricity,1223.55
+Pumps,a_b_2126_dg0,Natural Gas,0
+Pumps,a_c_2126_sg1,Electricity,1275.2
+Pumps,a_c_2126_sg1,Natural Gas,0
+Pumps,a_d_2126_sg2,Electricity,1017.41
+Pumps,a_d_2126_sg2,Natural Gas,0
+Pumps,a_e_2126_dg1,Electricity,1222.94
+Pumps,a_e_2126_dg1,Natural Gas,0
+Pumps,a_f_2126_dg2,Electricity,1066.5
+Pumps,a_f_2126_dg2,Natural Gas,0
+Pumps,a_g_2126_dg3,Electricity,1069.96
+Pumps,a_g_2126_dg3,Natural Gas,0
+Pumps,a_h_2126_dg4,Electricity,915.04
+Pumps,a_h_2126_dg4,Natural Gas,0
+Pumps,a_i_2126_dg5,Electricity,978.76
+Pumps,a_i_2126_dg5,Natural Gas,0
+Pumps,a_j_2126_dg6,Electricity,1048.03
+Pumps,a_j_2126_dg6,Natural Gas,0
+Pumps,a_k_2126_tg1,Electricity,1183.34
+Pumps,a_k_2126_tg1,Natural Gas,0
+Pumps,a_l_2126_tg2,Electricity,1052.08
+Pumps,a_l_2126_tg2,Natural Gas,0
+Pumps,a_m_2126_tg3,Electricity,1037.25
+Pumps,a_m_2126_tg3,Natural Gas,0
+Pumps,a_n_2126_tg4,Electricity,912.18
+Pumps,a_n_2126_tg4,Natural Gas,0
+Pumps,a_o_2126_tg5,Electricity,928.42
+Pumps,a_o_2126_tg5,Natural Gas,0
+Pumps,a_p_2126_tg6,Electricity,1033.09
+Pumps,a_p_2126_tg6,Natural Gas,0
+Pumps,b_a_2126_dg_init_int,Electricity,1185.39
+Pumps,b_a_2126_dg_init_int,Natural Gas,0
+Pumps,b_b_2126_dg0_int,Electricity,1249.48
+Pumps,b_b_2126_dg0_int,Natural Gas,0
+Pumps,b_c_2126_sg1_int,Electricity,1196.78
+Pumps,b_c_2126_sg1_int,Natural Gas,0
+Pumps,b_d_2126_sg2_int,Electricity,1139.63
+Pumps,b_d_2126_sg2_int,Natural Gas,0
+Pumps,b_e_2126_dg1_int,Electricity,1287.93
+Pumps,b_e_2126_dg1_int,Natural Gas,0
+Pumps,b_f_2126_dg2_int,Electricity,1194.91
+Pumps,b_f_2126_dg2_int,Natural Gas,0
+Pumps,b_g_2126_dg3_int,Electricity,1198.94
+Pumps,b_g_2126_dg3_int,Natural Gas,0
+Pumps,b_h_2126_dg4_int,Electricity,1037.69
+Pumps,b_h_2126_dg4_int,Natural Gas,0
+Pumps,b_i_2126_dg5_int,Electricity,1115.85
+Pumps,b_i_2126_dg5_int,Natural Gas,0
+Pumps,b_j_2126_dg6_int,Electricity,1185.3
+Pumps,b_j_2126_dg6_int,Natural Gas,0
+Pumps,b_k_2126_tg1_int,Electricity,1277.86
+Pumps,b_k_2126_tg1_int,Natural Gas,0
+Pumps,b_l_2126_tg2_int,Electricity,1192.67
+Pumps,b_l_2126_tg2_int,Natural Gas,0
+Pumps,b_m_2126_tg3_int,Electricity,1180.73
+Pumps,b_m_2126_tg3_int,Natural Gas,0
+Pumps,b_n_2126_tg4_int,Electricity,1032.55
+Pumps,b_n_2126_tg4_int,Natural Gas,0
+Pumps,b_o_2126_tg5_int,Electricity,1053.92
+Pumps,b_o_2126_tg5_int,Natural Gas,0
+Pumps,b_p_2126_tg6_int,Electricity,1176.67
+Pumps,b_p_2126_tg6_int,Natural Gas,0
+Pumps,c_a_2126_dg_init_tc,Electricity,815.03
+Pumps,c_a_2126_dg_init_tc,Natural Gas,0
+Pumps,c_b_2126_dg0_tc,Electricity,861.99
+Pumps,c_b_2126_dg0_tc,Natural Gas,0
+Pumps,c_c_2126_sg1_tc,Electricity,865.98
+Pumps,c_c_2126_sg1_tc,Natural Gas,0
+Pumps,c_d_2126_sg2_tc,Electricity,797.88
+Pumps,c_d_2126_sg2_tc,Natural Gas,0
+Pumps,c_e_2126_dg1_tc,Electricity,877.71
+Pumps,c_e_2126_dg1_tc,Natural Gas,0
+Pumps,c_f_2126_dg2_tc,Electricity,829.94
+Pumps,c_f_2126_dg2_tc,Natural Gas,0
+Pumps,c_g_2126_dg3_tc,Electricity,832.3
+Pumps,c_g_2126_dg3_tc,Natural Gas,0
+Pumps,c_h_2126_dg4_tc,Electricity,781.72
+Pumps,c_h_2126_dg4_tc,Natural Gas,0
+Pumps,c_i_2126_dg5_tc,Electricity,802.92
+Pumps,c_i_2126_dg5_tc,Natural Gas,0
+Pumps,c_j_2126_dg6_tc,Electricity,825.25
+Pumps,c_j_2126_dg6_tc,Natural Gas,0
+Pumps,c_k_2126_tg1_tc,Electricity,873.08
+Pumps,c_k_2126_tg1_tc,Natural Gas,0
+Pumps,c_l_2126_tg2_tc,Electricity,830.31
+Pumps,c_l_2126_tg2_tc,Natural Gas,0
+Pumps,c_m_2126_tg3_tc,Electricity,825.49
+Pumps,c_m_2126_tg3_tc,Natural Gas,0
+Pumps,c_n_2126_tg4_tc,Electricity,789.63
+Pumps,c_n_2126_tg4_tc,Natural Gas,0
+Pumps,c_o_2126_tg5_tc,Electricity,794.38
+Pumps,c_o_2126_tg5_tc,Natural Gas,0
+Pumps,c_p_2126_tg6_tc,Electricity,825.52
+Pumps,c_p_2126_tg6_tc,Natural Gas,0
+Pumps,d_a_2126_dg_init_vav,Electricity,1359.14
+Pumps,d_a_2126_dg_init_vav,Natural Gas,0
+Pumps,d_b_2126_dg0_vav,Electricity,1633.02
+Pumps,d_b_2126_dg0_vav,Natural Gas,0
+Pumps,d_c_2126_sg1_vav,Electricity,1739.24
+Pumps,d_c_2126_sg1_vav,Natural Gas,0
+Pumps,d_d_2126_sg2_vav,Electricity,1274.41
+Pumps,d_d_2126_sg2_vav,Natural Gas,0
+Pumps,d_e_2126_dg1_vav,Electricity,1616.47
+Pumps,d_e_2126_dg1_vav,Natural Gas,0
+Pumps,d_f_2126_dg2_vav,Electricity,1339.78
+Pumps,d_f_2126_dg2_vav,Natural Gas,0
+Pumps,d_g_2126_dg3_vav,Electricity,1344.38
+Pumps,d_g_2126_dg3_vav,Natural Gas,0
+Pumps,d_h_2126_dg4_vav,Electricity,1078.89
+Pumps,d_h_2126_dg4_vav,Natural Gas,0
+Pumps,d_i_2126_dg5_vav,Electricity,1186.84
+Pumps,d_i_2126_dg5_vav,Natural Gas,0
+Pumps,d_j_2126_dg6_vav,Electricity,1306.27
+Pumps,d_j_2126_dg6_vav,Natural Gas,0
+Pumps,d_k_2126_tg1_vav,Electricity,1539.13
+Pumps,d_k_2126_tg1_vav,Natural Gas,0
+Pumps,d_l_2126_tg2_vav,Electricity,1307.91
+Pumps,d_l_2126_tg2_vav,Natural Gas,0
+Pumps,d_m_2126_tg3_vav,Electricity,1281.75
+Pumps,d_m_2126_tg3_vav,Natural Gas,0
+Pumps,d_n_2126_tg4_vav,Electricity,1065.4
+Pumps,d_n_2126_tg4_vav,Natural Gas,0
+Pumps,d_o_2126_tg5_vav,Electricity,1092.91
+Pumps,d_o_2126_tg5_vav,Natural Gas,0
+Pumps,d_p_2126_tg6_vav,Electricity,1272.46
+Pumps,d_p_2126_tg6_vav,Natural Gas,0
+Pumps,e_a_2126_dg_init_vav_int,Electricity,1321.95
+Pumps,e_a_2126_dg_init_vav_int,Natural Gas,0
+Pumps,e_b_2126_dg0_vav_int,Electricity,1419.51
+Pumps,e_b_2126_dg0_vav_int,Natural Gas,0
+Pumps,e_c_2126_sg1_vav_int,Electricity,1399.24
+Pumps,e_c_2126_sg1_vav_int,Natural Gas,0
+Pumps,e_d_2126_sg2_vav_int,Electricity,1259.52
+Pumps,e_d_2126_sg2_vav_int,Natural Gas,0
+Pumps,e_e_2126_dg1_vav_int,Electricity,1444.61
+Pumps,e_e_2126_dg1_vav_int,Natural Gas,0
+Pumps,e_f_2126_dg2_vav_int,Electricity,1317.34
+Pumps,e_f_2126_dg2_vav_int,Natural Gas,0
+Pumps,e_g_2126_dg3_vav_int,Electricity,1321.51
+Pumps,e_g_2126_dg3_vav_int,Natural Gas,0
+Pumps,e_h_2126_dg4_vav_int,Electricity,1121.26
+Pumps,e_h_2126_dg4_vav_int,Natural Gas,0
+Pumps,e_i_2126_dg5_vav_int,Electricity,1216.6
+Pumps,e_i_2126_dg5_vav_int,Natural Gas,0
+Pumps,e_j_2126_dg6_vav_int,Electricity,1303.4
+Pumps,e_j_2126_dg6_vav_int,Natural Gas,0
+Pumps,e_k_2126_tg1_vav_int,Electricity,1423.05
+Pumps,e_k_2126_tg1_vav_int,Natural Gas,0
+Pumps,e_l_2126_tg2_vav_int,Electricity,1310
+Pumps,e_l_2126_tg2_vav_int,Natural Gas,0
+Pumps,e_m_2126_tg3_vav_int,Electricity,1295.3
+Pumps,e_m_2126_tg3_vav_int,Natural Gas,0
+Pumps,e_n_2126_tg4_vav_int,Electricity,1111.11
+Pumps,e_n_2126_tg4_vav_int,Natural Gas,0
+Pumps,e_o_2126_tg5_vav_int,Electricity,1136.98
+Pumps,e_o_2126_tg5_vav_int,Natural Gas,0
+Pumps,e_p_2126_tg6_vav_int,Electricity,1288.15
+Pumps,e_p_2126_tg6_vav_int,Natural Gas,0
+Pumps,f_a_2126_dg_init_vrf,Electricity,0
+Pumps,f_a_2126_dg_init_vrf,Natural Gas,0
+Pumps,f_b_2126_dg0_vrf,Electricity,0
+Pumps,f_b_2126_dg0_vrf,Natural Gas,0
+Pumps,f_c_2126_sg1_vrf,Electricity,0
+Pumps,f_c_2126_sg1_vrf,Natural Gas,0
+Pumps,f_d_2126_sg2_vrf,Electricity,0
+Pumps,f_d_2126_sg2_vrf,Natural Gas,0
+Pumps,f_e_2126_dg1_vrf,Electricity,0
+Pumps,f_e_2126_dg1_vrf,Natural Gas,0
+Pumps,f_f_2126_dg2_vrf,Electricity,0
+Pumps,f_f_2126_dg2_vrf,Natural Gas,0
+Pumps,f_g_2126_dg3_vrf,Electricity,0
+Pumps,f_g_2126_dg3_vrf,Natural Gas,0
+Pumps,f_h_2126_dg4_vrf,Electricity,0
+Pumps,f_h_2126_dg4_vrf,Natural Gas,0
+Pumps,f_i_2126_dg5_vrf,Electricity,0
+Pumps,f_i_2126_dg5_vrf,Natural Gas,0
+Pumps,f_j_2126_dg6_vrf,Electricity,0
+Pumps,f_j_2126_dg6_vrf,Natural Gas,0
+Pumps,f_k_2126_tg1_vrf,Electricity,0
+Pumps,f_k_2126_tg1_vrf,Natural Gas,0
+Pumps,f_l_2126_tg2_vrf,Electricity,0
+Pumps,f_l_2126_tg2_vrf,Natural Gas,0
+Pumps,f_m_2126_tg3_vrf,Electricity,0
+Pumps,f_m_2126_tg3_vrf,Natural Gas,0
+Pumps,f_n_2126_tg4_vrf,Electricity,0
+Pumps,f_n_2126_tg4_vrf,Natural Gas,0
+Pumps,f_o_2126_tg5_vrf,Electricity,0
+Pumps,f_o_2126_tg5_vrf,Natural Gas,0
+Pumps,f_p_2126_tg6_vrf,Electricity,0
+Pumps,f_p_2126_tg6_vrf,Natural Gas,0
+Pumps,g_a_2126_dg_init_vrf_int,Electricity,0
+Pumps,g_a_2126_dg_init_vrf_int,Natural Gas,0
+Pumps,g_b_2126_dg0_vrf_int,Electricity,0
+Pumps,g_b_2126_dg0_vrf_int,Natural Gas,0
+Pumps,g_c_2126_sg1_vrf_int,Electricity,0
+Pumps,g_c_2126_sg1_vrf_int,Natural Gas,0
+Pumps,g_d_2126_sg2_vrf_int,Electricity,0
+Pumps,g_d_2126_sg2_vrf_int,Natural Gas,0
+Pumps,g_e_2126_dg1_vrf_int,Electricity,0
+Pumps,g_e_2126_dg1_vrf_int,Natural Gas,0
+Pumps,g_f_2126_dg2_vrf_int,Electricity,0
+Pumps,g_f_2126_dg2_vrf_int,Natural Gas,0
+Pumps,g_g_2126_dg3_vrf_int,Electricity,0
+Pumps,g_g_2126_dg3_vrf_int,Natural Gas,0
+Pumps,g_h_2126_dg4_vrf_int,Electricity,0
+Pumps,g_h_2126_dg4_vrf_int,Natural Gas,0
+Pumps,g_i_2126_dg5_vrf_int,Electricity,0
+Pumps,g_i_2126_dg5_vrf_int,Natural Gas,0
+Pumps,g_j_2126_dg6_vrf_int,Electricity,0
+Pumps,g_j_2126_dg6_vrf_int,Natural Gas,0
+Pumps,g_k_2126_tg1_vrf_int,Electricity,0
+Pumps,g_k_2126_tg1_vrf_int,Natural Gas,0
+Pumps,g_l_2126_tg2_vrf_int,Electricity,0
+Pumps,g_l_2126_tg2_vrf_int,Natural Gas,0
+Pumps,g_m_2126_tg3_vrf_int,Electricity,0
+Pumps,g_m_2126_tg3_vrf_int,Natural Gas,0
+Pumps,g_n_2126_tg4_vrf_int,Electricity,0
+Pumps,g_n_2126_tg4_vrf_int,Natural Gas,0
+Pumps,g_o_2126_tg5_vrf_int,Electricity,0
+Pumps,g_o_2126_tg5_vrf_int,Natural Gas,0
+Pumps,g_p_2126_tg6_vrf_int,Electricity,0
+Pumps,g_p_2126_tg6_vrf_int,Natural Gas,0
+Pumps,h_a_2126_dg_init_wtw,Electricity,1224.86
+Pumps,h_a_2126_dg_init_wtw,Natural Gas,0
+Pumps,h_b_2126_dg0_wtw,Electricity,1431.59
+Pumps,h_b_2126_dg0_wtw,Natural Gas,0
+Pumps,h_c_2126_dg4_wtw,Electricity,1008.91
+Pumps,h_c_2126_dg4_wtw,Natural Gas,0
+Pumps,h_d_2126_dg5_wtw,Electricity,1089.69
+Pumps,h_d_2126_dg5_wtw,Natural Gas,0
+Pumps,h_e_2126_dg6_wtw,Electricity,1178.69
+Pumps,h_e_2126_dg6_wtw,Natural Gas,0
+Pumps,h_f_2126_tg4_wtw,Electricity,1006.32
+Pumps,h_f_2126_tg4_wtw,Natural Gas,0
+Pumps,h_g_2126_tg5_wtw,Electricity,1022.02
+Pumps,h_g_2126_tg5_wtw,Natural Gas,0
+Pumps,h_h_2126_tg6_wtw,Electricity,1151.49
+Pumps,h_h_2126_tg6_wtw,Natural Gas,0
+Pumps,i_a_2126_dg_init_vav_int,Electricity,1321.95
+Pumps,i_a_2126_dg_init_vav_int,Natural Gas,0
+Pumps,i_b_2126_dg5k,Electricity,1229.15
+Pumps,i_b_2126_dg5k,Natural Gas,0
+Pumps,i_c_2126_tg5k,Electricity,1140.68
+Pumps,i_c_2126_tg5k,Natural Gas,0
+Pumps,i_d_2126_tg5x,Electricity,1142.78
+Pumps,i_d_2126_tg5x,Natural Gas,0
+Pumps,i_e_2126_ccf,Electricity,901.56
+Pumps,i_e_2126_ccf,Natural Gas,0
+Pumps,i_f_2126_dg_vacuum,Electricity,1233.04
+Pumps,i_f_2126_dg_vacuum,Natural Gas,0
+Pumps,i_g_2126_dg_smart,Electricity,920.01
+Pumps,i_g_2126_dg_smart,Natural Gas,0
+Pumps,i_h_2126_dsf_min,Electricity,1274.109167
+Pumps,i_h_2126_dsf_min,Natural Gas,0
+Pumps,i_i_2126_dsf_mean,Electricity,1274.109167
+Pumps,i_i_2126_dsf_mean,Natural Gas,0
+Pumps,i_j_2126_dsf_max,Electricity,1274.109167
+Pumps,i_j_2126_dsf_max,Natural Gas,0
+Pumps,j_a_2124_dg_init,Electricity,1557.42
+Pumps,j_a_2124_dg_init,Natural Gas,0
+Pumps,j_b_2124_dg0,Electricity,1843.47
+Pumps,j_b_2124_dg0,Natural Gas,0
+Pumps,j_c_2124_dg4,Electricity,1240.75
+Pumps,j_c_2124_dg4,Natural Gas,0
+Pumps,j_d_2124_dg5,Electricity,1354.57
+Pumps,j_d_2124_dg5,Natural Gas,0
+Pumps,j_e_2124_dg6,Electricity,1479.3
+Pumps,j_e_2124_dg6,Natural Gas,0
+Pumps,j_f_2124_tg4,Electricity,1222.52
+Pumps,j_f_2124_tg4,Natural Gas,0
+Pumps,j_g_2124_tg5,Electricity,1251.34
+Pumps,j_g_2124_tg5,Natural Gas,0
+Pumps,j_h_2124_tg6,Electricity,1439.01
+Pumps,j_h_2124_tg6,Natural Gas,0
+Pumps,k_a_1927_dg_init_ext,Electricity,861.67
+Pumps,k_a_1927_dg_init_ext,Natural Gas,0
+Pumps,k_b_1927_dg0_ext,Electricity,944.66
+Pumps,k_b_1927_dg0_ext,Natural Gas,0
+Pumps,k_c_1927_dg4_ext,Electricity,801.81
+Pumps,k_c_1927_dg4_ext,Natural Gas,0
+Pumps,k_d_1927_dg5_ext,Electricity,837.35
+Pumps,k_d_1927_dg5_ext,Natural Gas,0
+Pumps,k_e_1927_dg6_ext,Electricity,876.29
+Pumps,k_e_1927_dg6_ext,Natural Gas,0
+Pumps,k_f_1927_tg4_ext,Electricity,820.53
+Pumps,k_f_1927_tg4_ext,Natural Gas,0
+Pumps,k_g_1927_tg5_ext,Electricity,826.95
+Pumps,k_g_1927_tg5_ext,Natural Gas,0
+Pumps,k_h_1927_tg6_ext,Electricity,872.32
+Pumps,k_h_1927_tg6_ext,Natural Gas,0
+Pumps,l_a_2126_dg_init_intgain,Electricity,1554.42
+Pumps,l_a_2126_dg_init_intgain,Natural Gas,0
+Pumps,l_b_2126_dg0_intgain,Electricity,1654.96
+Pumps,l_b_2126_dg0_intgain,Natural Gas,0
+Pumps,l_c_2126_dg4_intgain,Electricity,1344.91
+Pumps,l_c_2126_dg4_intgain,Natural Gas,0
+Pumps,l_d_2126_dg5_intgain,Electricity,1443.33
+Pumps,l_d_2126_dg5_intgain,Natural Gas,0
+Pumps,l_e_2126_dg6_intgain,Electricity,1537.28
+Pumps,l_e_2126_dg6_intgain,Natural Gas,0
+Pumps,l_f_2126_tg4_intgain,Electricity,1336.19
+Pumps,l_f_2126_tg4_intgain,Natural Gas,0
+Pumps,l_g_2126_tg5_intgain,Electricity,1362.43
+Pumps,l_g_2126_tg5_intgain,Natural Gas,0
+Pumps,l_h_2126_tg6_intgain,Electricity,1523.05
+Pumps,l_h_2126_tg6_intgain,Natural Gas,0
+Pumps,m_a_2126_dg_init_intgain,Electricity,1137.68
+Pumps,m_a_2126_dg_init_intgain,Natural Gas,0
+Pumps,m_b_2126_dg0_intgain,Electricity,1235.23
+Pumps,m_b_2126_dg0_intgain,Natural Gas,0
+Pumps,m_c_2126_dg4_intgain,Electricity,941.22
+Pumps,m_c_2126_dg4_intgain,Natural Gas,0
+Pumps,m_d_2126_dg5_intgain,Electricity,1034.55
+Pumps,m_d_2126_dg5_intgain,Natural Gas,0
+Pumps,m_e_2126_dg6_intgain,Electricity,1119.43
+Pumps,m_e_2126_dg6_intgain,Natural Gas,0
+Pumps,m_f_2126_tg4_intgain,Electricity,931.97
+Pumps,m_f_2126_tg4_intgain,Natural Gas,0
+Pumps,m_g_2126_tg5_intgain,Electricity,957.29
+Pumps,m_g_2126_tg5_intgain,Natural Gas,0
+Pumps,m_h_2126_tg6_intgain,Electricity,1105.25
+Pumps,m_h_2126_tg6_intgain,Natural Gas,0
+Pumps,n_a_2126_dg_init_cc,Electricity,1323.39
+Pumps,n_a_2126_dg_init_cc,Natural Gas,0
+Pumps,n_b_2126_dg0_cc,Electricity,1421.14
+Pumps,n_b_2126_dg0_cc,Natural Gas,0
+Pumps,n_c_2126_dg4_cc,Electricity,1123.03
+Pumps,n_c_2126_dg4_cc,Natural Gas,0
+Pumps,n_d_2126_dg5_cc,Electricity,1218.27
+Pumps,n_d_2126_dg5_cc,Natural Gas,0
+Pumps,n_e_2126_dg6_cc,Electricity,1305.25
+Pumps,n_e_2126_dg6_cc,Natural Gas,0
+Pumps,n_f_2126_tg4_cc,Electricity,1112.82
+Pumps,n_f_2126_tg4_cc,Natural Gas,0
+Pumps,n_g_2126_tg5_cc,Electricity,1138.4
+Pumps,n_g_2126_tg5_cc,Natural Gas,0
+Pumps,n_h_2126_tg6_cc,Electricity,1291.65
+Pumps,n_h_2126_tg6_cc,Natural Gas,0
+Pumps,o_a_2126_dg_init_cc,Electricity,1325.44
+Pumps,o_a_2126_dg_init_cc,Natural Gas,0
+Pumps,o_b_2126_dg0_cc,Electricity,1423.42
+Pumps,o_b_2126_dg0_cc,Natural Gas,0
+Pumps,o_c_2126_dg4_cc,Electricity,1124.94
+Pumps,o_c_2126_dg4_cc,Natural Gas,0
+Pumps,o_d_2126_dg5_cc,Electricity,1220.26
+Pumps,o_d_2126_dg5_cc,Natural Gas,0
+Pumps,o_e_2126_dg6_cc,Electricity,1307.76
+Pumps,o_e_2126_dg6_cc,Natural Gas,0
+Pumps,o_f_2126_tg4_cc,Electricity,1115.56
+Pumps,o_f_2126_tg4_cc,Natural Gas,0
+Pumps,o_g_2126_tg5_cc,Electricity,1141.46
+Pumps,o_g_2126_tg5_cc,Natural Gas,0
+Pumps,o_h_2126_tg6_cc,Electricity,1294.14
+Pumps,o_h_2126_tg6_cc,Natural Gas,0
+Pumps,p_a_2124_dg_init_cc,Electricity,1560.03
+Pumps,p_a_2124_dg_init_cc,Natural Gas,0
+Pumps,p_b_2124_dg0_cc,Electricity,1846.32
+Pumps,p_b_2124_dg0_cc,Natural Gas,0
+Pumps,p_c_2124_dg4_cc,Electricity,1243.98
+Pumps,p_c_2124_dg4_cc,Natural Gas,0
+Pumps,p_d_2124_dg5_cc,Electricity,1357.43
+Pumps,p_d_2124_dg5_cc,Natural Gas,0
+Pumps,p_e_2124_dg6_cc,Electricity,1482.64
+Pumps,p_e_2124_dg6_cc,Natural Gas,0
+Pumps,p_f_2124_tg4_cc,Electricity,1223.34
+Pumps,p_f_2124_tg4_cc,Natural Gas,0
+Pumps,p_g_2124_tg5_cc,Electricity,1252.26
+Pumps,p_g_2124_tg5_cc,Natural Gas,0
+Pumps,p_h_2124_tg6_cc,Electricity,1441.93
+Pumps,p_h_2124_tg6_cc,Natural Gas,0

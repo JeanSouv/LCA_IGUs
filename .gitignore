@@ -9,8 +9,8 @@ __pycache__/
 # =========================
 # Directories
 # =========================
-outputs/
 files/_old/
+outputs/energyplus/
 files/EnergyPlus/copies/
 EnergyPlus_osm/_old/
 EnergyPlus_osm/_ref_Python_and_BEM/
@@ -29,6 +29,9 @@ EnergyPlus_osm/WP_and_DWG/
 # =========================
 00_LCA_Introduction.ipynb
 LCOPT.ipynb
+outputs/steps_dir/df_h_run*.csv
+outputs/steps_dir/df_mlca_full_raw_results.csv
+outputs/steps_dir/df_ls_unmet.csv
 
 
 # Distribution / packaging

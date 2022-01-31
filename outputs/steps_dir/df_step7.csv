@@ -1,0 +1,17 @@
+name,glazing,heating_setpoint,cooling_setpoint,natural_gas,elec_use,ext_shdg_device,int_shdg_device,thermal_curtain,sg,sg_coated,dg,dg_coated,dg_coated_krypton,dg_2coatings,tg_coated,tg_2coatings,tg_2coatings_krypton,tg_2coatings_xenon,ccf,dg_vacuum,dg_smart,dsf
+g_a_2126_dg_init_vrf_int,dg_init_bronze,_Heating_21,_Cooling_26,0,384.0569847,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+g_b_2126_dg0_vrf_int,dg_0_clear,_Heating_21,_Cooling_26,0,390.5888204,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+g_c_2126_sg1_vrf_int,sg_1_clear,_Heating_21,_Cooling_26,0,408.9064473,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+g_d_2126_sg2_vrf_int,sg_2_coated,_Heating_21,_Cooling_26,0,383.5165375,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+g_e_2126_dg1_vrf_int,dg_1_highSHG_highLT,_Heating_21,_Cooling_26,0,394.7063215,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+g_f_2126_dg2_vrf_int,dg_3_midSHG_highLT,_Heating_21,_Cooling_26,0,380.7365171,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+g_g_2126_dg3_vrf_int,dg_2_midSHG_midLT,_Heating_21,_Cooling_26,0,381.7669025,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+g_h_2126_dg4_vrf_int,dg_4_lowSHG_lowLT,_Heating_21,_Cooling_26,0,361.9299622,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+g_i_2126_dg5_vrf_int,dg_5_lowSHG_midLT,_Heating_21,_Cooling_26,0,371.0660465,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+g_j_2126_dg6_vrf_int,dg_6_lowSHG_highLT,_Heating_21,_Cooling_26,0,379.785936,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+g_k_2126_tg1_vrf_int,tg_1_highSHG_highLT,_Heating_21,_Cooling_26,0,396.9277113,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+g_l_2126_tg2_vrf_int,tg_2_midSHG_midLT,_Heating_21,_Cooling_26,0,382.7538502,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+g_m_2126_tg3_vrf_int,tg_3_midSHG_highLT,_Heating_21,_Cooling_26,0,381.0698771,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+g_n_2126_tg4_vrf_int,tg_4_lowSHG_lowLT,_Heating_21,_Cooling_26,0,362.86236,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+g_o_2126_tg5_vrf_int,tg_5_lowSHG_midLT,_Heating_21,_Cooling_26,0,365.5332807,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+g_p_2126_tg6_vrf_int,tg_6_lowSHG_highLT,_Heating_21,_Cooling_26,0,381.4244509,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0

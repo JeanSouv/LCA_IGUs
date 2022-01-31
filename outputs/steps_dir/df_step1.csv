@@ -1,0 +1,17 @@
+name,glazing,heating_setpoint,cooling_setpoint,natural_gas,elec_use,ext_shdg_device,int_shdg_device,thermal_curtain,sg,sg_coated,dg,dg_coated,dg_coated_krypton,dg_2coatings,tg_coated,tg_2coatings,tg_2coatings_krypton,tg_2coatings_xenon,ccf,dg_vacuum,dg_smart,dsf
+a_a_2126_dg_init,dg_init_bronze,_Heating_21,_Cooling_26,540.3309091,485.5630844,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+a_b_2126_dg0,dg_0_clear,_Heating_21,_Cooling_26,530.9563636,524.6369171,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+a_c_2126_sg1,sg_1_clear,_Heating_21,_Cooling_26,693.3163636,508.896264,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+a_d_2126_sg2,sg_2_coated,_Heating_21,_Cooling_26,566.8145455,469.3122895,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+a_e_2126_dg1,dg_1_highSHG_highLT,_Heating_21,_Cooling_26,494.5854545,563.4460822,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+a_f_2126_dg2,dg_3_midSHG_highLT,_Heating_21,_Cooling_26,494.9527273,519.5233767,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+a_g_2126_dg3,dg_2_midSHG_midLT,_Heating_21,_Cooling_26,493.6363636,523.6206742,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+a_h_2126_dg4,dg_4_lowSHG_lowLT,_Heating_21,_Cooling_26,494.0363636,481.26072,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+a_i_2126_dg5,dg_5_lowSHG_midLT,_Heating_21,_Cooling_26,493.8763636,498.2580393,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+a_j_2126_dg6,dg_6_lowSHG_highLT,_Heating_21,_Cooling_26,493.6981818,517.2545084,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+a_k_2126_tg1,tg_1_highSHG_highLT,_Heating_21,_Cooling_26,488.3527273,570.1526793,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+a_l_2126_tg2,tg_2_midSHG_midLT,_Heating_21,_Cooling_26,489.9236364,528.0957796,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+a_m_2126_tg3,tg_3_midSHG_highLT,_Heating_21,_Cooling_26,489.9418182,523.7742218,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+a_n_2126_tg4,tg_4_lowSHG_lowLT,_Heating_21,_Cooling_26,488.8581818,493.0899491,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+a_o_2126_tg5,tg_5_lowSHG_midLT,_Heating_21,_Cooling_26,488.84,497.5115149,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+a_p_2126_tg6,tg_6_lowSHG_highLT,_Heating_21,_Cooling_26,488.5672727,526.1764342,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
