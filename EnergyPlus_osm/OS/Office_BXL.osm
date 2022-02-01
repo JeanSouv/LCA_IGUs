@@ -85,7 +85,7 @@ OS:ThermalZone,
   {594e5564-29b8-4d10-baa4-8b33dcfc6d37}, !- Zone Air Exhaust Port List
   {a1cb3ff4-e3ff-45ce-a72c-466cf5b8a445}, !- Zone Air Node Name
   {3ff59ab9-ff6c-4894-bae1-58c3cc2f4229}, !- Zone Return Air Port List
-  ,                                       !- Primary Daylighting Control Name
+  {bad3dfa4-b9ae-4ec5-a5d5-8638780c98fb}, !- Primary Daylighting Control Name
   1,                                      !- Fraction of Zone Controlled by Primary Daylighting Control
   ,                                       !- Secondary Daylighting Control Name
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
@@ -852,7 +852,7 @@ OS:ThermalZone,
   {eeb8f72d-5cc2-480e-a04e-45a3ec00a231}, !- Zone Air Exhaust Port List
   {9779f32e-1952-499c-9dd9-6538ecaf9518}, !- Zone Air Node Name
   {3216e3c7-a9c9-4203-9c94-70ec0c79eefb}, !- Zone Return Air Port List
-  ,                                       !- Primary Daylighting Control Name
+  {690d9c1d-77c6-4d7d-ac5c-9cb2e70852f3}, !- Primary Daylighting Control Name
   1,                                      !- Fraction of Zone Controlled by Primary Daylighting Control
   ,                                       !- Secondary Daylighting Control Name
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
@@ -959,7 +959,7 @@ OS:ThermalZone,
   {06659184-1339-4783-b4ec-0abbb76e7862}, !- Zone Air Exhaust Port List
   {3688d8fb-496f-4fab-a302-1df5c6cb08e7}, !- Zone Air Node Name
   {1b555ae8-804e-4180-a4a0-befed3558285}, !- Zone Return Air Port List
-  ,                                       !- Primary Daylighting Control Name
+  {3a852db6-08ad-4d8a-a19c-c78aa0d77fc0}, !- Primary Daylighting Control Name
   1,                                      !- Fraction of Zone Controlled by Primary Daylighting Control
   ,                                       !- Secondary Daylighting Control Name
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
@@ -1066,7 +1066,7 @@ OS:ThermalZone,
   {079369c6-fb17-4c07-9d13-07fcd8ea9381}, !- Zone Air Exhaust Port List
   {17c1ebc8-731b-4b4f-b34a-e24739c253be}, !- Zone Air Node Name
   {bf53b54b-3943-4986-a5a2-1352b2a5b974}, !- Zone Return Air Port List
-  ,                                       !- Primary Daylighting Control Name
+  {f67d3674-8043-431b-be0f-748920ff4557}, !- Primary Daylighting Control Name
   1,                                      !- Fraction of Zone Controlled by Primary Daylighting Control
   ,                                       !- Secondary Daylighting Control Name
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
@@ -1280,7 +1280,7 @@ OS:ThermalZone,
   {fcaaaa83-2916-42b8-b83e-a8888dee5583}, !- Zone Air Exhaust Port List
   {4c67d6aa-a197-4be0-82d5-a80479ecf98e}, !- Zone Air Node Name
   {3632293f-1ee7-4661-bbcd-f54359d41b8e}, !- Zone Return Air Port List
-  ,                                       !- Primary Daylighting Control Name
+  {6edc8eed-d2d1-4c69-acd2-5dcb80ad47fd}, !- Primary Daylighting Control Name
   1,                                      !- Fraction of Zone Controlled by Primary Daylighting Control
   ,                                       !- Secondary Daylighting Control Name
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
@@ -1629,7 +1629,7 @@ OS:ThermalZone,
   {e83e42a4-c592-46f7-bafe-6e2e8d4a9865}, !- Zone Air Exhaust Port List
   {9c659017-f663-474c-b24c-3521a9c450b3}, !- Zone Air Node Name
   {a4f53ba6-7aa2-4ed4-b8cb-b7bae1942878}, !- Zone Return Air Port List
-  ,                                       !- Primary Daylighting Control Name
+  {9a401d0d-d2fa-460e-9fa5-f240fc4daf93}, !- Primary Daylighting Control Name
   1,                                      !- Fraction of Zone Controlled by Primary Daylighting Control
   ,                                       !- Secondary Daylighting Control Name
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
@@ -11154,7 +11154,7 @@ OS:ThermalZone,
   {97a4c3a7-807b-4f58-ae29-aecb51861b3a}, !- Zone Air Exhaust Port List
   {76a748a9-8d63-4c59-aa2d-cb0935d5ab55}, !- Zone Air Node Name
   {f4837712-2687-4b73-851f-dfd63eef107e}, !- Zone Return Air Port List
-  ,                                       !- Primary Daylighting Control Name
+  {b688876f-5a6e-4a8b-81c8-0c685876fdc6}, !- Primary Daylighting Control Name
   1,                                      !- Fraction of Zone Controlled by Primary Daylighting Control
   ,                                       !- Secondary Daylighting Control Name
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
@@ -11475,7 +11475,7 @@ OS:ThermalZone,
   {fec0bdbc-8702-4769-a268-305aef274a16}, !- Zone Air Exhaust Port List
   {e74bd9a0-fb3b-4197-b363-d02747e45463}, !- Zone Air Node Name
   {1cc23009-f5fc-4fb0-bedb-a3d2d89387b5}, !- Zone Return Air Port List
-  ,                                       !- Primary Daylighting Control Name
+  {7c1b9969-7de9-44c6-aa25-ef4b6942c267}, !- Primary Daylighting Control Name
   1,                                      !- Fraction of Zone Controlled by Primary Daylighting Control
   ,                                       !- Secondary Daylighting Control Name
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
@@ -11685,7 +11685,7 @@ OS:ThermalZone,
   {59e79484-275d-4f70-a36a-fd0118c121cb}, !- Zone Air Exhaust Port List
   {91d307ac-8bfc-419b-a6af-140fc1f221fd}, !- Zone Air Node Name
   {10e3f376-0d29-486b-8f2b-7991872e78e5}, !- Zone Return Air Port List
-  ,                                       !- Primary Daylighting Control Name
+  {29fde2a7-6016-4b57-a89c-3a2983f99c52}, !- Primary Daylighting Control Name
   1,                                      !- Fraction of Zone Controlled by Primary Daylighting Control
   ,                                       !- Secondary Daylighting Control Name
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
@@ -13962,10 +13962,10 @@ OS:DesignSpecification:OutdoorAir,
 OS:WindowMaterial:Shade,
   {4f73817d-e4ba-4ace-8d05-ab445e174949}, !- Handle
   EnviroScreen_lightgrey_silver,          !- Name
-  0.05,                                   !- Solar Transmittance {dimensionless}
-  0.74,                                   !- Solar Reflectance {dimensionless}
-  0.04,                                   !- Visible Transmittance {dimensionless}
-  0.9,                                    !- Visible Reflectance {dimensionless}
+  0.1,                                    !- Solar Transmittance {dimensionless}
+  0.7,                                    !- Solar Reflectance {dimensionless}
+  0.15,                                   !- Visible Transmittance {dimensionless}
+  0.8,                                    !- Visible Reflectance {dimensionless}
   0.9,                                    !- Thermal Hemispherical Emissivity {dimensionless}
   0,                                      !- Thermal Transmittance {dimensionless}
   0.0005,                                 !- Thickness {m}
@@ -25196,4 +25196,139 @@ OS:Curve:Cubic,
   1.3467,                                 !- Coefficient4 x**3
   0,                                      !- Minimum Value of x
   1.3;                                    !- Maximum Value of x
+
+OS:Daylighting:Control,
+  {7c1b9969-7de9-44c6-aa25-ef4b6942c267}, !- Handle
+  mid_Offices_S daylighting control,      !- Name
+  {7db847e5-3071-4d3d-acf2-adad1fc56237}, !- Space Name
+  15,                                     !- Position X-Coordinate {m}
+  5,                                      !- Position Y-Coordinate {m}
+  0.762,                                  !- Position Z-Coordinate {m}
+  ,                                       !- Psi Rotation Around X-Axis {deg}
+  ,                                       !- Theta Rotation Around Y-Axis {deg}
+  ,                                       !- Phi Rotation Around Z-Axis {deg}
+  484.375968751937,                       !- Illuminance Setpoint {lux}
+  Continuous/Off,                         !- Lighting Control Type
+  0.3,                                    !- Minimum Input Power Fraction for Continuous Dimming Control
+  0.2;                                    !- Minimum Light Output Fraction for Continuous Dimming Control
+
+OS:Daylighting:Control,
+  {b688876f-5a6e-4a8b-81c8-0c685876fdc6}, !- Handle
+  mid_Offices_W daylighting control,      !- Name
+  {03171352-bb58-44ea-b6e0-90c335995afb}, !- Space Name
+  5,                                      !- Position X-Coordinate {m}
+  -15,                                    !- Position Y-Coordinate {m}
+  0.762,                                  !- Position Z-Coordinate {m}
+  ,                                       !- Psi Rotation Around X-Axis {deg}
+  ,                                       !- Theta Rotation Around Y-Axis {deg}
+  ,                                       !- Phi Rotation Around Z-Axis {deg}
+  484.375968751937,                       !- Illuminance Setpoint {lux}
+  Continuous/Off,                         !- Lighting Control Type
+  0.3,                                    !- Minimum Input Power Fraction for Continuous Dimming Control
+  0.2;                                    !- Minimum Light Output Fraction for Continuous Dimming Control
+
+OS:Daylighting:Control,
+  {f67d3674-8043-431b-be0f-748920ff4557}, !- Handle
+  GroundFloor_Offices_W daylighting control, !- Name
+  {3b137412-434a-49e7-bfca-9bf53f5d1bc8}, !- Space Name
+  5,                                      !- Position X-Coordinate {m}
+  -15,                                    !- Position Y-Coordinate {m}
+  0.762,                                  !- Position Z-Coordinate {m}
+  ,                                       !- Psi Rotation Around X-Axis {deg}
+  ,                                       !- Theta Rotation Around Y-Axis {deg}
+  ,                                       !- Phi Rotation Around Z-Axis {deg}
+  484.375968751937,                       !- Illuminance Setpoint {lux}
+  Continuous/Off,                         !- Lighting Control Type
+  0.3,                                    !- Minimum Input Power Fraction for Continuous Dimming Control
+  0.2;                                    !- Minimum Light Output Fraction for Continuous Dimming Control
+
+OS:Daylighting:Control,
+  {29fde2a7-6016-4b57-a89c-3a2983f99c52}, !- Handle
+  mid_Offices_E daylighting control,      !- Name
+  {66b89310-5485-4cd7-97c0-95fdf178741b}, !- Space Name
+  -5,                                     !- Position X-Coordinate {m}
+  15,                                     !- Position Y-Coordinate {m}
+  0.762,                                  !- Position Z-Coordinate {m}
+  ,                                       !- Psi Rotation Around X-Axis {deg}
+  ,                                       !- Theta Rotation Around Y-Axis {deg}
+  ,                                       !- Phi Rotation Around Z-Axis {deg}
+  484.375968751937,                       !- Illuminance Setpoint {lux}
+  Continuous/Off,                         !- Lighting Control Type
+  0.3,                                    !- Minimum Input Power Fraction for Continuous Dimming Control
+  0.2;                                    !- Minimum Light Output Fraction for Continuous Dimming Control
+
+OS:Daylighting:Control,
+  {690d9c1d-77c6-4d7d-ac5c-9cb2e70852f3}, !- Handle
+  GroundFloor_Offices_E daylighting control, !- Name
+  {49367ab9-d324-4983-a298-72f39019d31f}, !- Space Name
+  -5,                                     !- Position X-Coordinate {m}
+  15,                                     !- Position Y-Coordinate {m}
+  0.762,                                  !- Position Z-Coordinate {m}
+  ,                                       !- Psi Rotation Around X-Axis {deg}
+  ,                                       !- Theta Rotation Around Y-Axis {deg}
+  ,                                       !- Phi Rotation Around Z-Axis {deg}
+  484.375968751937,                       !- Illuminance Setpoint {lux}
+  Continuous/Off,                         !- Lighting Control Type
+  0.3,                                    !- Minimum Input Power Fraction for Continuous Dimming Control
+  0.2;                                    !- Minimum Light Output Fraction for Continuous Dimming Control
+
+OS:Daylighting:Control,
+  {3a852db6-08ad-4d8a-a19c-c78aa0d77fc0}, !- Handle
+  GroundFloor_Offices_S daylighting control, !- Name
+  {14126a0c-3357-46a9-9acc-2a80c5091fe0}, !- Space Name
+  15,                                     !- Position X-Coordinate {m}
+  5,                                      !- Position Y-Coordinate {m}
+  0.762,                                  !- Position Z-Coordinate {m}
+  ,                                       !- Psi Rotation Around X-Axis {deg}
+  ,                                       !- Theta Rotation Around Y-Axis {deg}
+  ,                                       !- Phi Rotation Around Z-Axis {deg}
+  484.375968751937,                       !- Illuminance Setpoint {lux}
+  Continuous/Off,                         !- Lighting Control Type
+  0.3,                                    !- Minimum Input Power Fraction for Continuous Dimming Control
+  0.2;                                    !- Minimum Light Output Fraction for Continuous Dimming Control
+
+OS:Daylighting:Control,
+  {6edc8eed-d2d1-4c69-acd2-5dcb80ad47fd}, !- Handle
+  top_Offices_E daylighting control,      !- Name
+  {917d03c6-e14f-4548-bf0c-2cf0eecb0731}, !- Space Name
+  -5,                                     !- Position X-Coordinate {m}
+  15,                                     !- Position Y-Coordinate {m}
+  0.762,                                  !- Position Z-Coordinate {m}
+  ,                                       !- Psi Rotation Around X-Axis {deg}
+  ,                                       !- Theta Rotation Around Y-Axis {deg}
+  ,                                       !- Phi Rotation Around Z-Axis {deg}
+  484.375968751937,                       !- Illuminance Setpoint {lux}
+  Continuous/Off,                         !- Lighting Control Type
+  0.3,                                    !- Minimum Input Power Fraction for Continuous Dimming Control
+  0.2;                                    !- Minimum Light Output Fraction for Continuous Dimming Control
+
+OS:Daylighting:Control,
+  {9a401d0d-d2fa-460e-9fa5-f240fc4daf93}, !- Handle
+  top_Offices_S daylighting control,      !- Name
+  {39bbd460-3f0e-4f14-8971-47d8d77c631a}, !- Space Name
+  15,                                     !- Position X-Coordinate {m}
+  5,                                      !- Position Y-Coordinate {m}
+  0.762,                                  !- Position Z-Coordinate {m}
+  ,                                       !- Psi Rotation Around X-Axis {deg}
+  ,                                       !- Theta Rotation Around Y-Axis {deg}
+  ,                                       !- Phi Rotation Around Z-Axis {deg}
+  484.375968751937,                       !- Illuminance Setpoint {lux}
+  Continuous/Off,                         !- Lighting Control Type
+  0.3,                                    !- Minimum Input Power Fraction for Continuous Dimming Control
+  0.2;                                    !- Minimum Light Output Fraction for Continuous Dimming Control
+
+OS:Daylighting:Control,
+  {bad3dfa4-b9ae-4ec5-a5d5-8638780c98fb}, !- Handle
+  top_Offices_W daylighting control,      !- Name
+  {0f309343-2557-451e-9a02-c76f22cc502f}, !- Space Name
+  5,                                      !- Position X-Coordinate {m}
+  -15,                                    !- Position Y-Coordinate {m}
+  0.762,                                  !- Position Z-Coordinate {m}
+  ,                                       !- Psi Rotation Around X-Axis {deg}
+  ,                                       !- Theta Rotation Around Y-Axis {deg}
+  ,                                       !- Phi Rotation Around Z-Axis {deg}
+  484.375968751937,                       !- Illuminance Setpoint {lux}
+  Continuous/Off,                         !- Lighting Control Type
+  0.3,                                    !- Minimum Input Power Fraction for Continuous Dimming Control
+  0.2;                                    !- Minimum Light Output Fraction for Continuous Dimming Control
 

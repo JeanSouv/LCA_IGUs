@@ -16,11 +16,8 @@ EnergyPlus_osm/_old/
 EnergyPlus_osm/_ref_Python_and_BEM/
 EnergyPlus_osm/Design/
 EnergyPlus_osm/OS/Office_BXL/
-EnergyPlus_osm/OS/Office_BXL_Overhangs/
-EnergyPlus_osm/OS/Office_BXL_Overhangs_VAV_optimised/
-EnergyPlus_osm/OS/Office_BXL_Overhangs_VRF/
 EnergyPlus_osm/OS/Office_BXL_smartglass/
-EnergyPlus_osm/OS/Office_BXL_VAV_optimised/
+EnergyPlus_osm/OS/Office_BXL_VAV/
 EnergyPlus_osm/OS/Office_BXL_VRF/
 EnergyPlus_osm/WP_and_DWG/
 

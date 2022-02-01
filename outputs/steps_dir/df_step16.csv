@@ -1,9 +1,0 @@
-name,glazing,heating_setpoint,cooling_setpoint,natural_gas,elec_use,ext_shdg_device,int_shdg_device,thermal_curtain,sg,sg_coated,dg,dg_coated,dg_coated_krypton,dg_2coatings,tg_coated,tg_2coatings,tg_2coatings_krypton,tg_2coatings_xenon,ccf,dg_vacuum,dg_smart,dsf
-p_a_1927_dg_init_cc,dg_init_bronze,_Heating_19,_Cooling_27,132.96,420.7983076,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-p_b_1927_dg0_cc,dg_0_clear,_Heating_19,_Cooling_27,140.5381818,437.9623069,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-p_c_1927_dg4_cc,dg_4_lowSHG_lowLT,_Heating_19,_Cooling_27,116.0545455,418.3799324,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-p_d_1927_dg5_cc,dg_5_lowSHG_midLT,_Heating_19,_Cooling_27,121.4981818,426.2987476,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-p_e_1927_dg6_cc,dg_6_lowSHG_highLT,_Heating_19,_Cooling_27,126.4109091,435.2206735,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-p_f_1927_tg4_cc,tg_4_lowSHG_lowLT,_Heating_19,_Cooling_27,125.8145455,425.3835229,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-p_g_1927_tg5_cc,tg_5_lowSHG_midLT,_Heating_19,_Cooling_27,126.5127273,427.1846771,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-p_h_1927_tg6_cc,tg_6_lowSHG_highLT,_Heating_19,_Cooling_27,130.4509091,440.235216,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0

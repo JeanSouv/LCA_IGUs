@@ -1394,6 +1394,31 @@ BuildingSurface:Detailed,
     16, 10, 0,                          !- X,Y,Z  3 {m}
     16, 10, 3.15;                       !- X,Y,Z  4 {m}
 
+Daylighting:Controls,
+    GroundFloor_Hall_S_TZ DaylightingControls,  !- Name
+    GroundFloor_Hall_S_TZ,   !- Zone Name
+    ,                        !- Daylighting Method
+    ,                        !- Availability Schedule Name
+    ContinuousOff,           !- Lighting Control Type
+    0.3,                     !- Minimum Input Power Fraction for Continuous or ContinuousOff Dimming Control
+    0.2,                     !- Minimum Light Output Fraction for Continuous or ContinuousOff Dimming Control
+    1,                       !- Number of Stepped Control Steps
+    1,                       !- Probability Lighting will be Reset When Needed in Manual Stepped Control
+    GroundFloor_Offices_S daylighting control,  !- Glare Calculation Daylighting Reference Point Name
+    0,                       !- Glare Calculation Azimuth Angle of View Direction Clockwise from Zone y-Axis {deg}
+    ,                        !- Maximum Allowable Discomfort Glare Index
+    ,                        !- DElight Gridding Resolution {m2}
+    GroundFloor_Offices_S daylighting control,  !- Daylighting Reference Point 1 Name
+    1,                       !- Fraction of Zone Controlled by Reference Point 1
+    484.375968751937;        !- Illuminance Setpoint at Reference Point 1 {lux}
+
+Daylighting:ReferencePoint,
+    GroundFloor_Offices_S daylighting control,  !- Name
+    GroundFloor_Hall_S_TZ,   !- Zone Name
+    15,                      !- X-Coordinate of Reference Point {m}
+    5,                       !- Y-Coordinate of Reference Point {m}
+    0.762;                   !- Z-Coordinate of Reference Point {m}
+
 ZoneControl:Thermostat,
     GroundFloor_Hall_S_TZ Thermostat,  !- Name
     GroundFloor_Hall_S_TZ,   !- Zone or ZoneList Name
@@ -1680,6 +1705,31 @@ BuildingSurface:Detailed,
     -10, 12, 0,                         !- X,Y,Z  2 {m}
     -10, 10, 0,                         !- X,Y,Z  3 {m}
     -10, 10, 3.15;                      !- X,Y,Z  4 {m}
+
+Daylighting:Controls,
+    GroundFloor_Offices_E_TZ DaylightingControls,  !- Name
+    GroundFloor_Offices_E_TZ,!- Zone Name
+    ,                        !- Daylighting Method
+    ,                        !- Availability Schedule Name
+    ContinuousOff,           !- Lighting Control Type
+    0.3,                     !- Minimum Input Power Fraction for Continuous or ContinuousOff Dimming Control
+    0.2,                     !- Minimum Light Output Fraction for Continuous or ContinuousOff Dimming Control
+    1,                       !- Number of Stepped Control Steps
+    1,                       !- Probability Lighting will be Reset When Needed in Manual Stepped Control
+    GroundFloor_Offices_E daylighting control,  !- Glare Calculation Daylighting Reference Point Name
+    0,                       !- Glare Calculation Azimuth Angle of View Direction Clockwise from Zone y-Axis {deg}
+    ,                        !- Maximum Allowable Discomfort Glare Index
+    ,                        !- DElight Gridding Resolution {m2}
+    GroundFloor_Offices_E daylighting control,  !- Daylighting Reference Point 1 Name
+    1,                       !- Fraction of Zone Controlled by Reference Point 1
+    484.375968751937;        !- Illuminance Setpoint at Reference Point 1 {lux}
+
+Daylighting:ReferencePoint,
+    GroundFloor_Offices_E daylighting control,  !- Name
+    GroundFloor_Offices_E_TZ,!- Zone Name
+    -5,                      !- X-Coordinate of Reference Point {m}
+    15,                      !- Y-Coordinate of Reference Point {m}
+    0.762;                   !- Z-Coordinate of Reference Point {m}
 
 ZoneControl:Thermostat,
     GroundFloor_Offices_E_TZ Thermostat,  !- Name
@@ -2244,6 +2294,31 @@ BuildingSurface:Detailed,
     10, -20, 0,                         !- X,Y,Z  2 {m}
     10, -10, 0,                         !- X,Y,Z  3 {m}
     10, -10, 3.15;                      !- X,Y,Z  4 {m}
+
+Daylighting:Controls,
+    GroundFloor_Offices_W_TZ DaylightingControls,  !- Name
+    GroundFloor_Offices_W_TZ,!- Zone Name
+    ,                        !- Daylighting Method
+    ,                        !- Availability Schedule Name
+    ContinuousOff,           !- Lighting Control Type
+    0.3,                     !- Minimum Input Power Fraction for Continuous or ContinuousOff Dimming Control
+    0.2,                     !- Minimum Light Output Fraction for Continuous or ContinuousOff Dimming Control
+    1,                       !- Number of Stepped Control Steps
+    1,                       !- Probability Lighting will be Reset When Needed in Manual Stepped Control
+    GroundFloor_Offices_W daylighting control,  !- Glare Calculation Daylighting Reference Point Name
+    0,                       !- Glare Calculation Azimuth Angle of View Direction Clockwise from Zone y-Axis {deg}
+    ,                        !- Maximum Allowable Discomfort Glare Index
+    ,                        !- DElight Gridding Resolution {m2}
+    GroundFloor_Offices_W daylighting control,  !- Daylighting Reference Point 1 Name
+    1,                       !- Fraction of Zone Controlled by Reference Point 1
+    484.375968751937;        !- Illuminance Setpoint at Reference Point 1 {lux}
+
+Daylighting:ReferencePoint,
+    GroundFloor_Offices_W daylighting control,  !- Name
+    GroundFloor_Offices_W_TZ,!- Zone Name
+    5,                       !- X-Coordinate of Reference Point {m}
+    -15,                     !- Y-Coordinate of Reference Point {m}
+    0.762;                   !- Z-Coordinate of Reference Point {m}
 
 ZoneControl:Thermostat,
     GroundFloor_Offices_W_TZ Thermostat,  !- Name
@@ -3239,6 +3314,31 @@ BuildingSurface:Detailed,
     -10, 12, 0,                         !- X,Y,Z  3 {m}
     -10, 12, 3;                         !- X,Y,Z  4 {m}
 
+Daylighting:Controls,
+    mid_Offices_E_TZ DaylightingControls,  !- Name
+    mid_Offices_E_TZ,        !- Zone Name
+    ,                        !- Daylighting Method
+    ,                        !- Availability Schedule Name
+    ContinuousOff,           !- Lighting Control Type
+    0.3,                     !- Minimum Input Power Fraction for Continuous or ContinuousOff Dimming Control
+    0.2,                     !- Minimum Light Output Fraction for Continuous or ContinuousOff Dimming Control
+    1,                       !- Number of Stepped Control Steps
+    1,                       !- Probability Lighting will be Reset When Needed in Manual Stepped Control
+    mid_Offices_E daylighting control,  !- Glare Calculation Daylighting Reference Point Name
+    0,                       !- Glare Calculation Azimuth Angle of View Direction Clockwise from Zone y-Axis {deg}
+    ,                        !- Maximum Allowable Discomfort Glare Index
+    ,                        !- DElight Gridding Resolution {m2}
+    mid_Offices_E daylighting control,  !- Daylighting Reference Point 1 Name
+    1,                       !- Fraction of Zone Controlled by Reference Point 1
+    484.375968751937;        !- Illuminance Setpoint at Reference Point 1 {lux}
+
+Daylighting:ReferencePoint,
+    mid_Offices_E daylighting control,  !- Name
+    mid_Offices_E_TZ,        !- Zone Name
+    -5,                      !- X-Coordinate of Reference Point {m}
+    15,                      !- Y-Coordinate of Reference Point {m}
+    0.762;                   !- Z-Coordinate of Reference Point {m}
+
 ZoneControl:Thermostat,
     mid_Offices_E_TZ Thermostat,  !- Name
     mid_Offices_E_TZ,        !- Zone or ZoneList Name
@@ -3781,6 +3881,31 @@ BuildingSurface:Detailed,
     16, 10, 0,                          !- X,Y,Z  3 {m}
     16, 10, 3;                          !- X,Y,Z  4 {m}
 
+Daylighting:Controls,
+    mid_Offices_S_TZ DaylightingControls,  !- Name
+    mid_Offices_S_TZ,        !- Zone Name
+    ,                        !- Daylighting Method
+    ,                        !- Availability Schedule Name
+    ContinuousOff,           !- Lighting Control Type
+    0.3,                     !- Minimum Input Power Fraction for Continuous or ContinuousOff Dimming Control
+    0.2,                     !- Minimum Light Output Fraction for Continuous or ContinuousOff Dimming Control
+    1,                       !- Number of Stepped Control Steps
+    1,                       !- Probability Lighting will be Reset When Needed in Manual Stepped Control
+    mid_Offices_S daylighting control,  !- Glare Calculation Daylighting Reference Point Name
+    0,                       !- Glare Calculation Azimuth Angle of View Direction Clockwise from Zone y-Axis {deg}
+    ,                        !- Maximum Allowable Discomfort Glare Index
+    ,                        !- DElight Gridding Resolution {m2}
+    mid_Offices_S daylighting control,  !- Daylighting Reference Point 1 Name
+    1,                       !- Fraction of Zone Controlled by Reference Point 1
+    484.375968751937;        !- Illuminance Setpoint at Reference Point 1 {lux}
+
+Daylighting:ReferencePoint,
+    mid_Offices_S daylighting control,  !- Name
+    mid_Offices_S_TZ,        !- Zone Name
+    15,                      !- X-Coordinate of Reference Point {m}
+    5,                       !- Y-Coordinate of Reference Point {m}
+    0.762;                   !- Z-Coordinate of Reference Point {m}
+
 ZoneControl:Thermostat,
     mid_Offices_S_TZ Thermostat,  !- Name
     mid_Offices_S_TZ,        !- Zone or ZoneList Name
@@ -4043,6 +4168,31 @@ BuildingSurface:Detailed,
     10, -20, -0,                        !- X,Y,Z  2 {m}
     10, -10, -0,                        !- X,Y,Z  3 {m}
     10, -10, 3;                         !- X,Y,Z  4 {m}
+
+Daylighting:Controls,
+    mid_Offices_W_TZ DaylightingControls,  !- Name
+    mid_Offices_W_TZ,        !- Zone Name
+    ,                        !- Daylighting Method
+    ,                        !- Availability Schedule Name
+    ContinuousOff,           !- Lighting Control Type
+    0.3,                     !- Minimum Input Power Fraction for Continuous or ContinuousOff Dimming Control
+    0.2,                     !- Minimum Light Output Fraction for Continuous or ContinuousOff Dimming Control
+    1,                       !- Number of Stepped Control Steps
+    1,                       !- Probability Lighting will be Reset When Needed in Manual Stepped Control
+    mid_Offices_W daylighting control,  !- Glare Calculation Daylighting Reference Point Name
+    0,                       !- Glare Calculation Azimuth Angle of View Direction Clockwise from Zone y-Axis {deg}
+    ,                        !- Maximum Allowable Discomfort Glare Index
+    ,                        !- DElight Gridding Resolution {m2}
+    mid_Offices_W daylighting control,  !- Daylighting Reference Point 1 Name
+    1,                       !- Fraction of Zone Controlled by Reference Point 1
+    484.375968751937;        !- Illuminance Setpoint at Reference Point 1 {lux}
+
+Daylighting:ReferencePoint,
+    mid_Offices_W daylighting control,  !- Name
+    mid_Offices_W_TZ,        !- Zone Name
+    5,                       !- X-Coordinate of Reference Point {m}
+    -15,                     !- Y-Coordinate of Reference Point {m}
+    0.762;                   !- Z-Coordinate of Reference Point {m}
 
 ZoneControl:Thermostat,
     mid_Offices_W_TZ Thermostat,  !- Name
@@ -5038,6 +5188,31 @@ BuildingSurface:Detailed,
     -10, 12, 0,                         !- X,Y,Z  3 {m}
     -10, 12, 3;                         !- X,Y,Z  4 {m}
 
+Daylighting:Controls,
+    top_Offices_E_TZ DaylightingControls,  !- Name
+    top_Offices_E_TZ,        !- Zone Name
+    ,                        !- Daylighting Method
+    ,                        !- Availability Schedule Name
+    ContinuousOff,           !- Lighting Control Type
+    0.3,                     !- Minimum Input Power Fraction for Continuous or ContinuousOff Dimming Control
+    0.2,                     !- Minimum Light Output Fraction for Continuous or ContinuousOff Dimming Control
+    1,                       !- Number of Stepped Control Steps
+    1,                       !- Probability Lighting will be Reset When Needed in Manual Stepped Control
+    top_Offices_E daylighting control,  !- Glare Calculation Daylighting Reference Point Name
+    0,                       !- Glare Calculation Azimuth Angle of View Direction Clockwise from Zone y-Axis {deg}
+    ,                        !- Maximum Allowable Discomfort Glare Index
+    ,                        !- DElight Gridding Resolution {m2}
+    top_Offices_E daylighting control,  !- Daylighting Reference Point 1 Name
+    1,                       !- Fraction of Zone Controlled by Reference Point 1
+    484.375968751937;        !- Illuminance Setpoint at Reference Point 1 {lux}
+
+Daylighting:ReferencePoint,
+    top_Offices_E daylighting control,  !- Name
+    top_Offices_E_TZ,        !- Zone Name
+    -5,                      !- X-Coordinate of Reference Point {m}
+    15,                      !- Y-Coordinate of Reference Point {m}
+    0.762;                   !- Z-Coordinate of Reference Point {m}
+
 ZoneControl:Thermostat,
     top_Offices_E_TZ Thermostat,  !- Name
     top_Offices_E_TZ,        !- Zone or ZoneList Name
@@ -5580,6 +5755,31 @@ BuildingSurface:Detailed,
     16, 10, 0,                          !- X,Y,Z  3 {m}
     16, 10, 3;                          !- X,Y,Z  4 {m}
 
+Daylighting:Controls,
+    top_Offices_S_TZ DaylightingControls,  !- Name
+    top_Offices_S_TZ,        !- Zone Name
+    ,                        !- Daylighting Method
+    ,                        !- Availability Schedule Name
+    ContinuousOff,           !- Lighting Control Type
+    0.3,                     !- Minimum Input Power Fraction for Continuous or ContinuousOff Dimming Control
+    0.2,                     !- Minimum Light Output Fraction for Continuous or ContinuousOff Dimming Control
+    1,                       !- Number of Stepped Control Steps
+    1,                       !- Probability Lighting will be Reset When Needed in Manual Stepped Control
+    top_Offices_S daylighting control,  !- Glare Calculation Daylighting Reference Point Name
+    0,                       !- Glare Calculation Azimuth Angle of View Direction Clockwise from Zone y-Axis {deg}
+    ,                        !- Maximum Allowable Discomfort Glare Index
+    ,                        !- DElight Gridding Resolution {m2}
+    top_Offices_S daylighting control,  !- Daylighting Reference Point 1 Name
+    1,                       !- Fraction of Zone Controlled by Reference Point 1
+    484.375968751937;        !- Illuminance Setpoint at Reference Point 1 {lux}
+
+Daylighting:ReferencePoint,
+    top_Offices_S daylighting control,  !- Name
+    top_Offices_S_TZ,        !- Zone Name
+    15,                      !- X-Coordinate of Reference Point {m}
+    5,                       !- Y-Coordinate of Reference Point {m}
+    0.762;                   !- Z-Coordinate of Reference Point {m}
+
 ZoneControl:Thermostat,
     top_Offices_S_TZ Thermostat,  !- Name
     top_Offices_S_TZ,        !- Zone or ZoneList Name
@@ -5842,6 +6042,31 @@ BuildingSurface:Detailed,
     10, -20, -0,                        !- X,Y,Z  2 {m}
     10, -10, -0,                        !- X,Y,Z  3 {m}
     10, -10, 3;                         !- X,Y,Z  4 {m}
+
+Daylighting:Controls,
+    top_Offices_W_TZ DaylightingControls,  !- Name
+    top_Offices_W_TZ,        !- Zone Name
+    ,                        !- Daylighting Method
+    ,                        !- Availability Schedule Name
+    ContinuousOff,           !- Lighting Control Type
+    0.3,                     !- Minimum Input Power Fraction for Continuous or ContinuousOff Dimming Control
+    0.2,                     !- Minimum Light Output Fraction for Continuous or ContinuousOff Dimming Control
+    1,                       !- Number of Stepped Control Steps
+    1,                       !- Probability Lighting will be Reset When Needed in Manual Stepped Control
+    top_Offices_W daylighting control,  !- Glare Calculation Daylighting Reference Point Name
+    0,                       !- Glare Calculation Azimuth Angle of View Direction Clockwise from Zone y-Axis {deg}
+    ,                        !- Maximum Allowable Discomfort Glare Index
+    ,                        !- DElight Gridding Resolution {m2}
+    top_Offices_W daylighting control,  !- Daylighting Reference Point 1 Name
+    1,                       !- Fraction of Zone Controlled by Reference Point 1
+    484.375968751937;        !- Illuminance Setpoint at Reference Point 1 {lux}
+
+Daylighting:ReferencePoint,
+    top_Offices_W daylighting control,  !- Name
+    top_Offices_W_TZ,        !- Zone Name
+    5,                       !- X-Coordinate of Reference Point {m}
+    -15,                     !- Y-Coordinate of Reference Point {m}
+    0.762;                   !- Z-Coordinate of Reference Point {m}
 
 ZoneControl:Thermostat,
     top_Offices_W_TZ Thermostat,  !- Name
@@ -6375,13 +6600,13 @@ Material:NoMass,
 
 WindowMaterial:Shade,
     EnviroScreen_lightgrey_silver,  !- Name
-    0.05,                    !- Solar Transmittance {dimensionless}
-    0.74,                    !- Solar Reflectance {dimensionless}
-    0.04,                    !- Visible Transmittance {dimensionless}
-    0.9,                     !- Visible Reflectance {dimensionless}
+    0.1,                     !- Solar Transmittance {dimensionless}
+    0.7,                     !- Solar Reflectance {dimensionless}
+    0.15,                    !- Visible Transmittance {dimensionless}
+    0.8,                     !- Visible Reflectance {dimensionless}
     0.9,                     !- Infrared Hemispherical Emissivity {dimensionless}
-    0.05,                    !- Infrared Transmittance {dimensionless}
-    0.005,                   !- Thickness {m}
+    0,                       !- Infrared Transmittance {dimensionless}
+    0.0005,                  !- Thickness {m}
     0.15,                    !- Conductivity {W/m-K}
     0.05,                    !- Shade to Glass Distance {m}
     0,                       !- Top Opening Multiplier
@@ -11547,13 +11772,13 @@ SetpointManager:MixedAir,
 Fan:VariableVolume,
     15 Zone VAV Fan,         !- Name
     15 Zone VAV Occ Sch,     !- Availability Schedule Name
-    0.6572,                  !- Fan Total Efficiency
+    0.654444444444444,       !- Fan Total Efficiency
     996.35564,               !- Pressure Rise {Pa}
     AutoSize,                !- Maximum Flow Rate {m3/s}
     Fraction,                !- Fan Power Minimum Flow Rate Input Method
     0.25,                    !- Fan Power Minimum Flow Fraction
     0,                       !- Fan Power Minimum Air Flow Rate {m3/s}
-    0.954,                   !- Motor Efficiency
+    0.95,                    !- Motor Efficiency
     1,                       !- Motor In Airstream Fraction
     0.04076,                 !- Fan Power Coefficient 1
     0.0881,                  !- Fan Power Coefficient 2
@@ -12076,12 +12301,12 @@ Branch,
     Chilled Water Loop Supply Branch 1,  !- Name
     ,                        !- Pressure Drop Curve Name
     Chiller:Electric:EIR,    !- Component 1 Object Type
-    NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton,  !- Component 1 Name
+    NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 310tons 0.7kW/ton,  !- Component 1 Name
     NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Supply Inlet Water Node,  !- Component 1 Inlet Node Name
     NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Supply Outlet Water Node;  !- Component 1 Outlet Node Name
 
 Chiller:Electric:EIR,
-    NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton,  !- Name
+    NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 310tons 0.7kW/ton,  !- Name
     Autosize,                !- Reference Capacity {W}
     5.32878787878788,        !- Reference COP {W/W}
     6.66666666666669,        !- Reference Leaving Chilled Water Temperature {C}
@@ -12351,7 +12576,7 @@ PlantEquipmentList,
     HeatExchanger:FluidToFluid,  !- Equipment 2 Object Type
     Integrated Waterside Economizer Heat Exchanger,  !- Equipment 2 Name
     Chiller:Electric:EIR,    !- Equipment 3 Object Type
-    NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton;  !- Equipment 3 Name
+    NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 310tons 0.7kW/ton;  !- Equipment 3 Name
 
 PlantEquipmentOperation:ComponentSetpoint,
     Chilled Water Loop Setpoint Operation Scheme,  !- Name
@@ -12368,7 +12593,7 @@ PlantEquipmentOperation:ComponentSetpoint,
     Autosize,                !- Component 2 Flow Rate {m3/s}
     Cooling,                 !- Operation 2 Type
     Chiller:Electric:EIR,    !- Equipment 3 Object Type
-    NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton,  !- Equipment 3 Name
+    NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 310tons 0.7kW/ton,  !- Equipment 3 Name
     NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Supply Inlet Water Node,  !- Demand Calculation 3 Node Name
     NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Supply Outlet Water Node,  !- Setpoint 3 Node Name
     Autosize,                !- Component 3 Flow Rate {m3/s}
@@ -12447,7 +12672,7 @@ Pump:ConstantSpeed,
     Autosize,                !- Design Flow Rate {m3/s}
     148556.625924,           !- Design Pump Head {Pa}
     Autosize,                !- Design Power Consumption {W}
-    0.95,                    !- Motor Efficiency
+    0.945,                   !- Motor Efficiency
     0,                       !- Fraction of Motor Inefficiencies to Fluid Stream
     Intermittent,            !- Pump Control Type
     ,                        !- Pump Flow Rate Schedule Name
@@ -12480,7 +12705,7 @@ CoolingTower:VariableSpeed,
     5.55555555555556,        !- Design Range Temperature {deltaC}
     Autosize,                !- Design Water Flow Rate {m3/s}
     Autosize,                !- Design Air Flow Rate {m3/s}
-    56082.4839335926,        !- Design Fan Power {W}
+    51614.3714132617,        !- Design Fan Power {W}
     VSD-TWR-FAN-FPLR,        !- Fan Power Ratio Function of Air Flow Rate Ratio Curve Name
     0.2,                     !- Minimum Air Flow Rate Ratio
     0.125,                   !- Fraction of Tower Capacity in Free Convection Regime
@@ -12611,7 +12836,7 @@ Branch,
     Condenser Water Loop Demand Branch 2,  !- Name
     ,                        !- Pressure Drop Curve Name
     Chiller:Electric:EIR,    !- Component 1 Object Type
-    NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 339tons 0.7kW/ton,  !- Component 1 Name
+    NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 310tons 0.7kW/ton,  !- Component 1 Name
     NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Demand Inlet Water Node,  !- Component 1 Inlet Node Name
     NREL ZNE Ready 2017 WaterCooled  Rotary Screw Chiller 0 Demand Outlet Water Node;  !- Component 1 Outlet Node Name
 
@@ -12776,12 +13001,12 @@ Branch,
     Hot Water Loop Supply Branch 1,  !- Name
     ,                        !- Pressure Drop Curve Name
     Boiler:HotWater,         !- Component 1 Object Type
-    Boiler 1943kBtu/hr 0.94 Combustion Eff,  !- Component 1 Name
+    Boiler 1971kBtu/hr 0.94 Combustion Eff,  !- Component 1 Name
     Boiler Inlet Water Node, !- Component 1 Inlet Node Name
     Boiler Outlet Water Node;!- Component 1 Outlet Node Name
 
 Boiler:HotWater,
-    Boiler 1943kBtu/hr 0.94 Combustion Eff,  !- Name
+    Boiler 1971kBtu/hr 0.94 Combustion Eff,  !- Name
     NaturalGas,              !- Fuel Type
     Autosize,                !- Nominal Capacity {W}
     0.933,                   !- Nominal Thermal Efficiency
@@ -13153,7 +13378,7 @@ PlantEquipmentOperation:HeatingLoad,
 PlantEquipmentList,
     Hot Water Loop Heating Equipment List,  !- Name
     Boiler:HotWater,         !- Equipment 1 Object Type
-    Boiler 1943kBtu/hr 0.94 Combustion Eff;  !- Equipment 1 Name
+    Boiler 1971kBtu/hr 0.94 Combustion Eff;  !- Equipment 1 Name
 
 RunPeriodControl:DaylightSavingTime,
     Last Sunday in March,    !- Start Date
