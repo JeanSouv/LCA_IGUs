@@ -9,7 +9,7 @@ __pycache__/
 # =========================
 # Directories
 # =========================
-files/_old/
+# files/_old/
 files/
 outputs/energyplus/
 files/EnergyPlus/copies/
