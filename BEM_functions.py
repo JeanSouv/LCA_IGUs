@@ -292,7 +292,7 @@ class EPLusSQL():
 # In[ ]:
 
 
-def modify_idf(idfname_init, epwfile, igu, run_n, df_step):
+def modify_idf(idfname_init, epwfile, igu, run_n, df_step, batch):
     """
     Modify the idf parameters, i.e. glazing, frame, and shadings, 
     according to the parameters defined in the dataframe,
@@ -306,6 +306,7 @@ def modify_idf(idfname_init, epwfile, igu, run_n, df_step):
     run_n: name/code for the energy simulation
     df_step: dataframe w/ a list of variables according to which are changed
         the idf parameters
+    batch: a string, to create a subfolder to save the idf.
 
     Returns
     -------
@@ -376,11 +377,14 @@ def modify_idf(idfname_init, epwfile, igu, run_n, df_step):
             element.Cooling_Setpoint_Temperature_Schedule_Name = (
                 df_step.loc[df_step.index == run_n, 'cooling_setpoint'][0])
     
-    # Subdirectory with idf:    
-    idf_dir = os.path.join(IDF_DIR)
+    idfs_dir = os.path.join(IDF_DIR)+f'\\batch{batch}'
 
-    idf.saveas(idf_dir+"\BEM_"+str(run_n)+".idf")
-    idf_modified = IDF(idf_dir+"\BEM_"+str(run_n)+".idf", epwfile)
+    if not os.path.exists(idfs_dir):
+        os.makedirs(idfs_dir)
+
+    idf_path = idfs_dir+"\BEM_"+str(run_n)+".idf"
+    idf.saveas(idf_path)
+    idf_modified = IDF(idf_path, epwfile)
 
     print("Saved: BEM_"+str(run_n))
 
@@ -390,12 +394,11 @@ def modify_idf(idfname_init, epwfile, igu, run_n, df_step):
 # In[ ]:
 
 
-def simulation_postprocess(run_n, path, 
-                           ls_df_steps, ls_unmet, df_end_use_allsteps):
+def simulation_postprocess(run_n, path, ls_df_steps, 
+                           df_end_use_allsteps):
     """
     Run a simulation from an idf, extract results in df or ls:
     > total energy end use in df_end_use (electricity + natural gas)
-    > unmethours during occupation in ls_unmet
     > Energy consumption per enduse in df_end_use_allsteps
 
     Save also the hourly reporting variables per simulation run 
@@ -404,13 +407,15 @@ def simulation_postprocess(run_n, path,
     Parameters
     ----------
     run_n: name/code for the energy simulation
-    df_step: df define for each step of the LCA where to save
-        values for electricity and natural gas use.
+    path: path to out_dir
+    ls_df_steps: list of dataframes w/ a list of variables 
+        according to which are changed the idf parameters
+    df_end_use_allsteps: dataframe with end uses 
+        per type of energy per simulation run
 
     Returns
     -------
     df_step: electricity use in kWh, use of nat gas in MJ
-    ls_unmet
     df_end_use_allsteps: values in GJ
 
     """
@@ -418,6 +423,11 @@ def simulation_postprocess(run_n, path,
     for df in ls_df_steps:
         if run_n in df.index:
             df_step = df
+        
+    if df_step.name == "df_step8":
+        glazed_area = glazed_facade_area*0.75
+    else:
+        glazed_area = glazed_facade_area
     
     # Find the output data:
     eplus_sql = EPLusSQL(sql_path=path+'\eplusout.sql')
@@ -448,10 +458,10 @@ def simulation_postprocess(run_n, path,
     # Save values in df_step:
     # elec: kWh/m² of glazed façade
     df_step.loc[df_step.index == run_n, 'elec_use'] = (
-        elec_tot_kwh / glazed_facade_area)
+        elec_tot_kwh / glazed_area)
     # gas: MJ/m² of glazed façade
     df_step.loc[df_step.index == run_n, 'natural_gas'] = (
-        gas_tot_mj / glazed_facade_area)
+        gas_tot_mj / glazed_area)
 
     # Append the list of unmet hours during occupied cooling/heating:
     df_unmet = eplus_sql.get_unmet_hours_table()
@@ -462,16 +472,6 @@ def simulation_postprocess(run_n, path,
                                                 'During Occupied Heating'][0]
                  }
     
-    # Avoid duplicating values:
-    if len(ls_unmet) > 0:
-        for i in range(len(ls_unmet)):
-            if ls_unmet[i]['Run'] == val_toadd['Run']:
-                # Replace old value:
-                ls_unmet[i] = val_toadd
-    else:
-        # And append if did not exist before:
-        ls_unmet.append(val_toadd)
-
     # Save energy consumption per end use, GJ, whole building:
     df_end_use = df_end_use.stack(['FuelType'])
     df_end_use['Run name'] = run_n
@@ -517,13 +517,13 @@ def simulation_postprocess(run_n, path,
     df_h_run.to_csv('outputs\steps_dir\df_h_run_'+str(run_n[:3])+'.csv',
                     index=True)
 
-    return run_n, df_step, ls_unmet, df_end_use_allsteps
+    return run_n, df_step, df_end_use_allsteps
 
 
 # In[ ]:
 
 
-def save_results_csv(run_n, df_step, ls_unmet, df_end_use_allsteps):
+def save_results_csv(run_n, df_step, df_end_use_allsteps):
     """
     Save the DataFrames and Lists where the results are to avoid 
     reruning the time consuming energy simulation
@@ -533,7 +533,6 @@ def save_results_csv(run_n, df_step, ls_unmet, df_end_use_allsteps):
     run_n: simulation
     df_step: df define for each step of the LCA where to save
         values for electricity and natural gas use.
-    ls_unmet: list for unmet hours during occupation
     df_end_use_allsteps: dataframe with end uses 
         per type of energy per simulation run
 
@@ -547,10 +546,6 @@ def save_results_csv(run_n, df_step, ls_unmet, df_end_use_allsteps):
 
     # Save df_step to csv:
     df_step.to_csv('outputs\steps_dir\df_step'+str(n[0])+'.csv', index=True)
-    
-    # Save ls_unmet to csv:
-    df_ls_unmet = pd.DataFrame(ls_unmet)
-    df_ls_unmet.to_csv('outputs\steps_dir\df_ls_unmet.csv', index=False)
     
     # Save df_end_use_allsteps to csv:
     df_end_use_allsteps.stack([0, 1]).to_csv(
