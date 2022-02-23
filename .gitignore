@@ -12,6 +12,7 @@ __pycache__/
 files/_old/
 outputs/energyplus/
 outputs/steps_dir/
+outputs/lca/
 files/EnergyPlus/copies/
 EnergyPlus_osm/_old/
 EnergyPlus_osm/_ref_Python_and_BEM/
