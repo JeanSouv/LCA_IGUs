@@ -424,10 +424,7 @@ def simulation_postprocess(run_n, path, ls_df_steps,
         if run_n in df.index:
             df_step = df
         
-    if df_step.name == "df_step8":
-        glazed_area = glazed_facade_area*0.75
-    else:
-        glazed_area = glazed_facade_area
+    glazed_facade_area
     
     # Find the output data:
     eplus_sql = EPLusSQL(sql_path=path+'\eplusout.sql')
@@ -458,10 +455,10 @@ def simulation_postprocess(run_n, path, ls_df_steps,
     # Save values in df_step:
     # elec: kWh/m² of glazed façade
     df_step.loc[df_step.index == run_n, 'elec_use'] = (
-        elec_tot_kwh / glazed_area)
+        elec_tot_kwh / glazed_facade_area)
     # gas: MJ/m² of glazed façade
     df_step.loc[df_step.index == run_n, 'natural_gas'] = (
-        gas_tot_mj / glazed_area)
+        gas_tot_mj / glazed_facade_area)
 
     # Append the list of unmet hours during occupied cooling/heating:
     df_unmet = eplus_sql.get_unmet_hours_table()
