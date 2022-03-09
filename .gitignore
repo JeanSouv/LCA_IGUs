@@ -13,6 +13,9 @@ files/_old/
 outputs/energyplus/
 outputs/steps_dir/
 outputs/lca/
+outputs/fig_lca/
+outputs/fig_bem/
+outputs/lca_table
 files/EnergyPlus/copies/
 EnergyPlus_osm/_old/
 EnergyPlus_osm/_ref_Python_and_BEM/
